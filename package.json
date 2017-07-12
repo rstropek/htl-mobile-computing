@@ -1,0 +1,25 @@
+{
+  "name": "htl-mobile-computing",
+  "version": "0.1.0",
+  "description": "Material for Mobile Computing at HTL Perg",
+  "main": "default.html",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "reveal.js": "^3.5.0"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstropek/htl-mobile-computing.git"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstropek/htl-mobile-computing/issues"
+  },
+  "homepage": "https://github.com/rstropek/htl-mobile-computing#readme"
+}
