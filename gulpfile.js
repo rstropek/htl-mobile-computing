@@ -26,10 +26,11 @@ gulp.task('copy-presentation', () => {
   gulp.src('*.css').pipe(gulp.dest('dist/css'));
   gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
   gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
+  gulp.src('*.md').pipe(gulp.dest('dist'));
 });
 
 gulp.task('default', ['copy-presentation', 'copy-reveal', 'copy-jquery']);
 
 gulp.task('watch', ['default'], () => {
-  gulp.watch(['*.html', '*.css', 'headers.js', 'images/**/*'], ['default']);
+  gulp.watch(['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'], ['default']);
 });

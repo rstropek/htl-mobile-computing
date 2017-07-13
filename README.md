@@ -2,6 +2,11 @@
 
 This repository is currently under development. Consider coming back later...
 
+## Prerequisites
+
+* Install [Node.js](https://nodejs.org/en/)
+
+
 ## Build and Run
 
 * Clone repository
