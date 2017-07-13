@@ -1,24 +1,35 @@
 const gulp = require('gulp');
 const del = require('del');
+const path = require('path');
 
 gulp.task('clean', () => {
   return del(['dist/**']);
 });
 
-gulp.task('copy-reveal', ['clean'], () => {
-  gulp.src('node_modules/reveal.js/css/**/*.css')
-    .pipe(gulp.dest('dist/css'));
-  gulp.src('node_modules/reveal.js/js/**/*.js')
-    .pipe(gulp.dest('dist/js'));
-  gulp.src('node_modules/reveal.js/lib/**/*')
-    .pipe(gulp.dest('dist/lib'));
-  gulp.src('node_modules/reveal.js/plugin/**/*')
-    .pipe(gulp.dest('dist/plugin'));
+gulp.task('copy-reveal', () => {
+  const rbase = 'node_modules/reveal.js';
+  gulp.src(
+          [
+            path.join(rbase, 'css/**/*.css'), path.join(rbase, 'js/**/*.js'),
+            path.join(rbase, 'lib/**/*'), path.join(rbase, 'plugin/**/*')
+          ],
+          {base: rbase})
+      .pipe(gulp.dest('dist'));
 });
 
-gulp.task('copy-presentation', ['clean'], () => {
-  gulp.src('*.html')
-    .pipe(gulp.dest('dist'));
+gulp.task('copy-jquery', () => {
+  gulp.src('node_modules/jquery/dist/jquery.min.js').pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('default', ['copy-presentation', 'copy-reveal']);
+gulp.task('copy-presentation', () => {
+  gulp.src('*.html').pipe(gulp.dest('dist'));
+  gulp.src('*.css').pipe(gulp.dest('dist/css'));
+  gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
+  gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
+});
+
+gulp.task('default', ['copy-presentation', 'copy-reveal', 'copy-jquery']);
+
+gulp.task('watch', ['default'], () => {
+  gulp.watch(['*.html', '*.css', 'headers.js', 'images/**/*'], ['default']);
+});
