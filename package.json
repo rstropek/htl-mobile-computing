@@ -15,7 +15,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp clean && gulp",
-    "watch": "gulp clean && concurrently \"gulp watch\" \"serve dist\""
+    "start": "gulp clean && concurrently \"gulp watch\" \"serve dist\""
   },
   "repository": {
     "type": "git",

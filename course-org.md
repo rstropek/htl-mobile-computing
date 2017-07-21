@@ -28,8 +28,8 @@ Dates, Lightning Talks, Exams, Grading, etc.
   * Examples: [PechaKucha](https://youtu.be/XBhTaL7RpA8), ["Nerdy" one with demo](https://www.destroyallsoftware.com/talks/wat)
 * Any mobile computing-related, interesting topic
   * [Suggestions](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/lightning-talk-suggestions.md)
-* [Submit Topic Form](https://goo.gl/forms/0xIczpjIyGKRb6sl1)
-  * Get extra points for [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+* Online form for [submitting topics](https://goo.gl/forms/0xIczpjIyGKRb6sl1)
+  * Get an extra point for [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
 
 
 <!-- .slide: class="left" -->
@@ -46,7 +46,7 @@ Dates, Lightning Talks, Exams, Grading, etc.
 * Max. 100 points
   * Max. 35 points per exam = total 70 points
   * Max. 20 points for lightning talk
-  * Max. 10 points extra (e.g. participation in lessons)
+  * Max. 10 points extra
 
 
 ## Grading
