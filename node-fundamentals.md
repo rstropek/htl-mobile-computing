@@ -29,6 +29,45 @@ Introduction to Node.js and NPM
 
 
 <!-- .slide: class="left" -->
+## Console *Hello World*
+
+```
+<!--#include file="node-fundamentals/0010-hello-world-console/app.js" -->
+```
+
+Run it with: `node app.js`
+
+
+<!-- .slide: class="left" -->
+## Web *Hello World*
+
+```
+<!--#include file="node-fundamentals/0020-hello-world-server/app.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Excursus: [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+```
+<!--#include file="excursus/0010-arrow-functions/app.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Excursus: [JSON](http://www.json.org/)
+
+* Lightweight data-interchange format
+* Easy to read and write
+* Familiar to people knowing C-family of languages
+* Implemented in all major programming platforms
+  * JavaScript: `JSON.parse` and `JSON.stringify` ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON#Methods))
+  * [Json.NET](http://www.newtonsoft.com/json)
+  * [JSON-java](https://github.com/stleary/JSON-java)
+
+
+
+<!-- .slide: class="left" -->
 ## Code Samples
 
 * [Hello World Console](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/0010-hello-world-console/app.js)

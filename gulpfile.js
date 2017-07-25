@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const del = require('del');
 const path = require('path');
+const ssi = require('gulp-ssi');
 
 gulp.task('clean', () => {
   return del(['dist/**']);
@@ -22,15 +23,16 @@ gulp.task('copy-jquery', () => {
 });
 
 gulp.task('copy-presentation', () => {
-  gulp.src('*.html').pipe(gulp.dest('dist'));
+  gulp.src('*.html').pipe(ssi()).pipe(gulp.dest('dist'));
   gulp.src('*.css').pipe(gulp.dest('dist/css'));
   gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
   gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
-  gulp.src('*.md').pipe(gulp.dest('dist'));
+  gulp.src('*.md').pipe(ssi()).pipe(gulp.dest('dist'));
 });
 
 gulp.task('default', ['copy-presentation', 'copy-reveal', 'copy-jquery']);
 
 gulp.task('watch', ['default'], () => {
-  gulp.watch(['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'], ['default']);
+  gulp.watch(
+      ['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'], ['default']);
 });
