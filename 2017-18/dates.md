@@ -23,7 +23,7 @@
 | 04. Jan. 2018  | **Christmas Break (*Weihnachtsferien*)**
 | 11. Jan. 2018  | [Swagger](https://swagger.io/)/[Open API](https://www.openapis.org/), exam preparation
 | 18. Jan. 2018  | Written exam
-| 25. Jan. 2018  | Dicuss exam results
+| 25. Jan. 2018  | Discuss exam results
 | 01. Feb. 2018  | Oral exams
 | 08. Feb. 2018  | Oral exams
 | 15. Feb. 2018  | [Docker](https://www.docker.com/) fundamentals
@@ -43,7 +43,7 @@
 | 24. May 2018   | Push notifications, exam preparation
 | 31. May 2018   | **Corpus Christi (*Fronleichnam*)**
 | 07. June 2018  | Writen exam
-| 14. June 2018  | Dicuss exam results
+| 14. June 2018  | Discuss exam results
 | 21. June 2018  | Oral exams
 | 28. June 2018  | Oral exams
 | 05. July 2018  | TBD
