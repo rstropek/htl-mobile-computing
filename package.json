@@ -2,7 +2,7 @@
   "name": "htl-mobile-computing",
   "version": "0.1.0",
   "description": "Material for Mobile Computing at HTL Perg",
-  "main": "default.html",
+  "main": "index.html",
   "dependencies": {},
   "devDependencies": {
     "concurrently": "^3.5.0",

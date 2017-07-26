@@ -29,7 +29,7 @@
 | 15. Feb. 2018  | [Docker](https://www.docker.com/) fundamentals
 | 22. Feb. 2018  | Semester Break (*Semesterferien*)
 | 01. Mar. 2018  | Cloud Computing fundamentals
-| 08. Mar. 2018  | [Angular](http://angular.io/) fundamentals
+| 08. Mar. 2018  | **Replacement Lesson**
 | 15. Mar. 2018  | [Angular](http://angular.io/) fundamentals
 | 22. Mar. 2018  | Advanced [Angular](http://angular.io/)
 | 29. Mar. 2018  | Easter Break (*Osterferien*)
