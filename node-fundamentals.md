@@ -19,17 +19,16 @@ Introduction to Node.js and NPM
 <!-- .slide: class="left" -->
 ## Working with Node.js
 
-* Install good editor (e.g. [Visual Studio Code](https://code.visualstudio.com))
+* Install a good editor (e.g. [Visual Studio Code](https://code.visualstudio.com))
 * Install [Node.js](https://nodejs.org/en/)
   * *LTS* (long-term support) if stability is very important
   * Current version if you want latest features
 * Write code (e.g. `app.js`)
 * Run code with `node app.js`
-* Exercise: [*Hello World* tutorial for VSCode + Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial#_hello-world)
 
 
 <!-- .slide: class="left" -->
-## Console *Hello World*
+## Basic Console App
 
 ```
 <!--#include file="node-fundamentals/0010-hello-world-console/app.js" -->
@@ -39,7 +38,18 @@ Run it with: `node app.js`
 
 
 <!-- .slide: class="left" -->
-## Web *Hello World*
+## I/O with [*Console*](https://nodejs.org/api/console.html) and [*Readline*](https://nodejs.org/api/readline.html)
+
+```
+<!--#include file="node-fundamentals/0040-console-readline/app.js" -->
+```
+* Run this program with `node app.js`
+* Try `node app.js 2> /dev/null` (`NUL` on Windows)
+* Try `echo Rainer | node app.js`
+
+
+<!-- .slide: class="left" -->
+## Basic Web API
 
 ```
 <!--#include file="node-fundamentals/0020-hello-world-server/app.js" -->
@@ -66,24 +76,38 @@ Run it with: `node app.js`
   * [JSON-java](https://github.com/stleary/JSON-java)
 
 
+<!-- .slide: class="left" -->
+## Basic File System Operations
+
+```
+<!--#include file="node-fundamentals/0030-file-system/app.js" -->
+```
+
 
 <!-- .slide: class="left" -->
-## Code Samples
+## Excursus: [*truthy*](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and [*falsy*](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
-* [Hello World Console](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/0010-hello-world-console/app.js)
-* [Hello World Webserver](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/0020-hello-world-server/app.js)
-* [Async APIs, File System](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/0030-file-system/app.js)
+What is the output of this program?
+```
+<!--#include file="excursus/0020-truthy-falsy/app.js" -->
+```
 
 
 <!-- .slide: class="left" -->
-## Node.js API
+## [Timers and Intervals](https://nodejs.org/api/timers.html)
 
-* [Built-in API](https://nodejs.org/api/)
-  * [CLI](https://nodejs.org/api/cli.html)
-  * [Console](https://nodejs.org/api/console.html)
-  * [Debugger](https://nodejs.org/api/debugger.html)
-  * [File System](https://nodejs.org/api/fs.html)
+```
+<!--#include file="node-fundamentals/0050-timers/app.js" -->
+```
 
 
+<!-- .slide: class="left" -->
+## Further Readings and Exercises
+
+* Want to know more? Read/watch...
+  * [Node.js built-in API](https://nodejs.org/api/)
+  * First two lessons of [*Einführung in Node.js*](https://vimeo.com/thenativeweb) (German)
+* Exercises
+  * [*Hello World* tutorial for VSCode + Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial#_hello-world)
 
 

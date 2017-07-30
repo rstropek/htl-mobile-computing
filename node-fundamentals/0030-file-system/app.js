@@ -1,7 +1,11 @@
+// Note the import of the core module `fs`
+// More details: https://nodejs.org/api/fs.html
 const fs = require('fs');
 
-// Get file name from command line arguments. If no arguments are
-// specified, use greetings.txt.
+// Get file name from command line arguments (see also docs at
+// https://nodejs.org/api/process.html). If no arguments are
+// specified, use `greetings.txt`. Note how the OR operator is used
+// as a *coalesce* operation
 const fileName = process.argv[2] || 'greeting.txt';
 
 // Note that there would be a simpler function (fs.readFile) to
