@@ -26,6 +26,8 @@ Introduction to Node.js and NPM
 * Write code (e.g. `app.js`)
 * Run code with `node app.js`
 
+Note that there are better ways (e.g. existing libraries and frameworks) to implement some features of the following samples. However, here we want to learn about Node.js fundamentals, so we use more low-level APIs
+
 
 <!-- .slide: class="left" -->
 ## Basic Console App
@@ -54,6 +56,7 @@ Run it with: `node app.js`
 ```
 <!--#include file="node-fundamentals/0020-hello-world-server/app.js" -->
 ```
+More about core module [*http*](https://nodejs.org/api/modules.html#modules_core_modules)
 
 
 <!-- .slide: class="left" -->

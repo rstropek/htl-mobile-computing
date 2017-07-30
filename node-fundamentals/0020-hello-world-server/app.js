@@ -1,10 +1,4 @@
-// Note the import of the core module `http`
-// More details: https://nodejs.org/api/modules.html#modules_core_modules
 const http = require('http');
-
-// Note that there are better ways to implement a web server or
-// web apis by using powerful frameworks. However, here we want to learn
-// about Node.js fundamentals, so we use a more low-level api.
 
 const server = http.createServer((req, res) => {
   if (req.url.startsWith('/api')) {
@@ -19,5 +13,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-console.log('Listening...');
-server.listen(8000);
+const port = 8000;
+console.log(`Listening on port ${port}...`);
+server.listen(port);
