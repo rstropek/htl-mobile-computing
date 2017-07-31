@@ -7,6 +7,7 @@ Introduction to [Node.js](https://nodejs.org)
 ## What is Node.js?
 
 * JavaScript outside of a browser
+  * Good [ECMAScript 2015 support](http://node.green/)
 * You can build...
   * Console applications
   * Scalable network applications
@@ -27,7 +28,7 @@ Introduction to [Node.js](https://nodejs.org)
 * Write code (e.g. `app.js`)
 * Run code with `node app.js`
 
-Note that there are better ways (e.g. existing libraries and frameworks) to implement some features of the following samples. However, here we want to learn about Node.js fundamentals, so we use more low-level APIs
+> Note that there are better ways (existing packages on NPM) to implement some features of the following samples. However, we want to learn about Node.js fundamentals, so we use more low-level APIs.
 
 
 <!-- .slide: class="left" -->
@@ -36,8 +37,8 @@ Note that there are better ways (e.g. existing libraries and frameworks) to impl
 ```
 <!--#include file="node-fundamentals/0010-hello-world-console/app.js" -->
 ```
-
-Run it with: `node app.js`
+* Run it with: `node app.js`
+* Note [template string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 
 <!-- .slide: class="left" -->
@@ -114,6 +115,29 @@ What is the output of this program?
 
 ```
 <!--#include file="node-fundamentals/0050-timers/interval.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [Modules](https://nodejs.org/api/modules.html) (1/2)
+
+* In Node.js, each file is a separate module
+* Import modules using `require`
+* Export members from a module using `exports`
+* Use `__filename` to get path and file name of a module
+* Use `__dirname` to get path of a module
+
+
+<!-- .slide: class="left" -->
+## [Modules](https://nodejs.org/api/modules.html) (2/2)
+
+`math.js`:
+```
+<!--#include file="node-fundamentals/0060-modules/math.js" -->
+```
+`app.js`:
+```
+<!--#include file="node-fundamentals/0060-modules/app.js" -->
 ```
 
 
