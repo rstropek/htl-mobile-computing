@@ -1,12 +1,3 @@
-console.log('Waiting for three seconds...');
-setTimeout(() => {
-  console.log('two...')
-  setTimeout(() => {
-    console.log('one...');
-    setTimeout(() => {}, 1000);
-  }, 1000);
-}, 1000);
-
 let counter = 2;
 console.log('Waiting for three seconds...');
 const timer = setInterval(() => {

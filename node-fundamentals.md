@@ -1,6 +1,6 @@
 # Node.js Fundamentals
 
-Introduction to Node.js and NPM
+Introduction to [Node.js](https://nodejs.org)
 
 
 <!-- .slide: class="left" -->
@@ -14,6 +14,7 @@ Introduction to Node.js and NPM
   * Single-threaded ([child processes](https://nodejs.org/api/child_process.html) are possible)
   * [Non-blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 * Well suited for web development
+* Not well suited for CPU-intensive applications
 
 
 <!-- .slide: class="left" -->
@@ -45,6 +46,7 @@ Run it with: `node app.js`
 ```
 <!--#include file="node-fundamentals/0040-console-readline/app.js" -->
 ```
+* Note how callback is used to process input from `stdin`
 * Run this program with `node app.js`
 * Try `node app.js 2> /dev/null` (`NUL` on Windows)
 * Try `echo Rainer | node app.js`
@@ -85,6 +87,7 @@ More about core module [*http*](https://nodejs.org/api/modules.html#modules_core
 ```
 <!--#include file="node-fundamentals/0030-file-system/app.js" -->
 ```
+More about core modules [*fs*](https://nodejs.org/api/fs.html) and [*process*](https://nodejs.org/api/process.html)
 
 
 <!-- .slide: class="left" -->
@@ -97,10 +100,20 @@ What is the output of this program?
 
 
 <!-- .slide: class="left" -->
-## [Timers and Intervals](https://nodejs.org/api/timers.html)
+## [Timers and Intervals](https://nodejs.org/api/timers.html) (1/2)
 
 ```
-<!--#include file="node-fundamentals/0050-timers/app.js" -->
+<!--#include file="node-fundamentals/0050-timers/timeout.js" -->
+```
+* Try adding the line `console.log('End of program');` at the end
+* Discuss the result
+
+
+<!-- .slide: class="left" -->
+## [Timers and Intervals](https://nodejs.org/api/timers.html) (2/2)
+
+```
+<!--#include file="node-fundamentals/0050-timers/interval.js" -->
 ```
 
 
@@ -109,8 +122,7 @@ What is the output of this program?
 
 * Want to know more? Read/watch...
   * [Node.js built-in API](https://nodejs.org/api/)
-  * First two lessons of [*Einführung in Node.js*](https://vimeo.com/thenativeweb) (German)
+  * First two lessons of [*Einf&uuml;hrung in Node.js*](https://vimeo.com/thenativeweb) (German)
 * Exercises
   * [*Hello World* tutorial for VSCode + Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial#_hello-world)
-
-
+  * [*Caesar Cipher exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/9010-lab-caesar/readme.md)
