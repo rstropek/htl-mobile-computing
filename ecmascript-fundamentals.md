@@ -147,4 +147,5 @@ for (let value of iterable) {
   * [Learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) in *MDN web docs*
   * [w3schools.com JavaScript Tutorial](https://www.w3schools.com/js/)
 * Exercises
+  * [*Promise exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/9010-create-promise/readme.md)
   * [w3schools.com JavaScript Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript)
