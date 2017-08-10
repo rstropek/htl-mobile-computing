@@ -130,11 +130,21 @@ for (let value of iterable) {
 
 
 <!-- .slide: class="left" -->
+## [babel](https://babeljs.io/)
+
+* Transforms modern JavaScript so that you can run it in old environments
+* Especially important for building consumer-facing websites
+* Huge ecosystems of [plugins](https://babeljs.io/docs/plugins/)
+* [*babel* demo](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/0030-babel/readme.md)
+
+
+<!-- .slide: class="left" -->
 ## Takeaways
 
 * ECMAScript/JavaScript is *no trivial scripting language* anymore
 * Powerful, modern programming language
 * Standard is now moving faster than in the past
+* Use [*babel*](https://babeljs.io/) to enable modern JavaScript in all projects
 * What is missing? Types!
 
 > Enter: TypeScript
@@ -148,4 +158,5 @@ for (let value of iterable) {
   * [w3schools.com JavaScript Tutorial](https://www.w3schools.com/js/)
 * Exercises
   * [*Promise exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/9010-create-promise/readme.md)
+  * [*babel* demo](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/0030-babel/readme.md)
   * [w3schools.com JavaScript Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript)
