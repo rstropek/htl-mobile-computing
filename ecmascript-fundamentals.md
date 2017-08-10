@@ -132,6 +132,7 @@ for (let value of iterable) {
 <!-- .slide: class="left" -->
 ## [babel](https://babeljs.io/)
 
+* "Transpiler"
 * Transforms modern JavaScript so that you can run it in old environments
 * Especially important for building consumer-facing websites
 * Huge ecosystems of [plugins](https://babeljs.io/docs/plugins/)
