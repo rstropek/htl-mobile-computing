@@ -42,6 +42,7 @@ ctx.fillStyle = 'rgba(0, 0, 0, 1)';
 * Read about [Analyzing frames per second in Chrome](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/#analyze_frames_per_second) and use the *FPS meter* to find out how many frames per second your solution can deliver.
 * Read about [*window.requestAnimationFrame()*](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) and try to use it in your solution.
 * Take a look at [*package.json*](package.json) and find out what the NPM packages `browser-sync` and `concurrently` do. Try to understand, integrate and use the `start` script (`npm start`) in your own solution.
+* Change your solution so that it does no longer start randomly but with a [*Gosper Glider Gun*](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)).
 
 ## Solution
 
