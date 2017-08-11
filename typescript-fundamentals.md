@@ -184,4 +184,5 @@ p.doSometing(result => console.log(result));
 <!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
-* TODO
+* Exercises
+  * [*Game of Life* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9010-game-of-life/readme.md)

@@ -102,6 +102,7 @@ console.log(chalk.red.bgBlue('Hello world!'));
 * Collection of scripts ([*npm scripts*](https://docs.npmjs.com/misc/scripts))
   * Run at certain events (e.g. after install)
   * Run with `npm run script-name`
+  * Note that `node_modules/.bin` is automatically added to the path
 * Exercise: Inspect [*package.json* from *jQuery*](https://github.com/jquery/jquery/blob/master/package.json)
 * Read more [details about *package.json*](https://docs.npmjs.com/files/package.json)
 

@@ -1,13 +1,13 @@
 {
   "name": "0030-babel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Introduction to babel for HTL course about mobile computing",
   "main": "index.js",
   "scripts": {
     "build": "babel src.js --out-file dest.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rainer Stropek",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0"
