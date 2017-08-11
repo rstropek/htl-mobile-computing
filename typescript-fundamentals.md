@@ -41,6 +41,7 @@ Introduction to the [TypeScript](http://www.typescriptlang.org/) Language
 * Install globally: `npm install --global typescript`
   * Run compiler from every folder with `tsc`
 * Install TypeScript with [development tools](http://www.typescriptlang.org/#download-links)
+* Tip: Consider [*ts-node*](https://github.com/TypeStrong/ts-node) to execute TypeScript files directly without compiling
 
 
 <!-- .slide: class="left" -->
@@ -103,6 +104,47 @@ p.doSometing(result => console.log(result));
   * `never`
 
 > Important rule: Forget `var`, always use [`const` or `let`](http://www.typescriptlang.org/docs/handbook/variable-declarations.html)
+
+
+<!-- .slide: class="left" -->
+## Basic Types (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0010-Basic-Types/bool-number-string.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Basic Types (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0010-Basic-Types/any-array.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Basic Types (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0010-Basic-Types/tuple-enum.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Basic Types (cont.)
+
+Note problems of `var` --> avoid it!
+```
+<!--#include file="typescript-fundamentals/0010-Basic-Types/var.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Basic Types (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0010-Basic-Types/let.ts" -->
+```
 
 
 <!-- .slide: class="left" -->
