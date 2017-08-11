@@ -33,6 +33,17 @@ Introduction to the [TypeScript](http://www.typescriptlang.org/) Language
 
 
 <!-- .slide: class="left" -->
+## Install TypeScript
+
+* Install locally: `npm install typescript --save-dev`
+  * Run compiler `tsc` from NPM script
+  * Run compiler from `node_modules`: `./node_modules/.bin/tsc`
+* Install globally: `npm install --global typescript`
+  * Run compiler from every folder with `tsc`
+* Install TypeScript with [development tools](http://www.typescriptlang.org/#download-links)
+
+
+<!-- .slide: class="left" -->
 ## Type Fundamentals
 
 ```
