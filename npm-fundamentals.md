@@ -47,6 +47,20 @@ console.log(chalk.red.bgBlue('Hello world!'));
 
 
 <!-- .slide: class="left" -->
+## Local *Command Line Interfaces*
+
+![NPM local install](images/npm-install-local.png)
+
+More about [FIGlet](http://www.figlet.org)...
+
+
+<!-- .slide: class="left" -->
+## Global *Command Line Interfaces*
+
+![NPM global install](images/npm-install-global.png)
+
+
+<!-- .slide: class="left" -->
 ## Creating *package.json*
 
 * Open a shell in an *empty folder*
@@ -105,6 +119,12 @@ console.log(chalk.red.bgBlue('Hello world!'));
   * Note that `node_modules/.bin` is automatically added to the path
 * Exercise: Inspect [*package.json* from *jQuery*](https://github.com/jquery/jquery/blob/master/package.json)
 * Read more [details about *package.json*](https://docs.npmjs.com/files/package.json)
+
+
+<!-- .slide: class="left" -->
+## *package.json* Content
+
+<img src="images/packagejson-script-path.png" alt="Path in NPM scripts" width="70%" />
 
 
 <!-- .slide: class="left" -->
