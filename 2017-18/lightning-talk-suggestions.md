@@ -4,13 +4,12 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
 
 1. Web Technologies
     1. What is [*NativeScript*](https://www.nativescript.org/)?
-    1. What is `async/await` and [how does it work in TypeScript](https://blogs.msdn.microsoft.com/typescript/2015/11/03/what-about-asyncawait/)?
-    1. What is a [`Promise`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise) in ECMAScript?
+    1. What is [*webpack*](https://webpack.js.org/)?
     1. What is [*Protractor*](https://angular.io/guide/testing#tools-and-technologies)?
     1. What are *Static Site Generators* and what [open-source ones are popular](https://www.staticgen.com/)?
     1. What is [*GitHub Pages*](https://pages.github.com/) and why is it useful?
     1. What is a [*CDN*](https://en.wikipedia.org/wiki/Content_delivery_network) and why is is useful for web development?
-    1. What is [*SVG*](https://developer.mozilla.org/en-US/docs/Web/SVG) and what cool things can you do with it (e.g. [*D3*](https://d3js.org/))?
+    1. What cool things can you do with [*SVG*](https://developer.mozilla.org/en-US/docs/Web/SVG) (e.g. [*D3*](https://d3js.org/))?
     1. What are *Iconic Fonts* and which popular ones are available?
 1. Mobile Development
     1. What is [*Material Design for Android*](https://developer.android.com/design/material/index.html)?

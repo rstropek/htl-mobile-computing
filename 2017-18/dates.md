@@ -13,8 +13,8 @@
 | 26. Oct. 2017  | **Austrian National Day (*Nationalfeiertag*)**
 | 02. Nov. 2017  | **All Souls Day (*Allerseelen*)**
 | 09. Nov. 2017  | **Replacement Lesson**
-| 16. Nov. 2017  | Web Development with [TypeScript](http://www.typescriptlang.org/) and [Webpack](https://webpack.js.org/)
-| 23. Nov. 2017  | RESTful Web API fundamentals
+| 16. Nov. 2017  | RESTful Web API fundamentals
+| 23. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/) and [TypeScript](http://www.typescriptlang.org/)
 | 30. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/) and [TypeScript](http://www.typescriptlang.org/)
 | 07. Dec. 2017  | Authentication with [OpenID Connect](http://openid.net/)
 | 14. Dec. 2017  | [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) Fundamentals
