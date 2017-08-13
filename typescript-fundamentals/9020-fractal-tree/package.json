@@ -1,0 +1,23 @@
+{
+  "name": "9020-fractal-tree",
+  "version": "1.0.0",
+  "description": "Exercise for mobile computing course at HTL Perg",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc app.ts",
+    "start": "concurrently \"tsc --watch app.ts\" \"browser-sync start --server --files 'index.html' 'app.js'\""
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "dependencies": {
+    "snapsvg": "^0.5.1",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/snapsvg": "^0.4.29",
+    "@types/tinycolor2": "^1.4.0",
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.5.0",
+    "typescript": "^2.4.2"
+  }
+}

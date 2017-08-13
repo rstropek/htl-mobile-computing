@@ -157,6 +157,7 @@ for (let value of iterable) {
 * Want to know more? Read/watch...
   * [Learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) in *MDN web docs*
   * [w3schools.com JavaScript Tutorial](https://www.w3schools.com/js/)
+  * [What Is AMD, CommonJS, and UMD?](http://davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
 * Exercises
   * [*Promise exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/9010-create-promise/readme.md)
   * [*babel* demo](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/0030-babel/readme.md)

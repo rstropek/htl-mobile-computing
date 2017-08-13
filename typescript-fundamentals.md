@@ -148,6 +148,33 @@ Note problems of `var` --> avoid it!
 
 
 <!-- .slide: class="left" -->
+## Objects
+
+```
+<!--#include file="typescript-fundamentals/0020-Objects-and-Functions/objects.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Functions
+
+* TypeScript Handbook: [Functions](http://www.typescriptlang.org/docs/handbook/functions.html)
+* `function` keyword vs. arrow functions
+* Type inferrence
+* Parameters (required, optional, default parameters)
+* Advanced topics (not in scope for exams):
+  * Rest parameters, details of `this`, overloads
+
+
+<!-- .slide: class="left" -->
+## Functions (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0020-Objects-and-Functions/functions.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
 ## Interfaces
 
 * TypeScript Handbook: [Interfaces](http://www.typescriptlang.org/docs/handbook/interfaces.html)
@@ -156,6 +183,30 @@ Note problems of `var` --> avoid it!
 * Interfaces can *extend* each other
 * Advanced topics (not in scope for exams):
   * Function types, indexable types, class types, hybrid types
+
+
+<!-- .slide: class="left" -->
+## Interfaces (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/interface.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Interfaces (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/class-with-interface.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Duck Typing (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/duck-typing.ts" -->
+```
 
 
 <!-- .slide: class="left" -->
@@ -172,17 +223,6 @@ Note problems of `var` --> avoid it!
 
 
 <!-- .slide: class="left" -->
-## Functions
-
-* TypeScript Handbook: [Functions](http://www.typescriptlang.org/docs/handbook/functions.html)
-* `function` keyword vs. arrow functions
-* Type inferrence
-* Parameters (required, optional, default parameters)
-* Advanced topics (not in scope for exams):
-  * Rest parameters, details of `this`, overloads
-
-
-<!-- .slide: class="left" -->
 ## Generics
 
 * TypeScript Handbook: [Generics](http://www.typescriptlang.org/docs/handbook/generics.html)
@@ -191,6 +231,14 @@ Note problems of `var` --> avoid it!
 * Generic interfaces
 * Advanced topics (not in scope for exams):
   * Generic Constraints
+
+
+<!-- .slide: class="left" -->
+## Generics (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/generics.ts" -->
+```
 
 
 <!-- .slide: class="left" -->
@@ -211,6 +259,66 @@ Note problems of `var` --> avoid it!
   * [`@types`](https://www.npmjs.com/~types) on NPM
 * Advanced topics (not in scope for exams):
   * Code generation for modules, optional module loading
+
+
+<!-- .slide: class="left" -->
+## Modules (cont.)
+
+`module.ts`
+```
+<!--#include file="typescript-fundamentals/0050-Modules/module.ts" -->
+```
+`anotherModule.ts`
+```
+<!--#include file="typescript-fundamentals/0050-Modules/anotherModule.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Modules (cont.)
+
+```
+<!--#include file="typescript-fundamentals/0050-Modules/app.ts" -->
+```
+Exercise: Try this sample with different module systems (e.g. `--module commonjs`)
+
+
+<!-- .slide: class="left" -->
+## Declaration Files
+
+* TypeScript Handbook: [Declaration Files - Consumption](http://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html)
+* Many libraries are written in JavaScript, not TypeScript
+  * Black box for TypeScript compiler
+* External declarations for globals (e.g. `$` in [jQuery](https://jquery.com/)), interfaces, etc. necessary
+* TypeScript declaration files (`.d.ts`)
+  * Similar to C++ header files
+  * `npm install @types/...` (e.g. `npm install @types/chalk` for `chalk`)
+
+
+<!-- .slide: class="left" -->
+## Project Configuration
+
+* TypeScript Handbook: [*tsconfig.json*](http://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+* Compiler has a [large number of compiler options](http://www.typescriptlang.org/docs/handbook/compiler-options.html)
+* Options can be passed...
+  * ...on the command line (`tsc --help`)
+  * ...in `tsconfig.json` (preferred)
+* Tip: Generate basic `tsconfig.json` file with `tsc --init`
+
+
+<!-- .slide: class="left" -->
+## Important Compiler Options
+
+* *lib*: List of library files to be included in the compilation<br/>
+  (e.g. ES2015, DOM)
+* *module*: Specify module code generation (e.g. *CommonJS*, *AMD*, *UMD*;<br/>
+  see also [What Is AMD, CommonJS, and UMD?](http://davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/))
+* *moduleResolution*: Rule of thumb: Set it to *Node* if you include packages from NPM
+* *outFile*, *outDir*: File and directory ouput structure
+* *sourceMap*: Generate [source map files](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) for debugging
+* *target*: ECMAScript target version (e.g. *ES2015*, *ES2016*)
+* *--watch*: Run the compiler in *watch mode*: Watch input files and trigger recompilation on changes.
+* *--version*: Print the compiler's version
 
 
 <!-- .slide: class="left" -->
@@ -239,3 +347,4 @@ Note problems of `var` --> avoid it!
 
 * Exercises
   * [*Game of Life* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9010-game-of-life/readme.md)
+  * [*Fractal Tree* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9020-fractal-tree/readme.md)
