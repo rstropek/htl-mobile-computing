@@ -36,7 +36,7 @@
 | 05. Apr. 2018  | Testautomation with [Jasmine](https://jasmine.github.io/) and [Karma](https://karma-runner.github.io/1.0/index.html)
 | 12. Apr. 2018  | Mobile development fundamentals
 | 19. Apr. 2018  | CSS and [Sass](http://sass-lang.com/) for mobile development
-| 26. Apr. 2018  | Mobile data with [CouchDB](http://couchdb.apache.org/)
+| 26. Apr. 2018  | Mobile data with *NoSQL* ([CouchDB](http://couchdb.apache.org/))
 | 03. May 2018   | Mobile development with [Cordova](http://cordova.apache.org/)
 | 10. May 2018   | **Ascension (*Christi Himmelfahrt*)**
 | 17. May 2018   | Mobile development with [Ionic](https://ionicframework.com/)
@@ -61,8 +61,8 @@
 | 26. Oct. 2017  | **Austrian National Day (*Nationalfeiertag*)**
 | 02. Nov. 2017  | **All Souls Day (*Allerseelen*)**
 | 09. Nov. 2017  | **Replacement Lesson**
-| 16. Nov. 2017  | 
-| 23. Nov. 2017  | 
+| 16. Nov. 2017  | G1: [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
+| 23. Nov. 2017  | G2: [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
 | 30. Nov. 2017  | 
 | 07. Dec. 2017  | 
 | 14. Dec. 2017  | 
