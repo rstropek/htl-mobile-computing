@@ -38,6 +38,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. Develping in the [*GitHub Flow*](https://guides.github.com/introduction/flow/)
     1. Cool things you can do with [*Fiddler*](http://www.telerik.com/fiddler)
     1. Cool things you can do with [*Postman*](https://www.getpostman.com/)
+    1. Cool things you can do with [*Insomnia*](https://insomnia.rest/)
     1. What every developer should know about the [*Datenschutzgrundverordnung*](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung)
     1. [*Subreddits*](https://www.reddit.com/reddits/) that every developer should follow
     1. What is the [*Ethereum Project*](https://www.ethereum.org/) and why could it be important for us developers in the future

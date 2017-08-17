@@ -1,0 +1,7 @@
+GET http://pokeapi.co/api/v2/pokemon HTTP/1.1
+Accept: application/json
+
+###
+
+GET http://pokeapi.co/api/v2/pokemon/1/ HTTP/1.1
+Accept: application/json
