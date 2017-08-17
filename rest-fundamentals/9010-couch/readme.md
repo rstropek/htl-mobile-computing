@@ -114,3 +114,4 @@ Authorization: Basic YWRtaW46YWRtaW4=
 ## Advanced Exercises
 
 * Read details about [CouchDB's REST API](http://docs.couchdb.org/en/2.1.0/api/index.html)
+* Build a web UI (HTML, JavaScript, [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch) API) for manipulating documents in CouchDB
