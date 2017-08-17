@@ -71,6 +71,25 @@ Exercise: Try this sample with different REST clients
 
 
 <!-- .slide: class="left" -->
+## RESTful Web APIs in JavaScript
+
+* Old but still relevant: [*XMLHttpRequest*](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+* Newer, but only in modern browsers: [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch)
+
+```
+<!--#include file="rest-fundamentals/0020-rest-client/app-promise.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## RESTful Web APIs in JavaScript (cont.)
+
+```
+<!--#include file="rest-fundamentals/0020-rest-client/app.js" -->
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
