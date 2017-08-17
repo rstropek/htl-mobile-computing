@@ -84,8 +84,28 @@ Exercise: Try this sample with different REST clients
 <!-- .slide: class="left" -->
 ## RESTful Web APIs in JavaScript (cont.)
 
+With `async/await`:
+
 ```
 <!--#include file="rest-fundamentals/0020-rest-client/app.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## RESTful Web APIs in JavaScript (cont.)
+
+With [*jQuery*](http://api.jquery.com/jQuery.get/):
+
+```
+<!--#include file="rest-fundamentals/0020-rest-client/app.js" -->
+```
+
+
+<!-- .slide: class="left" -->
+## RESTful Web API with [*restify*](http://restify.com/)
+
+```
+<!--#include file="rest-fundamentals/0030-restify/app.ts" -->
 ```
 
 

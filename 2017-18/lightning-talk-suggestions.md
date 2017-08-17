@@ -35,7 +35,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
 1. General
     1. What is [*Markdown*](https://daringfireball.net/projects/markdown/), why is it useful, and what cool things can you do with it?
     1. Useful [*Code Playgrounds*](https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds) every developer should know about
-    1. Develping in the [*GitHub Flow*](https://guides.github.com/introduction/flow/)
+    1. Developing in the [*GitHub Flow*](https://guides.github.com/introduction/flow/)
     1. Cool things you can do with [*Fiddler*](http://www.telerik.com/fiddler)
     1. Cool things you can do with [*Postman*](https://www.getpostman.com/)
     1. Cool things you can do with [*Insomnia*](https://insomnia.rest/)
@@ -54,6 +54,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. [*Zero Day* by Mark Russinovich](https://www.amazon.de/Zero-Day-Novel-Mark-Russinovich/dp/1250007305/ref=sr_1_3?s=books-intl-de&ie=UTF8&qid=1500879702&sr=1-3&keywords=russinovich)
     1. [*Ghost in the Wires* by Kevin Mitnick](https://www.amazon.de/Ghost-Wires-Adventures-Worlds-Wanted/dp/0316212180/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1500879747&sr=1-1&keywords=ghost+in+the+wire)
     1. [*Nexus* by Ramez Naam](https://www.amazon.de/Nexus-Arc-Book-1/dp/0857665502/ref=sr_1_2?s=books-intl-de&ie=UTF8&qid=1500879826&sr=1-2&keywords=nexus)
+    1. [*Homo Deus* by Yuval Noah Harari](https://www.amazon.de/Homo-Deus-Brief-History-Tomorrow/dp/1784703931/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1502971002&sr=8-2)
 
 Suggestions for finding other topics:
 
