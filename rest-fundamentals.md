@@ -10,6 +10,7 @@ Introduction to [REST](https://en.wikipedia.org/wiki/Representational_state_tran
   * Originally for accessing and manipulating textual representations of Web resources using a set of stateless operations
   * Today: More generic, encompassing every entity that can be identified, named, addressed or handled, in any way whatsoever, on the Web
 * Architectural pattern, not a standard
+  * [Request-response](https://en.wikipedia.org/wiki/Request%E2%80%93response) pattern
 * Today, [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)-based RESTful APIs dominate
   * [URLs](https://en.wikipedia.org/wiki/URL) for addressing
   * [JSON](https://en.wikipedia.org/wiki/JSON), sometimes XML for representing data elements
@@ -71,7 +72,7 @@ Exercise: Try this sample with different REST clients
 
 
 <!-- .slide: class="left" -->
-## RESTful Web APIs in JavaScript
+## RESTful Web APIs in the Browser
 
 * Old but still relevant: [*XMLHttpRequest*](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * Newer, but only in modern browsers: [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch)
@@ -82,7 +83,7 @@ Exercise: Try this sample with different REST clients
 
 
 <!-- .slide: class="left" -->
-## RESTful Web APIs in JavaScript (cont.)
+## RESTful Web APIs in the Browser (cont.)
 
 With `async/await`:
 
@@ -92,7 +93,7 @@ With `async/await`:
 
 
 <!-- .slide: class="left" -->
-## RESTful Web APIs in JavaScript (cont.)
+## RESTful Web APIs in  the Browser (cont.)
 
 With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
@@ -102,11 +103,47 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 
 <!-- .slide: class="left" -->
+## Building RESTful Web APIs with Node.js
+
+* In practice, frameworks are used for that
+* Example: [*Express.js*](http://expressjs.com/)
+  * Larger framework, not just for RESTful Web APIs
+  * Very commonly used
+  * Lots of plugins
+* Example: [*restify*](http://restify.com/)
+  * Smaller framework specialized on RESTful Web APIs
+  * Easy to use
+  * Also quite common
+  * We will use this framework in this course
+
+
+<!-- .slide: class="left" -->
 ## RESTful Web API with [*restify*](http://restify.com/)
 
 ```
-<!--#include file="rest-fundamentals/0030-restify/app.ts" -->
+<!--#include file="rest-fundamentals/0030-restify-basics/app.ts" -->
 ```
+
+```
+<!--#include file="rest-fundamentals/0030-restify-basics/request.http" -->
+```
+
+
+<!-- .slide: class="left" -->
+## RESTful Web API with [*restify*](http://restify.com/)
+
+* `server` object
+  * Register routes and handlers for incoming requests
+  * Created using the `createServer()` method
+  * [Documentation](http://restify.com/docs/server-api/)
+* `request` object
+  * Represents the HTTP request
+  * Use it to get headers, parameters, body, etc.
+  * [Documentation](http://restify.com/docs/request-api/)
+* `response` object
+  * Represents the HTTP response
+  * Use it to build response (e.g. status, headers, body, etc.)
+  * [Documentation](http://restify.com/docs/response-api/)
 
 
 <!-- .slide: class="left" -->

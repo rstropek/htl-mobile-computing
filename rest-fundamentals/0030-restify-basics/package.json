@@ -1,5 +1,5 @@
 {
-  "name": "0030-restify",
+  "name": "0030-restify-basics",
   "version": "1.0.0",
   "description": "Sample for mobile computing course at HTL Perg",
   "main": "app.ts",
