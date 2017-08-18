@@ -31,9 +31,9 @@
 | 01. Mar. 2018  | Cloud Computing fundamentals
 | 08. Mar. 2018  | **Replacement Lesson**
 | 15. Mar. 2018  | [Angular](http://angular.io/) fundamentals
-| 22. Mar. 2018  | Advanced [Angular](http://angular.io/)
+| 22. Mar. 2018  | [Angular](http://angular.io/) fundamentals
 | 29. Mar. 2018  | **Easter Break (*Osterferien*)**
-| 05. Apr. 2018  | Testautomation with [Jasmine](https://jasmine.github.io/) and [Karma](https://karma-runner.github.io/1.0/index.html)
+| 05. Apr. 2018  | Advanced [Angular](http://angular.io/)
 | 12. Apr. 2018  | Mobile development fundamentals
 | 19. Apr. 2018  | CSS and [Sass](http://sass-lang.com/) for mobile development
 | 26. Apr. 2018  | Mobile data with *NoSQL* ([CouchDB](http://couchdb.apache.org/))
