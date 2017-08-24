@@ -98,7 +98,7 @@ With `async/await`:
 With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 ```
-<!--#include file="rest-fundamentals/0020-rest-client/app.js" -->
+<!--#include file="rest-fundamentals/0020-rest-client/app-jquery.js" -->
 ```
 
 
@@ -147,9 +147,54 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 
 <!-- .slide: class="left" -->
+## [*restify*](http://restify.com/) Examples
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/app.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*restify*](http://restify.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/data.ts" -->
+```
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/get-all.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*restify*](http://restify.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/get-single.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*restify*](http://restify.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/post.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*restify*](http://restify.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-restify-verbs/delete-single.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
   * [Microsoft's REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md)
+  * [*restify* documentation](http://restify.com/docs/home/)
 * Exercises
   * [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
