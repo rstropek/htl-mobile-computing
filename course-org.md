@@ -32,7 +32,20 @@ Dates, Lightning Talks, Exams, Grading, etc.
 * Any interesting technology topic (preferably mobile computing-related)
   * [Suggestions](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/lightning-talk-suggestions.md)
 * Online form for [submitting topics](https://goo.gl/forms/0xIczpjIyGKRb6sl1)
-  * Get an extra point for [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+  * Get an **extra point** for [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+
+
+<!-- .slide: class="left" -->
+## Lightning Talks Grading
+
+| Criteria | Points |
+|---------------------------------------------------------------------------|------------|
+| Prepared for the presentation (e.g. handout, PPT, demo) | 20 |
+| Structure of the presentation | 5 |
+| Demonstrated understanding of the material | 20 |
+| Demonstrated critical thinking skills | 15 |
+| Took information from different sources and created something interesting | 25 |
+| Time management skills (concise presentation in <= 7 minutes) | 15 |
 
 
 <!-- .slide: class="left" -->

@@ -198,3 +198,4 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
   * [*restify* documentation](http://restify.com/docs/home/)
 * Exercises
   * [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
+  * [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)

@@ -3,7 +3,6 @@
 Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk) topics:
 
 1. Web Technologies
-    1. What is [*NativeScript*](https://www.nativescript.org/)?
     1. What is [*webpack*](https://webpack.js.org/)?
     1. What is [*Protractor*](https://angular.io/guide/testing#tools-and-technologies)?
     1. What are *Static Site Generators* and what [open-source ones are popular](https://www.staticgen.com/)?
@@ -11,6 +10,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. What is a [*CDN*](https://en.wikipedia.org/wiki/Content_delivery_network) and why is is useful for web development?
     1. What cool things can you do with [*SVG*](https://developer.mozilla.org/en-US/docs/Web/SVG) (e.g. [*D3*](https://d3js.org/))?
     1. What are *Iconic Fonts* and which popular ones are available?
+    1. What is a *headless browser*(https://en.wikipedia.org/wiki/Headless_browser) and why is it important for web development?
 1. Mobile Development
     1. What is [*Material Design for Android*](https://developer.android.com/design/material/index.html)?
     1. What is [*test automation*](https://en.wikipedia.org/wiki/Test_automation) and how can it be done for many different mobile platforms and devices (e.g. [*Xamarin Test Cloud*](https://www.xamarin.com/test-cloud), [*Sauce Labs*](https://saucelabs.com/))?
@@ -19,6 +19,8 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. Cool [*IoT*](https://en.wikipedia.org/wiki/Internet_of_things) devices every developer should know about
     1. Five hard challenges in [*IoT*](https://en.wikipedia.org/wiki/Internet_of_things) development
     1. What is [*Electron*](https://electron.atom.io/) and why is it interesting for mobile developers?
+    1. What is [*NativeScript*](https://www.nativescript.org/)?
+    1. What is [*React Native*](https://facebook.github.io/react-native/)?
 1. Server and Cloud
     1. What is [*Serverless Computing*](https://en.wikipedia.org/wiki/Serverless_computing) and how is it different from traditional [*Web Hosting*](https://en.wikipedia.org/wiki/Web_hosting_service)?
     1. What can you do with Microsoft's [*Cognitive Services*](https://azure.microsoft.com/en-us/services/cognitive-services/)?

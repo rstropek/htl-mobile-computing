@@ -14,8 +14,8 @@
 | 02. Nov. 2017  | **All Souls Day (*Allerseelen*)**
 | 09. Nov. 2017  | **Replacement Lesson**
 | 16. Nov. 2017  | RESTful Web API fundamentals
-| 23. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/) and [TypeScript](http://www.typescriptlang.org/)
-| 30. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [Express](http://expressjs.com/) and [TypeScript](http://www.typescriptlang.org/)
+| 23. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [restify](http://restify.com/) and [TypeScript](http://www.typescriptlang.org/)
+| 30. Nov. 2017  | RESTful Web APIs with [Node.js](https://nodejs.org/en/), [restify](http://restify.com/) and [TypeScript](http://www.typescriptlang.org/)
 | 07. Dec. 2017  | Authentication with [OpenID Connect](http://openid.net/)
 | 14. Dec. 2017  | [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) Fundamentals
 | 21. Dec. 2017  | [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) with [Node.js](https://nodejs.org/en/) and [TypeScript](http://www.typescriptlang.org/)
@@ -63,8 +63,8 @@
 | 09. Nov. 2017  | **Replacement Lesson**
 | 16. Nov. 2017  | G1: [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
 | 23. Nov. 2017  | G2: [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
-| 30. Nov. 2017  | 
-| 07. Dec. 2017  | 
+| 30. Nov. 2017  | G1: [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
+| 07. Dec. 2017  | G2: [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
 | 14. Dec. 2017  | 
 | 21. Dec. 2017  | 
 | 28. Dec. 2017  | **Christmas Break (*Weihnachtsferien*)**
