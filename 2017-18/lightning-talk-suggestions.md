@@ -58,6 +58,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. [*Ghost in the Wires* by Kevin Mitnick](https://www.amazon.de/Ghost-Wires-Adventures-Worlds-Wanted/dp/0316212180/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1500879747&sr=1-1&keywords=ghost+in+the+wire)
     1. [*Nexus* by Ramez Naam](https://www.amazon.de/Nexus-Arc-Book-1/dp/0857665502/ref=sr_1_2?s=books-intl-de&ie=UTF8&qid=1500879826&sr=1-2&keywords=nexus)
     1. [*Homo Deus* by Yuval Noah Harari](https://www.amazon.de/Homo-Deus-Brief-History-Tomorrow/dp/1784703931/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1502971002&sr=8-2)
+    1. [*The Black Swan* by Nassim Nicholas Taleb](https://www.amazon.de/Black-Swan-Impact-Highly-Improbable-ebook/dp/B002RI99IM/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1504354087&sr=1-1&keywords=the+black+swan)
 
 Suggestions for finding other topics:
 

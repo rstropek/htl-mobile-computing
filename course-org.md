@@ -52,8 +52,9 @@ Dates, Lightning Talks, Exams, Grading, etc.
 ## Exams
 
 * Two written exams
-  * One hour each
-  * Case studies and/or practical programming
+  * Multiple-choice theory questions
+  * Case studies
+  * Practical programming
 * Optional oral exams
   * Chance to mend bad mark in written exam
 * Dates see [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
