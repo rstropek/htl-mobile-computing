@@ -46,6 +46,8 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. What is the [*Ethereum Project*](https://www.ethereum.org/) and why could it be important for us developers in the future
     1. What can we learn from the *NIST* document [*Digital Identity Guidelines*](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf) in terms of security?
     1. What can we learn from stackoverflow's [*IT-Recruiter Report*](https://www.stackoverflowbusiness.com/de/talent/ressourcen/der-stack-overflow-it-recruiter-report-2017) for searching our first jobs in IT?
+    1. What is [*Chocolatey*](https://chocolatey.org/) and how can developers make good use of it?
+    1. What is [*CEFSharp*](http://cefsharp.github.io/) and what scenarios does it enable for .NET applications?
 1. Why should I read... (**no spoilers!**)
     1. [*Daemon* triology by Daniel Suarez](https://www.amazon.de/Daemon-Daniel-Suarez/dp/0451228731/ref=sr_1_2?ie=UTF8&qid=1500878463&sr=8-2&keywords=daniel+suarez+daemon)
     1. [*Armada* by Ernest Cline](https://www.amazon.de/Armada-Ernest-Cline/dp/0099586746/ref=sr_1_2?ie=UTF8&qid=1500878895&sr=8-2&keywords=armada+ernest+cline)
