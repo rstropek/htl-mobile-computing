@@ -110,7 +110,23 @@ p.doSometing(result => console.log(result));
 ## Basic Types (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0010-Basic-Types/bool-number-string.ts" -->
+// Basic data type 'boolean'
+let aBoolean: boolean = false;
+let anotherBoolean = false;     // Note type inference here
+
+// Basic data type 'number' (=floating point value)
+let decimal: number = 6;
+let hex: number = 0xf00d;       // Note hex constant
+let binary: number = 0b1010;    // Note binary constant
+let octal: number = 0o744;      // Note octal constant
+
+// Basic data type 'string'
+let aString: string = "Hello World";
+aString = 'Hello World';
+let aTemplateString = `I say: ${aString}`;
+// Note template string
+let aMultilineString = `We like Typescript
+    especially with Angular`;
 ```
 
 
@@ -118,7 +134,25 @@ p.doSometing(result => console.log(result));
 ## Basic Types (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0010-Basic-Types/any-array.ts" -->
+// Basic data type 'any'
+let anything: any = false;
+anything = 5.0;
+let arrayOfAnything: any[] = [1, new Date(), 'Foo Bar', false];
+
+// Note the type assertation here. The following lines do no runtime checking!
+let aDecimal: number = <number>anything;
+let aSecondDecimal: number = anything as number;
+
+// Basic type 'Array'
+let aList: number[] = [1, 2, 3, 4];
+let aListWithDifferentTypes: (number | string)[] = [1, 'Hello'];
+// Note 'Union Type' here
+let anotherList = [1, 2, 3];
+let yetAnotherList: Array<number> = [1, 2, 3];
+
+// Note typesafe array operations.
+aList.push(5);
+//aList.push('Foo Bar');
 ```
 
 
@@ -126,7 +160,26 @@ p.doSometing(result => console.log(result));
 ## Basic Types (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0010-Basic-Types/tuple-enum.ts" -->
+// Basic type 'Tuple'
+let aTuple: [number, string] = [1, 'Hello'];
+let aListOfTuples: Array<[number, string]> = [[1, 'Hello'], [2, 'World']];
+
+// Note typesafe access of tuple members.
+let numberInTuple: number = aTuple[0];
+let stringInTuple: string = aTuple[1];
+//numberInTuple = aTuple[1];
+
+// Basic type 'enum'
+enum Color { Red, Green, Blue };  // Note that first enum starts with value 0
+let anEnum: Color = Color.Green;// Assignment; anEnum gets value 1
+enum Color2 { Red = 0b001, Green = 0b010, Blue = 0b100 };
+let enumName: string = Color[2];// Note getting string name from enum (here 'Blue')
+enum AccessMode { 
+    Read = 0b01, 
+    Write = Read << 1,          // Write becomes 0b10
+    ReadWrite = Read | Write    // Note computed member 
+};
+console.log(AccessMode[3]);     // Prints 'ReadWrite'
 ```
 
 
@@ -135,7 +188,23 @@ p.doSometing(result => console.log(result));
 
 Note problems of `var` --> avoid it!
 ```
-<!--#include file="typescript-fundamentals/0010-Basic-Types/var.ts" -->
+// If possible, don't use 'var' in your code anymore. 'let' protects
+// you from unnecessary mistakes.
+function printSquareWithMistake(sideLength: number) {
+    for (var i = 0; i < sideLength; i++) {
+        var line = 'dummy';
+        var line = '';          // This is a mistake, but it works with 'var'
+
+        // Note that 'i' is declared a second time. As 'var' variables
+        // are function-scoped, this is a bug! 
+        for (var i = 0; i < sideLength; i++) {
+            line += '*';
+        }
+
+        console.log(line);
+    }
+}
+printSquareWithMistake(3);
 ```
 
 
@@ -143,7 +212,18 @@ Note problems of `var` --> avoid it!
 ## Basic Types (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0010-Basic-Types/let.ts" -->
+function printSquare(sideLength: number) {
+    for (let i = 0; i < sideLength; i++) {
+        let line = '';
+        //let line = 'dummy';
+        for (let i = 0; i < sideLength; i++) {
+            line += '*';
+        }
+
+        console.log(line);
+    }
+}
+printSquare(3);
 ```
 
 
@@ -151,7 +231,18 @@ Note problems of `var` --> avoid it!
 ## Objects
 
 ```
-<!--#include file="typescript-fundamentals/0020-Objects-and-Functions/objects.ts" -->
+// Note that some code lines are commented in this sample. They
+// would lead to compiler errors.
+
+const anObject = { firstName: 'Foo', lastName: 'Bar', age: 99 };
+anObject.firstName = 'John';
+
+//anObject.anything = '...';
+//anObject.age = "99";
+
+// Note optional "age" in the following declaration
+let anotherObject: { firstName: string, lastName: string, age?: number };
+anotherObject = { firstName: 'Foo', lastName: 'Bar' };
 ```
 
 
@@ -170,7 +261,25 @@ Note problems of `var` --> avoid it!
 ## Functions (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0020-Objects-and-Functions/functions.ts" -->
+// Different types to declare functions
+function add(x: number, y: number) { x + y };
+const addLambdaWithoutTypes = (x, y) => x + y;
+
+// Note that addLambdaWithoutTypes uses 'any'
+const addLambda: (x: number, y: number) => number = (x: number, y: number) => x + y;
+const addLambdaShorter: (x: number, y: number) => number =
+    (x, y) => x + y; // Note that 'x' and 'y' are 'number' because of type inference.
+
+// Optional and default parameters
+function greetWithOptional(name: string, greeting?: string) {
+    console.log(`${greeting || 'Hello'} ${name}!`);
+};
+greetWithOptional('John');
+
+function greetWithDefault(name: string, greeting = 'Hello') {
+    console.log(`${greeting} ${name}!`);
+};
+greetWithDefault('John');
 ```
 
 
@@ -189,7 +298,15 @@ Note problems of `var` --> avoid it!
 ## Interfaces (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/interface.ts" -->
+export interface IPerson {
+    firstName: string;
+    lastName: string;
+    age?: number;               // Note optional member
+}
+
+export interface IPersonWithDescription extends IPerson {
+    getDescription(): string;
+}
 ```
 
 
@@ -197,7 +314,22 @@ Note problems of `var` --> avoid it!
 ## Interfaces (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/class-with-interface.ts" -->
+import {IPerson} from './interface'
+
+export class Person implements IPerson {
+  public firstName: string;
+  public lastName: string;
+  public age: number;
+
+  // Note that 'Person' does not explicity say that it is
+  // compatible with 'IPersonWithDescription', but it implicitly is
+  // because all necessary members are implemented. This concept is called
+  // 'structural subtyping' (details in
+  // http://www.typescriptlang.org/docs/handbook/type-compatibility.html)
+  public getDescription(): string {
+    return `${this.firstName} ${this.lastName} is ${this.age} years old`;
+  }
+}
 ```
 
 
@@ -205,7 +337,26 @@ Note problems of `var` --> avoid it!
 ## Duck Typing (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/duck-typing.ts" -->
+import {IPerson} from './interface'
+import {Person} from './class-with-interface';
+
+class SimplePerson {
+    // Note that 'SimplePerson' does not explicity say that it is
+    // compatible with 'IPerson', but it still is.
+    constructor(public firstName: string, public lastName: string) { }
+
+    public getDescription() { return `I am ${this.firstName} ${this.lastName}`; }
+
+    get fullName() { return `${this.firstName} ${this.lastName}`; }
+}
+
+let p: IPerson;
+p = new Person();
+p = new SimplePerson('Foo', 'Bar');
+console.log((<SimplePerson>p).fullName);
+p = { firstName: 'Foo', lastName: 'Bar' };
+p = { firstName: 'Foo', lastName: 'Bar', age: 99 };
+//p = { firstNme: 'Foo', lastName: 'Bar', age: 99 };
 ```
 
 
@@ -237,7 +388,25 @@ Note problems of `var` --> avoid it!
 ## Generics (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0030-Interfaces-and-Classes/generics.ts" -->
+interface ICursor<T> {
+    readonly current: T;
+    moveNext(): boolean;
+};
+class Cursor<T> implements ICursor<T> {
+    private index = -1;
+    constructor(private list: ReadonlyArray<T>) { }
+    get current(): T {
+        if (this.index < 0) throw new Error("moveNext never called");
+        return this.list[this.index];
+    }
+    moveNext(): boolean {
+        if (this.list.length == 0 || this.index >= (this.list.length - 1)) return false;
+        this.index++;
+        return true;
+    }
+}
+let c = new Cursor([1, 2, 3, 4]);
+while (c.moveNext()) console.log(c.current);
 ```
 
 
@@ -266,11 +435,17 @@ Note problems of `var` --> avoid it!
 
 `module.ts`
 ```
-<!--#include file="typescript-fundamentals/0050-Modules/module.ts" -->
+export class MyFirstClass { public greeting: string = 'Hello'; }
+
+export class MySecondClass { public greeting: string = 'Hi!'; }
 ```
 `anotherModule.ts`
 ```
-<!--#include file="typescript-fundamentals/0050-Modules/anotherModule.ts" -->
+class MyThirdClass {
+  public greeting: string = 'Yo!';
+}
+
+export default MyThirdClass;
 ```
 
 
@@ -278,7 +453,17 @@ Note problems of `var` --> avoid it!
 ## Modules (cont.)
 
 ```
-<!--#include file="typescript-fundamentals/0050-Modules/app.ts" -->
+import * as myModule from './module';
+import MyThirdClass from './anotherModule';
+
+const c1 = new myModule.MyFirstClass();
+console.log(c1.greeting);
+
+const c2 = new myModule.MySecondClass();
+console.log(c2.greeting);
+
+const c3 = new MyThirdClass();
+console.log(c3.greeting);
 ```
 Exercise: Try this sample with different module systems (e.g. `--module commonjs`)
 

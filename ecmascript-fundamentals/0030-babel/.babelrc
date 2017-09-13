@@ -1,9 +1,0 @@
-{
-  "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["explorer >= 8"]
-      }
-    }]
-  ]
-}

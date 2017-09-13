@@ -107,7 +107,25 @@ for (let value of iterable) {
 ## "Callback hell"
 
 ```
-<!--#include file="ecmascript-fundamentals/0010-promise/callback.js" -->
+function slowDiv(x, y, resultCallback) {
+  if (!y) {
+    callback('Div by zero', null);
+  } else {
+    // Simulate long-running calculation by waiting 25ms
+    setTimeout(() => resultCallback(null, x / y), 25);
+  }
+}
+
+// Calculate 10 / 5 + 20 / 10 without printing errors
+slowDiv(10, 5, (err, res1) => {
+  if (!err) {
+    slowDiv(20, 10, (err, res2) => {
+      if (!err) {
+        console.log(res1 + res2);
+      }
+    });
+  }
+})
 ```
 
 
@@ -115,7 +133,19 @@ for (let value of iterable) {
 ## Promises
 
 ```
-<!--#include file="ecmascript-fundamentals/0010-promise/promise.js" -->
+function slowDiv(x, y) {
+  return new Promise((resolve, reject) => {
+    if (!y) {
+      reject('Div by zero');
+    } else {
+      // Simulate long-running calculation by waiting 25ms
+      setTimeout(() => resolve(x / y), 25);
+    }
+  });
+}
+
+// Calculate 10 / 5 + 20 / 10 without printing errors
+slowDiv(10, 5).then(res1 => slowDiv(20, 10).then(res2 => console.log(res1 + res2)));
 ```
 
 
@@ -125,7 +155,23 @@ for (let value of iterable) {
 * [Async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) with `async/await` similar to C# (will be covered later in more details)
 
 ```
-<!--#include file="ecmascript-fundamentals/0020-async/async.js" -->
+function slowDiv(x, y) {
+  return new Promise((resolve, reject) => {
+    if (!y) {
+      reject('Div by zero');
+    } else {
+      // Simulate long-running calculation by waiting 25ms
+      setTimeout(() => resolve(x / y), 25);
+    }
+  });
+}
+
+async function run() {
+  // Calculate 10 / 5 + 20 / 10 without printing errors
+  console.log(await slowDiv(10, 5) + await slowDiv(20, 10));
+}
+
+run();
 ```
 
 

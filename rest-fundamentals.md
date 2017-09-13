@@ -37,11 +37,28 @@ Introduction to [REST](https://en.wikipedia.org/wiki/Representational_state_tran
 ## Sample Requests
 
 ```
-<!--#include file="rest-fundamentals/0010-rest-clients/pokeapi.http" -->
+GET http://pokeapi.co/api/v2/pokemon HTTP/1.1
+Accept: application/json
+
+###
+
+GET http://pokeapi.co/api/v2/pokemon/1/ HTTP/1.1
+Accept: application/json
 ```
 
 ```
-<!--#include file="rest-fundamentals/0010-rest-clients/northwind.http" -->
+GET http://services.odata.org/V4/Northwind/Northwind.svc/Customers HTTP/1.1
+Accept: application/json
+
+###
+
+GET http://services.odata.org/V4/Northwind/Northwind.svc/Customers HTTP/1.1
+Accept: application/atom+xml
+
+###
+
+GET http://services.odata.org/V4/Northwind/Northwind.svc/Customers?$filter=Country%20eq%20%27Germany%27 HTTP/1.1
+Accept: application/json
 ```
 Exercise: Try this sample with different REST clients
 
@@ -50,7 +67,17 @@ Exercise: Try this sample with different REST clients
 ## Sample Requests (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0010-rest-clients/post.http" -->
+# Create a request bin at https://requestb.in/, then replace
+# 1lexbhf1 with your bin id.
+
+POST https://requestb.in/1lexbhf1 HTTP/1.1
+Content-Type: application/json
+
+{ "Foo": "Bar", "Answer": 42 }
+
+###
+
+DELETE https://requestb.in/1lexbhf1 HTTP/1.1
 ```
 Exercise: Try this sample with different REST clients
 
@@ -78,7 +105,20 @@ Exercise: Try this sample with different REST clients
 * Newer, but only in modern browsers: [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch)
 
 ```
-<!--#include file="rest-fundamentals/0020-rest-client/app-promise.js" -->
+const pokemonList = document.getElementById('pokemons');
+
+(function() {
+fetch('http://pokeapi.co/api/v2/pokemon/').then(response => {
+  response.json().then(pokelist => {
+    let html = '';
+    for (const pokemon of pokelist.results) {
+      html += `<li>${pokemon.name}</li>`
+    }
+
+    pokemonList.innerHTML = html;
+  });
+});
+})();
 ```
 
 
@@ -88,7 +128,19 @@ Exercise: Try this sample with different REST clients
 With `async/await`:
 
 ```
-<!--#include file="rest-fundamentals/0020-rest-client/app.js" -->
+const pokemonList = document.getElementById('pokemons');
+
+(async function() {
+    const response = await fetch('http://pokeapi.co/api/v2/pokemon/');
+    const pokelist = await response.json();
+
+    let html = '';
+    for(const pokemon of pokelist.results) {
+        html += `<li>${pokemon.name}</li>`
+    }
+
+    pokemonList.innerHTML = html;
+})();
 ```
 
 
@@ -98,7 +150,16 @@ With `async/await`:
 With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 ```
-<!--#include file="rest-fundamentals/0020-rest-client/app-jquery.js" -->
+(async function() {
+    const pokelist = await $.get('http://pokeapi.co/api/v2/pokemon/');
+
+    let html = '';
+    for(const pokemon of pokelist.results) {
+        html += `<li>${pokemon.name}</li>`
+    }
+
+    $('#pokemons')[0].innerHTML = html;
+})();
 ```
 
 
@@ -121,11 +182,23 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## RESTful Web API with [*restify*](http://restify.com/)
 
 ```
-<!--#include file="rest-fundamentals/0030-restify-basics/app.ts" -->
+import {createServer} from 'restify';
+
+var server = createServer();
+server.get('/api/echo/:word', (request, response, next) => {
+    response.send({youSent: request.params.word});
+    next();
+});
+
+const port = 8080;
+server.listen(port, function() {
+  console.log('API is listening');
+});
 ```
 
 ```
-<!--#include file="rest-fundamentals/0030-restify-basics/request.http" -->
+GET http://localhost:8080/api/echo/Foo-Bar HTTP/1.1
+Accept: application/json
 ```
 
 
@@ -150,7 +223,25 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## [*restify*](http://restify.com/) Examples
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/app.ts" -->
+import {createServer, plugins} from 'restify';
+
+import {deleteSingle} from './delete-single';
+import {getAll} from './get-all';
+import {getSingle} from './get-single';
+import {post} from './post';
+
+var server = createServer();
+
+// Add bodyParser plugin for parsing JSON in request body
+server.use(plugins.bodyParser());
+
+// Add routes
+server.get('/api/customers', getAll);
+server.post('/api/customers', post);
+server.get('/api/customers/:id', getSingle);
+server.del('/api/customers/:id', deleteSingle);
+
+server.listen(8080, () => console.log('API is listening'));
 ```
 
 
@@ -158,11 +249,28 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## [*restify*](http://restify.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/data.ts" -->
+export interface ICustomer {
+  id: number;
+  firstName: string;
+  lastName: string;
+}
+
+export const customers: ICustomer[] = [
+  {id: 1, firstName: 'Donald', lastName: 'Duck'},
+  {id: 2, firstName: 'Mickey', lastName: 'Mouse'},
+  {id: 3, firstName: 'Minnie', lastName: 'Mouse'},
+  {id: 4, firstName: 'Scrooge', lastName: 'McDuck'}
+];
 ```
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/get-all.ts" -->
+import {Request, Response, Next} from 'restify';
+import {customers} from './data';
+
+export function getAll(req: Request, res: Response, next: Next): void {
+    res.send(customers);
+    next();
+}
 ```
 
 
@@ -170,7 +278,24 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## [*restify*](http://restify.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/get-single.ts" -->
+import {Next, Request, Response} from 'restify';
+import {BadRequestError, NotFoundError} from 'restify-errors';
+import {customers} from './data';
+
+export function getSingle(req: Request, res: Response, next: Next): void {
+  const id = parseInt(req.params.id);
+  if (id) {
+    const customer = customers.find(c => c.id === id);
+    if (customer) {
+      res.send(customer);
+      next();
+    } else {
+      next(new NotFoundError());
+    }
+  } else {
+    next(new BadRequestError('Parameter id must be a number'));
+  }
+}
 ```
 
 
@@ -178,7 +303,26 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## [*restify*](http://restify.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/post.ts" -->
+import {CREATED} from 'http-status-codes';
+import {Next, Request, Response} from 'restify';
+import {BadRequestError} from 'restify-errors';
+import {customers, ICustomer} from './data';
+
+export function post(req: Request, res: Response, next: Next): void {
+  if (!req.body.id || !req.body.firstName || !req.body.lastName) {
+    next(new BadRequestError('Missing mandatory member(s)'));
+  } else {
+    const newCustomerId = parseInt(req.body.id);
+    if (!newCustomerId) {
+      next(new BadRequestError('ID has to be a numeric value'));
+    } else {
+      const newCustomer: ICustomer = { id: newCustomerId,
+        firstName: req.body.firstName, lastName: req.body.lastName };
+      customers.push(newCustomer);
+      res.send(CREATED, newCustomer, {Location: `${req.path()}/${req.body.id}`});
+    }
+  }
+}
 ```
 
 
@@ -186,7 +330,26 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## [*restify*](http://restify.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/delete-single.ts" -->
+import {NO_CONTENT} from 'http-status-codes';
+import {Next, Request, Response} from 'restify';
+import {BadRequestError, NotFoundError} from 'restify-errors';
+import {customers} from './data';
+
+export function deleteSingle(req: Request, res: Response, next: Next): void {
+  const id = parseInt(req.params.id);
+  if (id) {
+    const customerIndex = customers.findIndex(c => c.id === id);
+    if (customerIndex !== (-1)) {
+      customers.splice(customerIndex, 1);
+      res.send(NO_CONTENT);
+      next();
+    } else {
+      next(new NotFoundError());
+    }
+  } else {
+    next(new BadRequestError('Parameter id must be a number'));
+  }
+}
 ```
 
 
