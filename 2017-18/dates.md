@@ -104,7 +104,7 @@
 | 28. Sept. 2017 |           |
 | 05. Oct. 2017  |           |
 | 12. Oct. 2017  |           |
-| 19. Oct. 2017  |           |
+| 19. Oct. 2017  |Fürholzer  |Kotlin and other JVM-Languages
 | 16. Nov. 2017  |           |
 | 23. Nov. 2017  |           |
 | 30. Nov. 2017  |           |
