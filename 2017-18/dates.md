@@ -110,7 +110,7 @@
 | 30. Nov. 2017  |Schrattbaue|The Ethereum Project
 | 07. Dec. 2017  |Baylan     |Headless Browsers
 | 14. Dec. 2017  |Primetzhofer|Electron
-| 21. Dec. 2017  |           |
+| 21. Dec. 2017  |Riedl      | Native Script
 | 11. Jan. 2018  |           |
 | 15. Feb. 2018  |           |
 | 01. Mar. 2018  |           |
