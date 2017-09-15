@@ -109,7 +109,7 @@
 | 23. Nov. 2017  |Küblböck   |Cryptocurrencies
 | 30. Nov. 2017  |Schrattbaue|The Ethereum Project
 | 07. Dec. 2017  |Baylan     |Headless Browsers
-| 14. Dec. 2017  |           |
+| 14. Dec. 2017  |Primetzhofer|Electron
 | 21. Dec. 2017  |           |
 | 11. Jan. 2018  |           |
 | 15. Feb. 2018  |           |
