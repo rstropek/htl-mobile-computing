@@ -108,7 +108,7 @@
 | 16. Nov. 2017  |Engelschall|Open Data
 | 23. Nov. 2017  |           |
 | 30. Nov. 2017  |           |
-| 07. Dec. 2017  |           |
+| 07. Dec. 2017  |Baylan     |Headless Browsers
 | 14. Dec. 2017  |           |
 | 21. Dec. 2017  |           |
 | 11. Jan. 2018  |           |
