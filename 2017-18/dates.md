@@ -101,7 +101,7 @@
 | Date           | Presenter | Topic
 |----------------|-----------|-------
 | 21. Sept. 2017 |           | 
-| 28. Sept. 2017 |           |
+| 28. Sept. 2017 |Wakolbinger|Five hard challenges in IoT development
 | 05. Oct. 2017  |           |
 | 12. Oct. 2017  |           |
 | 19. Oct. 2017  |Fürholzer  |Kotlin and other JVM-Languages
