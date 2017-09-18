@@ -103,7 +103,7 @@
 | 21. Sept. 2017 |           | 
 | 28. Sept. 2017 |Wakolbinger|Five hard challenges in IoT development
 | 05. Oct. 2017  |           |
-| 12. Oct. 2017  |           |
+| 12. Oct. 2017  |Haslhofer  |Swagger-UI
 | 19. Oct. 2017  |Fürholzer  |Kotlin and other JVM-Languages
 | 16. Nov. 2017  |Engelschall|Open Data
 | 23. Nov. 2017  |Küblböck   |Cryptocurrencies
