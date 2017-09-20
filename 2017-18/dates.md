@@ -112,7 +112,7 @@
 | 14. Dec. 2017  |Primetzhofer|Electron
 | 21. Dec. 2017  |Riedl      | Native Script
 | 11. Jan. 2018  |Brandstetter| Net Neutrality
-| 15. Feb. 2018  |           |
+| 15. Feb. 2018  |Krestan    | Github Pages(why and how useful)
 | 01. Mar. 2018  |           |
 | 15. Mar. 2018  |           |
 | 22. Mar. 2018  |           |
