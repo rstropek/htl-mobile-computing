@@ -258,3 +258,4 @@ math.demoModuleWrapper();
 * Exercises
   * [*Hello World* tutorial for VSCode + Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial#_hello-world)
   * [*Caesar Cipher exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/node-fundamentals/9010-lab-caesar/readme.md)
+  * [*Converter* Quiz](https://github.com/rstropek/htl-mobile-computing/tree/master/node-fundamentals/9030-converter)
