@@ -114,7 +114,7 @@
 | 11. Jan. 2018  |Brandstetter| Net Neutrality
 | 15. Feb. 2018  |Krestan    | Github Pages(why and how useful)
 | 01. Mar. 2018  |Leonhardsberger| Iconic Fonts 
-| 15. Mar. 2018  |           |
+| 15. Mar. 2018  |Lengauer   | Ionic Framework
 | 22. Mar. 2018  |           |
 | 05. Apr. 2018  |Tröbinger  |OpenAI
 | 12. Apr. 2018  |           |
