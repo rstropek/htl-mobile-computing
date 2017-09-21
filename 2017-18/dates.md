@@ -133,7 +133,7 @@
 | 05. Oct. 2017  | Lange     | Privatsphäre am Handy
 | 12. Oct. 2017  | Jakob     | Virtual System / Occulus Rift
 | 19. Oct. 2017  |Diesenreither| Robotik
-| 16. Nov. 2017  |           |
+| 16. Nov. 2017  | Hummel    | WebSocket
 | 23. Nov. 2017  |           |
 | 30. Nov. 2017  |           |
 | 07. Dec. 2017  |           |
