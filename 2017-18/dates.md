@@ -128,7 +128,7 @@
 
 | Date           | Presenter | Topic
 |----------------|-----------|-------
-| 21. Sept. 2017 |           | 
+| 21. Sept. 2017 | Rob       | Home Automatisation and their effect in near future
 | 28. Sept. 2017 |           |
 | 05. Oct. 2017  | Lange     | Privatsphäre am Handy
 | 12. Oct. 2017  |           |
