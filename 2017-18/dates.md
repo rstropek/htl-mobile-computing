@@ -115,7 +115,7 @@
 | 15. Feb. 2018  |Krestan    | Github Pages(why and how useful)
 | 01. Mar. 2018  |Leonhardsberger| Iconic Fonts 
 | 15. Mar. 2018  |Lengauer   | Ionic Framework
-| 22. Mar. 2018  |           |
+| 22. Mar. 2018  |Reichhardt | DeepMind
 | 05. Apr. 2018  |Tröbinger  |OpenAI
 | 12. Apr. 2018  |           |
 | 19. Apr. 2018  |           |
