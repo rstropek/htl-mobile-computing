@@ -115,9 +115,9 @@
 | 15. Feb. 2018  |Krestan    | Github Pages(why and how useful)
 | 01. Mar. 2018  |Leonhardsberger| Iconic Fonts 
 | 15. Mar. 2018  |Lengauer   | Ionic Framework
-| 22. Mar. 2018  |           |
+| 22. Mar. 2018  |Reichhardt | DeepMind
 | 05. Apr. 2018  |Tröbinger  |OpenAI
-| 12. Apr. 2018  |           |
+| 12. Apr. 2018  |Marksteiner| Subreddits
 | 19. Apr. 2018  |           |
 | 26. Apr. 2018  |           |
 | 03. May 2018   |           |
@@ -131,14 +131,14 @@
 | 21. Sept. 2017 | Rob       | Home Automatisation and their effect in near future
 | 28. Sept. 2017 |           |
 | 05. Oct. 2017  | Lange     | Privatsphäre am Handy
-| 12. Oct. 2017  |           |
-| 19. Oct. 2017  |           |
-| 16. Nov. 2017  |           |
+| 12. Oct. 2017  | Jakob     | Virtual System / Occulus Rift
+| 19. Oct. 2017  |Diesenreither| Robotik
+| 16. Nov. 2017  | Hummel    | WebSocket
 | 23. Nov. 2017  |           |
-| 30. Nov. 2017  |           |
+| 30. Nov. 2017  | Dalpiaz   | Creative Commons
 | 07. Dec. 2017  |           |
-| 14. Dec. 2017  |           |
-| 21. Dec. 2017  |           |
+| 14. Dec. 2017  | Karl      |AI
+| 21. Dec. 2017  | Waidhofer | Cryptomining
 | 11. Jan. 2018  |           |
 | 15. Feb. 2018  |           |
 | 01. Mar. 2018  |           |
