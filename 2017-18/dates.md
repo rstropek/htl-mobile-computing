@@ -117,7 +117,7 @@
 | 15. Mar. 2018  |Lengauer   | Ionic Framework
 | 22. Mar. 2018  |Reichhardt | DeepMind
 | 05. Apr. 2018  |Tröbinger  |OpenAI
-| 12. Apr. 2018  |           |
+| 12. Apr. 2018  |Marksteiner| Subreddits
 | 19. Apr. 2018  |           |
 | 26. Apr. 2018  |           |
 | 03. May 2018   |           |
@@ -135,10 +135,10 @@
 | 19. Oct. 2017  |Diesenreither| Robotik
 | 16. Nov. 2017  | Hummel    | WebSocket
 | 23. Nov. 2017  |           |
-| 30. Nov. 2017  |           |
+| 30. Nov. 2017  | Dalpiaz   | Creative Commons
 | 07. Dec. 2017  |           |
 | 14. Dec. 2017  | Karl      |AI
-| 21. Dec. 2017  |           |
+| 21. Dec. 2017  | Waidhofer | Cryptomining
 | 11. Jan. 2018  |           |
 | 15. Feb. 2018  |           |
 | 01. Mar. 2018  |           |
