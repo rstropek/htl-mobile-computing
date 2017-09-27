@@ -1,0 +1,15 @@
+{
+  "name": "9040-battleship",
+  "version": "1.0.0",
+  "description": "Exercise for Mobile Computing course at HTL Perg",
+  "main": "battleship.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='*.html,*.js,*.css'"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
