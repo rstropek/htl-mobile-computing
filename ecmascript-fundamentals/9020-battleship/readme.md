@@ -9,7 +9,9 @@
 
 1. Everybody has to do his/her best to come up with a solution.
 
-1. Earn one point for your grade by sending me a URL where I can try your solution in the public internet.
+1. Earn one point for your grade by sending me a URL where I can try your solution in the public Internet.
+
+1. Earn my **deepest respect** if you add an automated unit test to your solution. You don't know how? Remember the [*Converter* quiz](https://github.com/rstropek/htl-mobile-computing/tree/master/node-fundamentals/9030-converter) you have already done. It contained unit tests that I wrote. My code from the *Converter* quiz can help you to get on the right track to creating your own unit tests for this quiz.
 
 
 ## Specification
