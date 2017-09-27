@@ -135,7 +135,7 @@
 | 19. Oct. 2017  |Diesenreither| Robotik
 | 16. Nov. 2017  | Hummel    | WebSocket
 | 23. Nov. 2017  |           |
-| 30. Nov. 2017  |           |
+| 30. Nov. 2017  | Dalpiaz   | Creative Commons
 | 07. Dec. 2017  |           |
 | 14. Dec. 2017  |           |
 | 21. Dec. 2017  | Waidhofer | Cryptomining
