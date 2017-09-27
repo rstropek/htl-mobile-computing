@@ -136,7 +136,7 @@
 | 16. Nov. 2017  | Hummel    | WebSocket
 | 23. Nov. 2017  |           |
 | 30. Nov. 2017  | Dalpiaz   | Creative Commons
-| 07. Dec. 2017  |           |
+| 07. Dec. 2017  | Tischling | Static Site Generators
 | 14. Dec. 2017  | Karl      |AI
 | 21. Dec. 2017  | Waidhofer | Cryptomining
 | 11. Jan. 2018  |           |
