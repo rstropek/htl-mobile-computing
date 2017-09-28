@@ -6,8 +6,8 @@
 |----------------|-
 | 14. Sept. 2017 | Introduction, [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) Fundamentals
 | 21. Sept. 2017 | [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) Fundamentals
-| 28. Sept. 2017 | Modern [ECMAScript/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
-| 05. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
+| 28. Sept. 2017 | [NPM](https://www.npmjs.com/)
+| 05. Oct. 2017  | Modern [ECMAScript/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
 | 12. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
 | 19. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
 | 26. Oct. 2017  | **Austrian National Day (*Nationalfeiertag*)**
@@ -118,7 +118,7 @@
 | 22. Mar. 2018  |Reichhardt | DeepMind
 | 05. Apr. 2018  |Tröbinger  |OpenAI
 | 12. Apr. 2018  |Marksteiner| Subreddits
-| 19. Apr. 2018  |           |
+| 19. Apr. 2018  |Hinterdorfer|Big Data
 | 26. Apr. 2018  |           |
 | 03. May 2018   |           |
 | 17. May 2018   |           |
@@ -129,18 +129,18 @@
 | Date           | Presenter | Topic
 |----------------|-----------|-------
 | 21. Sept. 2017 | Rob       | Home Automatisation and their effect in near future
-| 28. Sept. 2017 |           |
-| 05. Oct. 2017  | Lange     | Privatsphäre am Handy
+| 28. Sept. 2017 | Lange     | Privatsphäre am Handy
+| 05. Oct. 2017  |           |
 | 12. Oct. 2017  | Jakob     | Virtual System / Occulus Rift
 | 19. Oct. 2017  |Diesenreither| Robotik
 | 16. Nov. 2017  | Hummel    | WebSocket
-| 23. Nov. 2017  |           |
+| 23. Nov. 2017  | Guenther  | Net Neutrality
 | 30. Nov. 2017  | Dalpiaz   | Creative Commons
-| 07. Dec. 2017  | Tischling | Static Site Generators
+| 07. Dec. 2017  | Ellmer    | What is open data
 | 14. Dec. 2017  | Karl      |AI
 | 21. Dec. 2017  | Waidhofer | Cryptomining
 | 11. Jan. 2018  |           |
-| 15. Feb. 2018  |           |
+| 15. Feb. 2018  | Tischling | Static Site Generators
 | 01. Mar. 2018  |           |
 | 15. Mar. 2018  |           |
 | 22. Mar. 2018  |           |
