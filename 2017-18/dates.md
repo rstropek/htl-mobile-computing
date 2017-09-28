@@ -129,8 +129,8 @@
 | Date           | Presenter | Topic
 |----------------|-----------|-------
 | 21. Sept. 2017 | Rob       | Home Automatisation and their effect in near future
-| 28. Sept. 2017 |           |
-| 05. Oct. 2017  | Lange     | Privatsphäre am Handy
+| 28. Sept. 2017 | Lange     | Privatsphäre am Handy
+| 05. Oct. 2017  |           |
 | 12. Oct. 2017  | Jakob     | Virtual System / Occulus Rift
 | 19. Oct. 2017  |Diesenreither| Robotik
 | 16. Nov. 2017  | Hummel    | WebSocket
