@@ -118,7 +118,7 @@
 | 22. Mar. 2018  |Reichhardt | DeepMind
 | 05. Apr. 2018  |Tröbinger  |OpenAI
 | 12. Apr. 2018  |Marksteiner| Subreddits
-| 19. Apr. 2018  |           |
+| 19. Apr. 2018  |Hinterdorfer|Big Data
 | 26. Apr. 2018  |           |
 | 03. May 2018   |           |
 | 17. May 2018   |           |
