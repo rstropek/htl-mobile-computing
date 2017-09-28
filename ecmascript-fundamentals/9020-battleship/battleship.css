@@ -1,0 +1,22 @@
+#battleground {
+    border-collapse: collapse;
+}
+
+#generate {
+    margin-bottom: 15px;
+}
+
+#battleground td {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: 1px solid black;
+}
+
+td.ship {
+    background-color: darkgray;
+}
+
+td.water {
+    background-color: lightblue;
+}
