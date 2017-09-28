@@ -6,8 +6,8 @@
 |----------------|-
 | 14. Sept. 2017 | Introduction, [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) Fundamentals
 | 21. Sept. 2017 | [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) Fundamentals
-| 28. Sept. 2017 | Modern [ECMAScript/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
-| 05. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
+| 28. Sept. 2017 | [NPM](https://www.npmjs.com/)
+| 05. Oct. 2017  | Modern [ECMAScript/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
 | 12. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
 | 19. Oct. 2017  | [TypeScript](http://www.typescriptlang.org/) Fundamentals
 | 26. Oct. 2017  | **Austrian National Day (*Nationalfeiertag*)**
