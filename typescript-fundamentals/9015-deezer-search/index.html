@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deezer Search</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Deezer Search</h1>
+
+    <form action="#">
+        <input id="filter" type="text">
+        <button id="search">Search</button>
+    </form>
+
+    <h2 id="loading" hidden="true">Loading...</h2>
+
+    <table id="result" hidden="true">
+        <thead>
+            <tr>
+                <th>Tile</th>
+                <th>Artist</th>
+            </tr>
+        </thead>
+        <tbody id="resultBody">
+        </tbody>
+    </table>
+</body>
+
+</html>
