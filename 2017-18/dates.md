@@ -141,7 +141,7 @@
 | 21. Dec. 2017  | Waidhofer | Cryptomining
 | 11. Jan. 2018  | Pittersberger | Xamarin
 | 15. Feb. 2018  | Tischling | Static Site Generators
-| 01. Mar. 2018  |           |
+| 01. Mar. 2018  | Kern      | SOAP/REST
 | 15. Mar. 2018  |           |
 | 22. Mar. 2018  |           |
 | 05. Apr. 2018  |           |
