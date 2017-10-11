@@ -1,0 +1,11 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 512px;
+    background-color: white;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

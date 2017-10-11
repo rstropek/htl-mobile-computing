@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Form Validation Sample</title>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer</h1>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First name:</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                <div id="firstNameMandatory" class="alert alert-warning">
+                    First name is mandatory
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last name:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                <div id="lastNameMandatory" class="alert alert-warning">
+                    Last name is mandatory
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                <div id="emailMandatory" class="alert alert-warning">
+                    Email is mandatory if you want to receive our newsletter.
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="mediaChannelSelect">How did you hear from us?</label>
+                <select class="form-control" id="mediaChannelSelect">
+                    <option>Internet</option>
+                    <option>Press</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="otherMediaChannel" rows="3" placeholder="Please describe where you have read about us..."></textarea>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="newsletter">
+                    Subscribe to newsletter
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
