@@ -349,3 +349,4 @@ Exercise: Try this sample with different module systems (e.g. `--module commonjs
   * [*Game of Life* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9010-game-of-life/readme.md)
   * [*Deezer Search* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9015-deezer-search/readme.md)
   * [*Fractal Tree* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9020-fractal-tree/readme.md)
+  * [*Form validation* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/typescript-fundamentals/9025-form-validation/readme.md)
