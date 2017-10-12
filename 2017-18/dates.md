@@ -44,7 +44,7 @@
 | 31. May 2018   | **Corpus Christi (*Fronleichnam*)**
 | 07. June 2018  | **Kultur- und Sprachreise**
 | 14. June 2018  | Discuss exam results
-| 21. June 2018  | Oral exams, Push notifications, exam preparation
+| 21. June 2018  | Oral exams, Push notifications
 | 28. June 2018  | Oral exams
 | 05. July 2018  | TBD
 
