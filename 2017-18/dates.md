@@ -40,11 +40,11 @@
 | 03. May 2018   | Mobile development with [Cordova](http://cordova.apache.org/)
 | 10. May 2018   | **Ascension (*Christi Himmelfahrt*)**
 | 17. May 2018   | Mobile development with [Ionic](https://ionicframework.com/)
-| 24. May 2018   | Push notifications, exam preparation
+| 24. May 2018   | Writen exam
 | 31. May 2018   | **Corpus Christi (*Fronleichnam*)**
-| 07. June 2018  | Writen exam
+| 07. June 2018  | **Kultur- und Sprachreise**
 | 14. June 2018  | Discuss exam results
-| 21. June 2018  | Oral exams
+| 21. June 2018  | Oral exams, Push notifications, exam preparation
 | 28. June 2018  | Oral exams
 | 05. July 2018  | TBD
 
