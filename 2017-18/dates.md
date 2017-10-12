@@ -40,11 +40,11 @@
 | 03. May 2018   | Mobile development with [Cordova](http://cordova.apache.org/)
 | 10. May 2018   | **Ascension (*Christi Himmelfahrt*)**
 | 17. May 2018   | Mobile development with [Ionic](https://ionicframework.com/)
-| 24. May 2018   | Push notifications, exam preparation
+| 24. May 2018   | Writen exam
 | 31. May 2018   | **Corpus Christi (*Fronleichnam*)**
-| 07. June 2018  | Writen exam
+| 07. June 2018  | **Kultur- und Sprachreise**
 | 14. June 2018  | Discuss exam results
-| 21. June 2018  | Oral exams
+| 21. June 2018  | Oral exams, Push notifications
 | 28. June 2018  | Oral exams
 | 05. July 2018  | TBD
 
@@ -142,7 +142,7 @@
 | 11. Jan. 2018  | Pittersberger | Xamarin
 | 15. Feb. 2018  | Tischling | Static Site Generators
 | 01. Mar. 2018  | Kern      | SOAP/REST
-| 15. Mar. 2018  |           |
+| 15. Mar. 2018  | Weber     | Autonomic driving
 | 22. Mar. 2018  |           |
 | 05. Apr. 2018  |           |
 | 12. Apr. 2018  |           |
