@@ -1,0 +1,15 @@
+{
+  "name": "9030-cognitive-services",
+  "version": "1.0.0",
+  "description": "Sample for Mobile Computing lecture at HTL Perg",
+  "main": "app.js",
+  "scripts": {},
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "dependencies": {
+    "typed-rest-client": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.50"
+  }
+}
