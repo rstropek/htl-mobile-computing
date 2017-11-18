@@ -1,7 +1,7 @@
 const pokemonList = document.getElementById('pokemons');
 
 (async function() {
-    const response = await fetch('http://pokeapi.co/api/v2/pokemon/');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/');
     const pokelist = await response.json();
 
     let html = '';

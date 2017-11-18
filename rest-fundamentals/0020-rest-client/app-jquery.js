@@ -1,5 +1,5 @@
 (async function() {
-    const pokelist = await $.get('http://pokeapi.co/api/v2/pokemon/');
+    const pokelist = await $.get('https://pokeapi.co/api/v2/pokemon/');
 
     let html = '';
     for(const pokemon of pokelist.results) {
