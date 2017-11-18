@@ -37,12 +37,12 @@ Introduction to [REST](https://en.wikipedia.org/wiki/Representational_state_tran
 ## Sample Requests
 
 ```
-GET http://pokeapi.co/api/v2/pokemon HTTP/1.1
+GET https://pokeapi.co/api/v2/pokemon HTTP/1.1
 Accept: application/json
 
 ###
 
-GET http://pokeapi.co/api/v2/pokemon/1/ HTTP/1.1
+GET https://pokeapi.co/api/v2/pokemon/1/ HTTP/1.1
 Accept: application/json
 ```
 
@@ -108,7 +108,7 @@ Exercise: Try this sample with different REST clients
 const pokemonList = document.getElementById('pokemons');
 
 (function() {
-fetch('http://pokeapi.co/api/v2/pokemon/').then(response => {
+fetch('https://pokeapi.co/api/v2/pokemon/').then(response => {
   response.json().then(pokelist => {
     let html = '';
     for (const pokemon of pokelist.results) {
@@ -131,7 +131,7 @@ With `async/await`:
 const pokemonList = document.getElementById('pokemons');
 
 (async function() {
-    const response = await fetch('http://pokeapi.co/api/v2/pokemon/');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/');
     const pokelist = await response.json();
 
     let html = '';
@@ -151,7 +151,7 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 ```
 (async function() {
-    const pokelist = await $.get('http://pokeapi.co/api/v2/pokemon/');
+    const pokelist = await $.get('https://pokeapi.co/api/v2/pokemon/');
 
     let html = '';
     for(const pokemon of pokelist.results) {
