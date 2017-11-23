@@ -76,6 +76,7 @@ Exercise: Try this sample with different REST clients
 
 * Old but still relevant: [*XMLHttpRequest*](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * Newer, but only in modern browsers: [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch)
+  * [Detailed MDN documentation about *fetch*...](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
 
 ```
 <!--#include file="rest-fundamentals/0020-rest-client/app-promise.js" -->
