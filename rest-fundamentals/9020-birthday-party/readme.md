@@ -7,7 +7,7 @@ In this exercise, you have to build a RESTful Web API that can act as the backen
 
 ## Requirements
 
-* A *GET* request to `http://localhost:8080/partys` returns master data of the party including title, location and date.
+* A *GET* request to `http://localhost:8080/parties` returns master data of the party including title, location and date.
   * This API must be open for everybody. No authentication is necessary.
 * Apps can register a guest for the party by sending a *POST* request to `http://localhost:8080/register`.
   * This API must be open for everybody. No authentication is necessary.
