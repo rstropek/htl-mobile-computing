@@ -16,5 +16,5 @@ Here are the parameters that you are going to need to generate the access token:
 * Supported grant type: *Authorization Code*
 * ID of your *client*: `Vnsp3nAmhPXe5c9KzpIHRD3rRBXH3Wvy`
 * Secret of your *client*: `1mTex860v_YgVn7EMgHVKf9Bz9YcCtBZI0PHlVqB0c1o6x-45RjluyM8ZNJuUGoA`
-* Supported *redirect URI*: `http://localhost:8080/`
+* Supported *redirect URI*: `https://localhost:8080/`
 
