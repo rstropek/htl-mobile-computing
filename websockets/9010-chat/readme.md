@@ -21,7 +21,7 @@ In this exercise, you have to build a chat application using [Websockets](https:
 
 ## Hints
 
-* Use [Socket.io](https://socket.io) on the server- and client-side. Before starting to code, read [Socket.io's *getting started* document].
+* Use [Socket.io](https://socket.io) on the server- and client-side. Before starting to code, read [Socket.io's *getting started* document](https://socket.io/get-started/chat/).
 * *Socket.io*'s type definitions are available: [*@types/socket.io*](https://www.npmjs.com/package/@types/socket.io)
 * Serve static files (e.g. HTML, client-side JavaScript) using [express.js](http://expressjs.com/en/starter/static-files.html)
 
