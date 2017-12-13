@@ -4,7 +4,7 @@
   "description": "Sample for HTL course Mobile Computing",
   "main": "server.js",
   "scripts": {
-    "rebuild": "trash ./dist && tsc && cpx ./public/index.html ./dist/public/index.html",
+    "rebuild": "trash ./dist && tsc && cpx ./public/index.html ./dist/public/",
     "start": "node ./dist/server.js"
   },
   "author": "Rainer Stropek",
