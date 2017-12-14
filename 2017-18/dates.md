@@ -65,8 +65,8 @@
 | 23. Nov. 2017  | G2: [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
 | 30. Nov. 2017  | G1: [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
 | 07. Dec. 2017  | G2: [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
-| 14. Dec. 2017  | 
-| 21. Dec. 2017  | 
+| 14. Dec. 2017  | G1: [*Chat* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/websockets/9010-chat/readme.md)
+| 21. Dec. 2017  | G2: [*Chat* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/websockets/9010-chat/readme.md)
 | 28. Dec. 2017  | **Christmas Break (*Weihnachtsferien*)**
 | 04. Jan. 2018  | **Christmas Break (*Weihnachtsferien*)**
 | 11. Jan. 2018  | 
