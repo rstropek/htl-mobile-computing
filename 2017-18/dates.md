@@ -111,7 +111,7 @@
 | 07. Dec. 2017  |Baylan     |Headless Browsers
 | 14. Dec. 2017  |Primetzhofer|Electron
 | 21. Dec. 2017  |Riedl      | Native Script
-| 11. Jan. 2018  |Brandstetter| Net Neutrality
+| 11. Jan. 2018  |Brandstetter| IOTA
 | 15. Feb. 2018  |Krestan    | Github Pages(why and how useful)
 | 01. Mar. 2018  |Leonhardsberger| Iconic Fonts 
 | 15. Mar. 2018  |Lengauer   | Ionic Framework
