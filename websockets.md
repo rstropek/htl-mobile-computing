@@ -104,6 +104,63 @@ setInterval(() => broadcast((i++).toString()), 1000);
 
 
 <!-- .slide: class="left" -->
+## *Socket.io* Server
+
+```
+import * as express from 'express';
+import * as http from 'http';
+import * as sio from 'socket.io'
+
+const app = express();
+app.use(express.static(__dirname + '/public'));
+const server = http.createServer(app);
+server.listen(3000);
+
+sio(server).on('connection', function(socket) {
+  socket.on('message', function(message) {
+    socket.emit('greet', `echo ${message}`);
+  });
+  socket.emit('greet', 'Welcome!');
+});
+```
+
+
+<!-- .slide: class="left" -->
+## *Socket.io* HTML
+
+```
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Socket IO</title>
+</head>
+
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
+```
+
+
+<!-- .slide: class="left" -->
+## *Socket.io* Client
+
+```
+declare const io: SocketIOStatic;
+
+const socket = io();
+socket.on('greet', function(message) {
+  console.log(`Received: ${message}`);
+});
+socket.emit('message', 'Hello World!');
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
