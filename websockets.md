@@ -76,6 +76,30 @@ Introduction to [Websockets](https://en.wikipedia.org/wiki/WebSocket)
 
 
 <!-- .slide: class="left" -->
+## *Socket.io* Server
+
+```
+<!--#include file="websockets/0020-sio-intro/server.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## *Socket.io* HTML
+
+```
+<!--#include file="websockets/0020-sio-intro/public/index.html" -->
+```
+
+
+<!-- .slide: class="left" -->
+## *Socket.io* Client
+
+```
+<!--#include file="websockets/0020-sio-intro/public/main.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...

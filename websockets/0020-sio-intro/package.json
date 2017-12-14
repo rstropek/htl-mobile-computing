@@ -1,0 +1,24 @@
+{
+  "name": "socketio-chat-sample",
+  "version": "1.0.0",
+  "description": "Sample for HTL course Mobile Computing",
+  "main": "server.js",
+  "scripts": {
+    "rebuild": "trash ./dist && tsc && cpx ./public/index.html ./dist/public/",
+    "start": "node ./dist/server.js"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/socket.io": "^1.4.31",
+    "concurrently": "^3.5.1",
+    "cpx": "^1.5.0",
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.6.2"
+  }
+}
