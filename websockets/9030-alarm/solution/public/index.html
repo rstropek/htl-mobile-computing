@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Server-side Wakeup Call</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background: lightgray;
+        }
+
+        li {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Set Alarm</h1>
+
+    <p>
+        <span>Wake me in</span>
+        <input id="wakeInSeconds" type="number" />
+        <span>Seconds</span>
+        <button id="setAlarm">Set Alarm</button>
+    </p>
+
+    <ul id="alarmList" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>

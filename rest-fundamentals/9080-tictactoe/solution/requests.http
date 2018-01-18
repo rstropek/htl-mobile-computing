@@ -1,0 +1,34 @@
+POST http://localhost:8080/api/getWinner
+Content-Type: application/json
+
+[" ", "X", "O", 
+ "O", "X", " ", 
+ " ", "X", "O"]
+
+###
+POST http://localhost:8080/api/getWinner
+Content-Type: application/json
+
+[" ", "X", "O",
+ "O", "X", " ",
+ " ", "O", " "]
+
+###
+POST http://localhost:8080/api/getWinner
+Content-Type: application/json
+
+[" ", "X", "O",
+ "O", "X", " ",
+ " ", "O"]
+
+###
+POST http://localhost:8080/api/getWinner
+Content-Type: application/json
+
+"dummy"
+
+###
+GET http://localhost:8080/api/getWinner?board=,X,O,O,X,,,X,O
+
+###
+GET http://localhost:8080/api/getWinner?board=,,,X

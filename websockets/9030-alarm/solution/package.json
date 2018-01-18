@@ -1,0 +1,12 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "Sample for HTL course Mobile Computing",
+  "main": "server.js",
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}

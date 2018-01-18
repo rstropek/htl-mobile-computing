@@ -1,0 +1,22 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^1.3.0",
+    "nedb": "^1.8.0",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/nedb": "^1.8.5",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/restify": "^5.0.7",
+    "typescript": "^2.6.2"
+  }
+}

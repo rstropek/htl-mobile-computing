@@ -1,0 +1,13 @@
+GET http://localhost:8080/api/toDoItems
+
+###
+POST http://localhost:8080/api/toDoItems
+Content-Type: text/plain
+
+Einkaufen
+
+###
+GET http://localhost:8080/api/toDoItems/MXdzY2yO5rnZoZeg
+
+###
+POST http://localhost:8080/api/toDoItems/MXdzY2yO5rnZoZeg/setDone

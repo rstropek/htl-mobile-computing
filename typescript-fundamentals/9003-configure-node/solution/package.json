@@ -1,0 +1,22 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/server.js",
+    "watch": "tsc --watch",
+    "clean": "trash ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/restify": "^5.0.7",
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.6.2"
+  }
+}
