@@ -201,7 +201,7 @@ Image | Description
 
 ```
 FROM nginx
-MAINTAINER Rainer Stropek "rainer@timecockpit.com"
+LABEL Author="Rainer Stropek"
 ENV REFRESHED_AT 2018-01-01
 RUN apt-get -qq update
 COPY *.html /usr/share/nginx/html/
