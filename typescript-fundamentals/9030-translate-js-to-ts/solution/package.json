@@ -1,0 +1,22 @@
+{
+  "name": "question-01",
+  "version": "1.0.0",
+  "description": "Exam question",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/server.js",
+    "clean": "trash ./dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-status-codes": "^1.3.0",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/restify": "^5.0.7",
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.6.2"
+  }
+}

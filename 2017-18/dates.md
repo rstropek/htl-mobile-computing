@@ -24,7 +24,7 @@
 | 11. Jan. 2018  | [Swagger](https://swagger.io/)/[Open API](https://www.openapis.org/), exam preparation
 | 18. Jan. 2018  | Written exam
 | 25. Jan. 2018  | Discuss exam results
-| 01. Feb. 2018  | Oral exams
+| 01. Feb. 2018  | Oral exams, [Docker](https://www.docker.com/) fundamentals
 | 08. Feb. 2018  | Oral exams, [Docker](https://www.docker.com/) fundamentals
 | 15. Feb. 2018  | [Docker](https://www.docker.com/) fundamentals
 | 22. Feb. 2018  | **Semester Break (*Semesterferien*)**
@@ -71,8 +71,8 @@
 | 04. Jan. 2018  | **Christmas Break (*Weihnachtsferien*)**
 | 11. Jan. 2018  | 
 | 18. Jan. 2018  | **Exam**
-| 25. Jan. 2018  | 
-| 01. Feb. 2018  | 
+| 25. Jan. 2018  | G1: [*Docker* exercise](https://github.com/rstropek/htl-mobile-computing/tree/master/docker/0020-node-website)
+| 01. Feb. 2018  | G2: [*Docker* exercise](https://github.com/rstropek/htl-mobile-computing/tree/master/docker/0020-node-website)
 | 08. Feb. 2018  | 
 | 15. Feb. 2018  | 
 | 22. Feb. 2018  | **Semester Break (*Semesterferien*)**

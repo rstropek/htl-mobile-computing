@@ -1,0 +1,22 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./hangman-logic.js",
+  "types": "./hangman-logic.d.ts",
+  "scripts": {
+    "clean": "trash ./dist && trash ./dist-test",
+    "build": "tsc && cpx package.json ./dist && node tools/cleanup.js",
+    "build-test": "tsc -p tsconfig-test.json",
+    "test": "npm run build-test && jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "cpx": "^1.5.0",
+    "jasmine": "^2.9.0",
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.6.2"
+  }
+}

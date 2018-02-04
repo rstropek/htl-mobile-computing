@@ -1,0 +1,19 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cpx ./src/**/*.html ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chokidar": "^1.7.4",
+    "cpx": "^1.5.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.0"
+  }
+}
