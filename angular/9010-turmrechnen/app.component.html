@@ -1,0 +1,28 @@
+<table>
+  <tr>
+    <td>Start Value:</td>
+    <td><input [(ngModel)]="startValue" /></td>
+  </tr>
+  <tr>
+    <td>Height:</td>
+    <td>
+      <input [(ngModel)]="height" />
+      <span class="error-message" *ngIf="height < 2">
+        Height must be >= 2
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><button (click)="calculate()" [disabled]="height < 2">Calculate</button></td>
+</table>
+
+<table>
+  <tr *ngFor="let line of result">
+    <td class="right">{{ line.startValue }}</td>
+    <td>{{ line.operator }}</td>
+    <td>{{ line.parameter }}</td>
+    <td>&nbsp;=&nbsp;</td>
+    <td>{{ line.result }}</td>
+  </tr>
+</table>
