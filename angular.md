@@ -119,6 +119,7 @@ ng serve
 * [Template reference variables](https://angular.io/guide/template-syntax#template-reference-variables--var-)
 * [*Input* and *Output* properties](https://angular.io/guide/template-syntax#input-and-output-properties)
 
+
 <!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
