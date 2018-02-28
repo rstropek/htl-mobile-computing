@@ -79,6 +79,25 @@ ng serve
 
 
 <!-- .slide: class="left" -->
+## *Forms* Module
+
+> For two-way binding you need the `FormsModule`
+
+```
+...
+import { FormsModule } from '@angular/forms'
+...
+@NgModule({
+  ...
+  imports: [
+    ..., FormsModule, ...
+  ], ...
+})
+export class AppModule { }
+```
+
+
+<!-- .slide: class="left" -->
 ## Template & Data Binding
 
 * Define HTML *layout* and *structure*
@@ -121,10 +140,77 @@ ng serve
 
 
 <!-- .slide: class="left" -->
+## Consuming Web APIs
+
+* Use module `HttpClientModule`
+* Read more in [Angular docs...](https://angular.io/guide/http)
+
+```
+...
+import { HttpClientModule } from '@angular/common/http';
+
+@NgModule({
+  imports: [ ..., HttpClientModule, ... ],
+  declarations: ...,
+  bootstrap: ...
+})
+export class AppModule {}
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+Get instance of `HttpClient` in constructor (*Dependency Injection*)
+
+```
+...
+import { HttpClient } from '@angular/common/http';
+
+@Component(...)
+export class MyComponent {
+  constructor(private http: HttpClient) { ... }
+  ...
+}
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+```
+<!--#include file="angular/0020-http-client/app.component.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+```
+<!--#include file="angular/0020-http-client/app.component.html" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+| Method   | Docs link
+|----------|----------------------------------------------------------
+| `get`    | [Read more...](https://angular.io/api/common/http/HttpClient#get)
+| `post`   | [Read more...](https://angular.io/api/common/http/HttpClient#post)
+| `patch`  | [Read more...](https://angular.io/api/common/http/HttpClient#patch)
+| `put`    | [Read more...](https://angular.io/api/common/http/HttpClient#put)
+| `delete` | [Read more...](https://angular.io/api/common/http/HttpClient#delete)
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
   * [Angular Documentation](https://angular.io/docs)
   * [Angular Tutorial](https://angular.io/tutorial)
   * [Angular Cheat Sheet](https://angular.io/guide/cheatsheet)
+  * [Angular and RxJS](https://angular.io/guide/observables)
+  * [ReactiveX Library](http://reactivex.io/rxjs/manual/index.html)
 * Exercises
+  * [Introduction in RxJS](https://github.com/rstropek/htl-mobile-computing/blob/master/angular/0030-rxjs/)
