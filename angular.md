@@ -79,6 +79,25 @@ ng serve
 
 
 <!-- .slide: class="left" -->
+## *Forms* Module
+
+> For two-way binding you need the `FormsModule`
+
+```
+...
+import { FormsModule } from '@angular/forms'
+...
+@NgModule({
+  ...
+  imports: [
+    ..., FormsModule, ...
+  ], ...
+})
+export class AppModule { }
+```
+
+
+<!-- .slide: class="left" -->
 ## Template & Data Binding
 
 * Define HTML *layout* and *structure*
@@ -121,10 +140,97 @@ ng serve
 
 
 <!-- .slide: class="left" -->
+## Consuming Web APIs
+
+* Use module `HttpClientModule`
+* Read more in [Angular docs...](https://angular.io/guide/http)
+
+```
+...
+import { HttpClientModule } from '@angular/common/http';
+
+@NgModule({
+  imports: [ ..., HttpClientModule, ... ],
+  declarations: ...,
+  bootstrap: ...
+})
+export class AppModule {}
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+Get instance of `HttpClient` in constructor (*Dependency Injection*)
+
+```
+...
+import { HttpClient } from '@angular/common/http';
+
+@Component(...)
+export class MyComponent {
+  constructor(private http: HttpClient) { ... }
+  ...
+}
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+```
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
+
+interface IPerson { name: string; }
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
+})
+export class AppComponent  {
+  public people: Observable<IPerson[]>;
+  constructor(private httpClient: HttpClient) { 
+    this.people = httpClient.get<IPerson[]>('http://localhost:8080/api/people');
+  }
+}
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+```
+<h1>People</h1>
+
+<ul>
+  <li *ngFor="let person of people | async">{{ person.name }}</li>
+</ul>
+```
+
+
+<!-- .slide: class="left" -->
+## Consuming Web APIs
+
+| Method   | Docs link
+|----------|----------------------------------------------------------
+| `get`    | [Read more...](https://angular.io/api/common/http/HttpClient#get)
+| `post`   | [Read more...](https://angular.io/api/common/http/HttpClient#post)
+| `patch`  | [Read more...](https://angular.io/api/common/http/HttpClient#patch)
+| `put`    | [Read more...](https://angular.io/api/common/http/HttpClient#put)
+| `delete` | [Read more...](https://angular.io/api/common/http/HttpClient#delete)
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
   * [Angular Documentation](https://angular.io/docs)
   * [Angular Tutorial](https://angular.io/tutorial)
   * [Angular Cheat Sheet](https://angular.io/guide/cheatsheet)
+  * [Angular and RxJS](https://angular.io/guide/observables)
+  * [ReactiveX Library](http://reactivex.io/rxjs/manual/index.html)
 * Exercises
+  * [Introduction in RxJS](https://github.com/rstropek/htl-mobile-computing/blob/master/angular/0030-rxjs/)
