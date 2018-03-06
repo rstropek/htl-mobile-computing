@@ -1,0 +1,23 @@
+<h1>Zahlenraten</h1>
+
+<p>Versuche, die Zahl zwischen 0 und 100 zu erraten</p>
+<div>
+	Dein Tipp:
+	<input type="number" [(ngModel)]="guess">
+	<button (click)="checkGuess()" [disabled]="!guess">Überprüfen</button>
+	<button (click)="newGame()" [hidden]="!(status == 0)">Neues Spiel</button>
+</div>
+{{ randomNumber }}
+<div>
+	<span [hidden]="!(status > 0)">Zu hoch</span>
+	<span [hidden]="!(status < 0)">Zu niedrig</span>
+	<span [hidden]="!(status == 0)">Erraten</span>
+</div>
+
+<ol>
+	<li *ngFor="let item of history; index as i">{{ item }}
+		<span [hidden]="!(statuses[i] > 0)">Zu hoch</span>
+		<span [hidden]="!(statuses[i] < 0)">Zu niedrig</span>
+		<span [hidden]="!(statuses[i] == 0)">Erraten</span>
+  </li>
+</ol>
