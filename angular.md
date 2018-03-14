@@ -261,3 +261,4 @@ export class MyComponent {
   * [ReactiveX Library](http://reactivex.io/rxjs/manual/index.html)
 * Exercises
   * [Introduction in RxJS](https://github.com/rstropek/htl-mobile-computing/blob/master/angular/0030-rxjs/)
+  
