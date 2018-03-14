@@ -28,3 +28,5 @@ This repository contains slides (based on *Markdown*), hands-on exercises with s
 * RESTful Web APIs ([exercises](https://github.com/rstropek/htl-mobile-computing/tree/master/rest-fundamentals))
 * OAuth2 and OpenID Connect Fundamentals
 * WebSockets Fundamentals ([exercises](https://github.com/rstropek/htl-mobile-computing/tree/master/websockets))
+* Docker Fundamentals ([exercises](https://github.com/rstropek/htl-mobile-computing/tree/master/docker))
+* Angular Fundamentals ([exercises](https://github.com/rstropek/htl-mobile-computing/tree/master/angular))
