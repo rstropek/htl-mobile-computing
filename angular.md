@@ -339,6 +339,83 @@ export class CustomerDetailsComponent implements OnInit {
 
 
 <!-- .slide: class="left" -->
+## Recap: SVG
+
+* [*Scalable Vector Graphics*](https://developer.mozilla.org/en-US/docs/Web/SVG)
+  * [SVG Guide](https://svgontheweb.com/)
+* Vector graphics in browsers
+* Great tool support (e.g. [Inkscape](https://inkscape.org/))
+* Great community resources
+  * CC0 images (use e.g. Google image search to find them on the internet)
+  * Libraries (e.g. [d3](https://d3js.org/), [SnapSVG](http://snapsvg.io/))
+* CSS styling and animations ([samples](https://www.hongkiat.com/blog/svg-animations/))
+* Works well with Angular
+  * Can be used nearly exactly like HTML elements
+  * Data binding for SVG attributes: Use Angular's [attribute bindings](https://angular.io/guide/template-syntax#attribute-binding)
+* [SVG element reference on MDN...](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+* Create simple grid layouts for web apps with ease
+* Based on [Flexbox CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+* Angular module available ([*@angular/flex-layout*](https://github.com/angular/flex-layout))
+  * [Video of *AngularConnect* talk](https://youtu.be/geqjUtKJX5s)
+* See [interactive demo](https://tburleson-layouts-demos.firebaseapp.com/#/docs) ([source code](https://github.com/angular/flex-layout/tree/master/src/apps/demo-app/src/app)) to learn functionality
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+```
+<h2>Static Layout</h2>
+<div fxLayout="row">
+    <button>E1</button><button>E2</button><button>E3</button>
+</div>
+
+<h2>Data Binding</h2>
+<button (click)="rowColumnLayout = rowColumnLayout == 'column' ? 'row' : 'column'">
+    Switch layout</button>
+<div [fxLayout]="rowColumnLayout">
+    <button>E1</button><button>E2</button><button>E3</button>
+</div>
+
+<h2>Nested Layout</h2>
+<div fxLayout="column">
+    <button>E1</button>
+    <div fxLayout="row">
+        <button fxFlex="100px">E2.1</button><button fxFlex="grow">E2.2</button>
+    </div>
+    <button>E3</button>
+</div>
+```
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+```
+<h1>Ordering</h1>
+
+<h2>Static Ordering</h2>
+<div fxLayout="row">
+    <button fxFlexOrder="1">Element 1</button>
+    <button fxFlexOrder="3">Element 3</button>
+    <button fxFlexOrder="2">Element 2</button>
+</div>
+
+<h2>Data Binding</h2>
+<button (click)="element3Order = element3Order == 30 ? 15 : 30">Switch order</button>
+<div fxLayout="row">
+    <button fxFlexOrder="10">Element 1</button>
+    <button [fxFlexOrder]="element3Order">Element 3</button>
+    <button fxFlexOrder="20">Element 2</button>
+</div>
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
