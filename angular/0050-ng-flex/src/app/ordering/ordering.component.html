@@ -1,0 +1,16 @@
+<h1>Ordering</h1>
+
+<h2>Static Ordering</h2>
+<div fxLayout="row">
+    <button fxFlexOrder="1">Element 1</button>
+    <button fxFlexOrder="3">Element 3</button>
+    <button fxFlexOrder="2">Element 2</button>
+</div>
+
+<h2>Data Binding</h2>
+<button (click)="element3Order = element3Order == 30 ? 15 : 30">Switch order</button>
+<div fxLayout="row">
+    <button fxFlexOrder="10">Element 1</button>
+    <button [fxFlexOrder]="element3Order">Element 3</button>
+    <button fxFlexOrder="20">Element 2</button>
+</div>

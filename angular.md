@@ -251,6 +251,49 @@ export class MyComponent {
 
 
 <!-- .slide: class="left" -->
+## Recap: SVG
+
+* [*Scalable Vector Graphics*](https://developer.mozilla.org/en-US/docs/Web/SVG)
+  * [SVG Guide](https://svgontheweb.com/)
+* Vector graphics in browsers
+* Great tool support (e.g. [Inkscape](https://inkscape.org/))
+* Great community resources
+  * CC0 images (use e.g. Google image search to find them on the internet)
+  * Libraries (e.g. [d3](https://d3js.org/), [SnapSVG](http://snapsvg.io/))
+* CSS styling and animations ([samples](https://www.hongkiat.com/blog/svg-animations/))
+* Works well with Angular
+  * Can be used nearly exactly like HTML elements
+  * Data binding for SVG attributes: Use Angular's [attribute bindings](https://angular.io/guide/template-syntax#attribute-binding)
+* [SVG element reference on MDN...](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+* Create simple grid layouts for web apps with ease
+* Based on [Flexbox CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+* Angular module available ([*@angular/flex-layout*](https://github.com/angular/flex-layout))
+  * [Video of *AngularConnect* talk](https://youtu.be/geqjUtKJX5s)
+* See [interactive demo](https://tburleson-layouts-demos.firebaseapp.com/#/docs) ([source code](https://github.com/angular/flex-layout/tree/master/src/apps/demo-app/src/app)) to learn functionality
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+```
+<!--#include file="angular/0050-ng-flex/src/app/simple-layouts/simple-layouts.component.html" -->
+```
+
+
+<!-- .slide: class="left" -->
+## Flex Layout
+
+```
+<!--#include file="angular/0050-ng-flex/src/app/ordering/ordering.component.html" -->
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
