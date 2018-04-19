@@ -416,6 +416,55 @@ export class CustomerDetailsComponent implements OnInit {
 
 
 <!-- .slide: class="left" -->
+## Progressive Web Apps
+
+* Web apps get important features of desktop apps
+* Examples:
+  * Runs offline, too
+  * Push notifications
+  * Homescreen icon
+  * Work on different screen sizes (*response design*)
+* Learn more:
+  * [Google's Progressive Web Apps Training](https://developers.google.com/web/ilt/pwa/)
+  * [Video about Progressive Web Apps from Google I/O 2017](https://www.youtube.com/watch?v=m-sCdS0sQO8)
+  * [Service Worker Tutorial](https://developers.google.com/web/fundamentals/codelabs/)
+
+
+<!-- .slide: class="left" -->
+## Angular Service Worker
+
+* Started in version *Angular 5* and *Angular CLI 1.6*
+* Supported by *Angular CLI*
+  * `--service-worker` switch for `ng new` command
+  * Generates `"serviceWorker": true` option in *.angular-cli.json*
+  * Adds the `@angular/service-worker` NPM package
+  * Calls `ServiceWorkerModule.register` in *app.module.ts*
+  * Creates the *ngsw-config.json* configuration file
+* Only active for production build
+  * `--prod` switch in `ng build` command
+  * For results, see *dist* folder
+  * Use `http-server` NPM package or *Chrome Development Webserver* to test
+
+
+<!-- .slide: class="left" -->
+## Angular Service Worker Configuration
+
+```json
+{
+  "index": "/index.html",
+  "assetGroups": [...],
+  "assetGroups": [...],
+  "dataGroups": [...]
+}
+```
+
+* [Documentation](https://angular.io/guide/service-worker-config)
+* `assetGroups`: For resources that are part of the app version
+* `dataGroups`: For data that is *not* part of the app (e.g. API results)
+* [Service worker demo application](https://github.com/rstropek/htl-mobile-computing/blob/master/angular/0060-service-worker/)
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
