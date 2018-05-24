@@ -1,0 +1,7 @@
+mat-list-item {
+    margin-left: 25px;
+}
+
+mat-list-item p {
+    margin-left: 15px!important;
+}
