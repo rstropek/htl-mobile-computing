@@ -1,0 +1,23 @@
+<form>
+  <h1>Some Form</h1>
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Example label</label>
+    <!--
+      BUG: Something is broken here. We want to do two-way data binding here but the code
+           as it is does not compile. Find the error and fix it.
+    -->
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input"
+      name="value1" [(ngModule)]="value1">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Another label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"
+      name="value2" [(ngModel)]="value2">
+  </div>
+  <!--
+    BUG: Something is broken here. We want to disable the button if isValid returns false. However,
+         the code as it is does not work. Find the error and fix it.
+  -->
+  <button class="btn btn-primary" type="submit" disabled="!isValid()">Submit form</button>
+</form>

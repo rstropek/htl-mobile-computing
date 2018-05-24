@@ -1,0 +1,17 @@
+# @baseUrl = http://localhost:5000/api
+@baseUrl = http://lotto.westeurope.azurecontainer.io/api
+
+###
+# Send a new tip
+POST {{baseUrl}}/tip
+Accept: application/json
+Content-Type: application/json
+
+{
+    "numbers": [1, 2, 3, 4, 5, 45],
+    "joker": true
+}
+
+###
+GET {{baseUrl}}/tip?receiptNumber=12345
+Accept: application/json
