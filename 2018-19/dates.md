@@ -13,8 +13,8 @@
 | 25. Oct. 2018  |
 | 01. Nov. 2018  | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |
-| 15. Nov. 2018  | **Written Exam**
-| 22. Nov. 2018  |
+| 15. Nov. 2018  |
+| 22. Nov. 2018  | **Written Exam**
 | 29. Nov. 2018  |
 | 06. Dec. 2018  |
 | 13. Dec. 2018  |
