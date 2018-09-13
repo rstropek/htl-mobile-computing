@@ -3,6 +3,7 @@
 Dates, Lightning Talks, Exams, Grading, etc.
 
 
+<!-- .slide: class="left" -->
 ## CLIL - Let's Switch to English
 
 * [*Content and Language Integrated Learning*](http://www.htl.at/htlat/schwerpunktportale/clil-content-and-language-integrated-learning.html)
@@ -21,7 +22,7 @@ Dates, Lightning Talks, Exams, Grading, etc.
 <!-- .slide: class="left" -->
 ## Course Organization
 
-* [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+* [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2018-19/dates.md)
 * [Get Course Material](https://github.com/rstropek/htl-mobile-computing/) from GitHub
   * Feel free to contribute
 * Curriculum ([source](http://www.htl.at/fileadmin//content/Lehrplan/HTL_VO_262_2015/BGBl_II_Nr_262_2015_Anlage_1.10.pdf))
@@ -32,9 +33,12 @@ Dates, Lightning Talks, Exams, Grading, etc.
 <!-- .slide: class="left" -->
 ## Lessons
 
-* 10 minutes for [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk)
-* Lesson content: A bit of theory, many demos
-* Approx. 5-10 minutes discussion and summary
+* Theory lessons
+  * 10 minutes for [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk)
+  * Lesson content: A bit of theory, many demos
+* Exercise lessons
+  * Mainly exercises on GitHub
+  * A few official tutorials
 
 
 <!-- .slide: class="left" -->
@@ -45,51 +49,58 @@ Dates, Lightning Talks, Exams, Grading, etc.
   * Consider [PechaKucha](https://en.wikipedia.org/wiki/PechaKucha)-style
   * Examples: [PechaKucha](https://youtu.be/XBhTaL7RpA8), ["Nerdy" one with demo](https://www.destroyallsoftware.com/talks/wat)
 * Any interesting technology topic (preferably mobile computing-related)
-  * [Suggestions](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/lightning-talk-suggestions.md)
-* Online form for [submitting topics](https://goo.gl/forms/0xIczpjIyGKRb6sl1)
-  * Get an **extra point** for [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+  * [Suggestions](https://github.com/rstropek/htl-mobile-computing/blob/master/2018-19/lightning-talk-suggestions.md)
+* Add your talk's subject to [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2018-19/dates.md) (details will follow later)
 
 
 <!-- .slide: class="left" -->
-## Lightning Talks Grading
+## Lightning Talks Grading Criteria
 
-| Criteria | Points |
-|---------------------------------------------------------------------------|------------|
-| Prepared for the presentation (e.g. handout, PPT, demo) | 20 |
-| Structure of the presentation | 5 |
-| Demonstrated understanding of the material | 20 |
-| Demonstrated critical thinking skills | 15 |
-| Took information from different sources and created something interesting | 25 |
-| Time management skills (concise presentation in <= 7 minutes) | 15 |
+* Prepared for the presentation (e.g. handout, PPT, demo)
+* Structure of the presentation
+* Demonstrated understanding of the material
+* Demonstrated critical thinking skills
+* Took information from different sources and created something interesting
+* Time management skills (concise presentation in <= 7 minutes)
 
 
 <!-- .slide: class="left" -->
 ## Exams
 
-* Two written exams
-  * Multiple-choice theory questions
-  * Case studies
+* *Four* written exams
   * Practical programming
-* Optional oral exams
+* One *optional* oral exam per semester
   * Chance to mend bad mark in written exam
-* Dates see [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2017-18/dates.md)
+  * Requested by teacher *or you*
+* Dates see [Online Course Calendar](https://github.com/rstropek/htl-mobile-computing/blob/master/2018-19/dates.md)
+
+
+<!-- .slide: class="left" -->
+## Homeworks
+
+* Everybody *must* do every homework
+* Random sample is checked
+  * No need to be perfect, hand in your best try
+  * Earn max. 2 points for a good homework
+  * Minus 2 points for missing homework
 
 
 <!-- .slide: class="left" -->
 ## Grading
 
-* Max. 100 points
-  * Max. 35 points per exam = total 70 points
-  * Max. 20 points for lightning talk
-  * Max. 10 points extra (separately announced)
+* Max. 80 points for exams
+  * Max. 20 points per exam
+* Max. 10 points for lightning talk
+* Max. 10 points homeworks
+* Optionally: Max. 20 points for oral exam
 
 
 ## Grading
 
-| Grade  | Min. points (incl.)
+| Grade  | Min. % (incl.)
 |--------|---------------------
 | 1      | 91
 | 2      | 76
 | 3      | 61
 | 4      | 50
-| 5      | Less than 50 points
+| 5      | Less than 50 %
