@@ -58,7 +58,7 @@
 | 04. Oct. 2018  |           | **Replacement Lesson**
 | 11. Oct. 2018  |           | **Replacement Lesson**
 | 18. Oct. 2018  |Matthias H.| OWASP
-| 25. Oct. 2018  |           |
+| 25. Oct. 2018  |HoferDaniel| Lightning talk: Free development tools every web developer should know about
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |           |
 | 15. Nov. 2018  |           | **Written Exam**
