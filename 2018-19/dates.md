@@ -54,7 +54,7 @@
 |----------------|-----------|-
 | 13. Sept. 2018 |           |
 | 20. Sept. 2018 |           |
-| 27. Sept. 2018 |           |
+| 27. Sept. 2018 | LT        | Vue 2 and Vue CLI
 | 04. Oct. 2018  |           | **Replacement Lesson**
 | 11. Oct. 2018  |           | **Replacement Lesson**
 | 18. Oct. 2018  |           |
