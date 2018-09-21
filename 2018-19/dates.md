@@ -9,7 +9,7 @@
 | 27. Sept. 2018 |
 | 04. Oct. 2018  | **Replacement Lesson**
 | 11. Oct. 2018  | **Replacement Lesson**
-| 18. Oct. 2018  |
+| 18. Oct. 2018  | 
 | 25. Oct. 2018  |
 | 01. Nov. 2018  | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |
@@ -57,7 +57,7 @@
 | 27. Sept. 2018 | LT        | Vue 2 and Vue CLI
 | 04. Oct. 2018  |           | **Replacement Lesson**
 | 11. Oct. 2018  |           | **Replacement Lesson**
-| 18. Oct. 2018  |           |
+| 18. Oct. 2018  |Matthias H.| OWASP
 | 25. Oct. 2018  |           |
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |           |
