@@ -106,7 +106,7 @@
 | 04. Oct. 2018  |           | **Replacement Lesson**
 | 11. Oct. 2018  |           | **Replacement Lesson**
 | 18. Oct. 2018  | michaelhitzker| What is Firebase and why is it important for mobile developers?
-| 25. Oct. 2018  |           |
+| 25. Oct. 2018  |renestadler| Why should I read the Bobiverse Trilogy by Dennis E. Taylor?
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |           |
 | 15. Nov. 2018  |           | **Written Exam**
