@@ -128,7 +128,7 @@
 | 07. Mar. 2019  |tboehm     | What is Net Neutrality and why is it so heavily discussed?
 | 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
 | 21. Mar. 2019  |L.Mistl    | What is Kotlin and why is it important for mobile developers?
-| 28. Mar. 2019  |           |
+| 28. Mar. 2019  |fleibetseder|What is Markdown, why is it useful, and what cool things can you do with it?
 | 04. Apr. 2019  |           |
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
