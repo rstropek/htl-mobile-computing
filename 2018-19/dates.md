@@ -129,7 +129,7 @@
 | 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
 | 21. Mar. 2019  |L.Mistl    | What is Kotlin and why is it important for mobile developers?
 | 28. Mar. 2019  |fleibetseder|What is Markdown, why is it useful, and what cool things can you do with it?
-| 04. Apr. 2019  |           |
+| 04. Apr. 2019  |AndreasKastenhofer|What are the OWASP Top 10 and why are they important for web development?
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
 | 25. Apr. 2019  |           |
