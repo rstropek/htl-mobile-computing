@@ -63,7 +63,7 @@
 | 08. Nov. 2018  |Florian H. | net neutrality
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
-| 29. Nov. 2018  |           |
+| 29. Nov. 2018  |Florian F. | What can you do with Microsoft's Cognitive Services
 | 06. Dec. 2018  |           |
 | 13. Dec. 2018  |AS         | Cool IoT devices every developer should know about
 | 20. Dec. 2018  |           |
