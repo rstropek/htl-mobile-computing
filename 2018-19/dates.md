@@ -113,7 +113,7 @@
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |           |
 | 06. Dec. 2018  |           |
-| 13. Dec. 2018  |           |
+| 13. Dec. 2018  |AndreasKastenhofer| What is Material Design for Android?
 | 20. Dec. 2018  |           |
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
