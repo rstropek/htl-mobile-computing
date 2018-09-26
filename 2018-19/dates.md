@@ -126,7 +126,7 @@
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
 | 28. Feb. 2019  |tklecka    | Five hard challenges in IoT development
 | 07. Mar. 2019  |           |
-| 14. Mar. 2019  |           |
+| 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
 | 21. Mar. 2019  |           |
 | 28. Mar. 2019  |           |
 | 04. Apr. 2019  |           |
