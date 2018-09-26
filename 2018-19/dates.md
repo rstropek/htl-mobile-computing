@@ -112,14 +112,14 @@
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |ademsrndic |What is React Native?
-| 06. Dec. 2018  |           |
-| 13. Dec. 2018  |           |
+| 06. Dec. 2018  |tobiashintersteininger| Awesome features of CSS3 and what you have to know about it
+| 13. Dec. 2018  |Haider T.  | What every developer should know about the Datenschutzgrundverordnung
 | 20. Dec. 2018  |           |
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |pbrandstetter| What is Azure and why is it important for mobile developers?
 | 17. Jan. 2019  |           | **Written Exam**
-| 24. Jan. 2019  |           |
+| 24. Jan. 2019  |lastwagen21|What is NativeScript?
 | 31. Jan. 2019  |           | **Oral Exams**
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
