@@ -108,7 +108,7 @@
 | 18. Oct. 2018  | michaelhitzker| What is Firebase and why is it important for mobile developers?
 | 25. Oct. 2018  |renestadler| Why should I read the Bobiverse Trilogy by Dennis E. Taylor
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
-| 08. Nov. 2018  |           |
+| 08. Nov. 2018  |peterleitner| What is Serverless Computing and how is it different from traditional Web Hosting?
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |           |
