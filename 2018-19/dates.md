@@ -119,13 +119,13 @@
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |pbrandstetter| What is Azure and why is it important for mobile developers?
 | 17. Jan. 2019  |           | **Written Exam**
-| 24. Jan. 2019  |           |
+| 24. Jan. 2019  |lastwagen21|What is NativeScript?
 | 31. Jan. 2019  |           | **Oral Exams**
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
 | 28. Feb. 2019  |           |
-| 07. Mar. 2019  |lastwagen21| What is NativeScript?
+| 07. Mar. 2019  |           | 
 | 14. Mar. 2019  |           |
 | 21. Mar. 2019  |           |
 | 28. Mar. 2019  |           |
