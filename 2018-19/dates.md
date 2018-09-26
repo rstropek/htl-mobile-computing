@@ -125,7 +125,7 @@
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
 | 28. Feb. 2019  |tklecka    | Five hard challenges in IoT development
-| 07. Mar. 2019  |           |
+| 07. Mar. 2019  |tboehm     | What is Net Neutrality and why is it so heavily discussed?
 | 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
 | 21. Mar. 2019  |L.Mistl    | What is Kotlin and why is it important for mobile developers?
 | 28. Mar. 2019  |           |
