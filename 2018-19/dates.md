@@ -112,7 +112,7 @@
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |           |
-| 06. Dec. 2018  |           |
+| 06. Dec. 2018  |tobiashintersteininger| Awesome features of CSS3 and what you have to know about it
 | 13. Dec. 2018  |           |
 | 20. Dec. 2018  |           |
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
