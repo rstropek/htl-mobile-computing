@@ -111,7 +111,7 @@
 | 08. Nov. 2018  |peterleitner| What is Serverless Computing and how is it different from traditional Web Hosting?
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
-| 29. Nov. 2018  |           |
+| 29. Nov. 2018  |ademsrndic |What is React Native?
 | 06. Dec. 2018  |tobiashintersteininger| Awesome features of CSS3 and what you have to know about it
 | 13. Dec. 2018  |Haider T.  | What every developer should know about the Datenschutzgrundverordnung
 | 20. Dec. 2018  |           |
