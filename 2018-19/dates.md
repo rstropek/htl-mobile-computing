@@ -110,7 +110,7 @@
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |peterleitner| What is Serverless Computing and how is it different from traditional Web Hosting?
 | 15. Nov. 2018  |           | **Written Exam**
-| 22. Nov. 2018  |           |
+| 22. Nov. 2018  |boehmmartin1| What is the Ethereum Project and why could it be important for us developers in the future? 
 | 29. Nov. 2018  |           |
 | 06. Dec. 2018  |           |
 | 13. Dec. 2018  |           |
