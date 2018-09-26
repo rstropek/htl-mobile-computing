@@ -125,7 +125,7 @@
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
 | 28. Feb. 2019  |           |
-| 07. Mar. 2019  |           |
+| 07. Mar. 2019  |lastwagen21| What is NativeScript?
 | 14. Mar. 2019  |           |
 | 21. Mar. 2019  |           |
 | 28. Mar. 2019  |           |
