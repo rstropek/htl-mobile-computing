@@ -64,7 +64,7 @@
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |Florian F. | What can you do with Microsoft's Cognitive Services
-| 06. Dec. 2018  |           |
+| 06. Dec. 2018  |Brunner A. | Five hard challenges in IoT development
 | 13. Dec. 2018  |AS         | Cool IoT devices every developer should know about
 | 20. Dec. 2018  |           |
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
@@ -108,7 +108,7 @@
 | 18. Oct. 2018  | michaelhitzker| What is Firebase and why is it important for mobile developers?
 | 25. Oct. 2018  |renestadler| Why should I read the Bobiverse Trilogy by Dennis E. Taylor
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
-| 08. Nov. 2018  |           |
+| 08. Nov. 2018  |peterleitner| What is Serverless Computing and how is it different from traditional Web Hosting?
 | 15. Nov. 2018  |           | **Written Exam**
 | 22. Nov. 2018  |           |
 | 29. Nov. 2018  |           |
@@ -124,9 +124,9 @@
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
-| 28. Feb. 2019  |           |
+| 28. Feb. 2019  |tklecka    | Five hard challenges in IoT development
 | 07. Mar. 2019  |           |
-| 14. Mar. 2019  |           |
+| 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
 | 21. Mar. 2019  |L.Mistl    | What is Kotlin and why is it important for mobile developers?
 | 28. Mar. 2019  |           |
 | 04. Apr. 2019  |           |
