@@ -127,7 +127,7 @@
 | 28. Feb. 2019  |tklecka    | Five hard challenges in IoT development
 | 07. Mar. 2019  |           |
 | 14. Mar. 2019  |mkurzmann  | What can you do with Microsoft's Cognitive Services?
-| 21. Mar. 2019  |           |
+| 21. Mar. 2019  |L.Mistl    | What is Kotlin and why is it important for mobile developers?
 | 28. Mar. 2019  |           |
 | 04. Apr. 2019  |           |
 | 11. Apr. 2019  |           | **Written Exam**
