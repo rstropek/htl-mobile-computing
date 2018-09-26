@@ -114,7 +114,7 @@
 | 29. Nov. 2018  |ademsrndic |What is React Native?
 | 06. Dec. 2018  |tobiashintersteininger| Awesome features of CSS3 and what you have to know about it
 | 13. Dec. 2018  |Haider T.  | What every developer should know about the Datenschutzgrundverordnung
-| 20. Dec. 2018  |           |
+| 20. Dec. 2018  |Lauch      | Free development tools every web developer should know about
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |pbrandstetter| What is Azure and why is it important for mobile developers?
