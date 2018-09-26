@@ -124,7 +124,7 @@
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |tbrych     | Cool IoT devices every developer should know about
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
-| 28. Feb. 2019  |           |
+| 28. Feb. 2019  |tklecka    | Five hard challenges in IoT development
 | 07. Mar. 2019  |           |
 | 14. Mar. 2019  |           |
 | 21. Mar. 2019  |           |
