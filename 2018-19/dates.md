@@ -71,7 +71,7 @@
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |           | 
 | 17. Jan. 2019  |           | **Written Exam**
-| 24. Jan. 2019  |           |
+| 24. Jan. 2019  |Jürgen R.  | Swift/Xcode
 | 31. Jan. 2019  |           | **Oral Exams**
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |           |
