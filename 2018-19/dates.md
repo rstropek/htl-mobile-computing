@@ -61,12 +61,12 @@
 | 25. Oct. 2018  |HoferDaniel| Lightning talk: Free development tools every web developer should know about
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |Florian H. | net neutrality
-| 15. Nov. 2018  |Lukas R.   | Self-driving Car
-| 22. Nov. 2018  |           |**Written Exam**
+| 15. Nov. 2018  |           | **Written Exam**
+| 22. Nov. 2018  |           |
 | 29. Nov. 2018  |Florian F. | What can you do with Microsoft's Cognitive Services
 | 06. Dec. 2018  |Brunner A. | Five hard challenges in IoT development
 | 13. Dec. 2018  |AS         | Cool IoT devices every developer should know about
-| 20. Dec. 2018  |           |
+| 20. Dec. 2018  |Jakob A.   | What is Azure and why is it important for mobile developers?
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |           | 
