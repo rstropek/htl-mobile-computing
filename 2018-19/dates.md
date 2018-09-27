@@ -66,7 +66,7 @@
 | 29. Nov. 2018  |Florian F. | What can you do with Microsoft's Cognitive Services
 | 06. Dec. 2018  |Brunner A. | Five hard challenges in IoT development
 | 13. Dec. 2018  |AS         | Cool IoT devices every developer should know about
-| 20. Dec. 2018  |           |
+| 20. Dec. 2018  |Samuel L.  | Deep Learning
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
 | 10. Jan. 2019  |           | 
