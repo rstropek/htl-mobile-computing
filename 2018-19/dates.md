@@ -132,7 +132,7 @@
 | 04. Apr. 2019  |AndreasKastenhofer|What are the OWASP Top 10 and why are they important for web development?
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
-| 25. Apr. 2019  |           |
+| 25. Apr. 2019  | Staniel99 | open data
 | 02. May 2019   |           |
 | 09. May 2019   |           | **Replacement Lesson?**
 | 16. May 2019   |           |
