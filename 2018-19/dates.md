@@ -74,7 +74,7 @@
 | 24. Jan. 2019  |Jürgen R.  | Swift/Xcode
 | 31. Jan. 2019  |           | **Oral Exams**
 | 07. Feb. 2019  |           | **Oral Exams**
-| 14. Feb. 2019  |           |
+| 14. Feb. 2019  |Jakob A.   | What is Azure and why is it important for mobile developers?
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
 | 28. Feb. 2019  |           |
 | 07. Mar. 2019  |           |
