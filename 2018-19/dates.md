@@ -69,7 +69,7 @@
 | 20. Dec. 2018  |Samuel L.  | Deep Learning
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
-| 10. Jan. 2019  |           | 
+| 10. Jan. 2019  |Daniel P.  | What is Chocolatey and how can developers make good use of it?
 | 17. Jan. 2019  |           | **Written Exam**
 | 24. Jan. 2019  |Jürgen R.  | Swift/Xcode
 | 31. Jan. 2019  |           | **Oral Exams**
