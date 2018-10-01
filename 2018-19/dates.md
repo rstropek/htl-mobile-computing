@@ -69,18 +69,18 @@
 | 20. Dec. 2018  |Samuel L.  | Deep Learning
 | 27. Dec. 2018  |           | **Christmas Break (*Weihnachtsferien*)**
 | 03. Jan. 2019  |           | **Christmas Break (*Weihnachtsferien*)**
-| 10. Jan. 2019  |Daniel P.  | What is Chocolatey and how can developers make good use of it?
+| 10. Jan. 2019  |Christina L| Stream or Sonar
 | 17. Jan. 2019  |           | **Written Exam**
 | 24. Jan. 2019  |Jürgen R.  | Swift/Xcode
 | 31. Jan. 2019  |           | **Oral Exams**
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |Jakob A.   | What is Azure and why is it important for mobile developers?
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
-| 28. Feb. 2019  |           |
-| 07. Mar. 2019  |           |
-| 14. Mar. 2019  |           |
-| 21. Mar. 2019  |           |
-| 28. Mar. 2019  |           |
+| 28. Feb. 2019  |Max G.     |
+| 07. Mar. 2019  |Kathrin R. | What is a CDN and why is is useful for web development?
+| 14. Mar. 2019  |Patrick W. | What is Material Design for Android? or Artemis by Andy Weir
+| 21. Mar. 2019  |Stefan W.  | What is Electron and why is it interesting for mobile developers?
+| 28. Mar. 2019  |Katrin H.  | Markdown
 | 04. Apr. 2019  |           |
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
