@@ -76,15 +76,15 @@
 | 07. Feb. 2019  |           | **Oral Exams**
 | 14. Feb. 2019  |Jakob A.   | What is Azure and why is it important for mobile developers?
 | 21. Feb. 2019  |           | **Semester Break (*Semesterferien*)**
-| 28. Feb. 2019  |           |
+| 28. Feb. 2019  |Max G.     | Ready Player One by Ernest Cline
 | 07. Mar. 2019  |Jona Maiss | Zero Day by Mark Russinovich
-| 14. Mar. 2019  |           |
-| 21. Mar. 2019  |           |
-| 28. Mar. 2019  |           |
-| 04. Apr. 2019  |           |
+| 14. Mar. 2019  |Patrick W. | What is Material Design for Android? or Artemis by Andy Weir
+| 21. Mar. 2019  |Stefan W.  | What is Electron and why is it interesting for mobile developers?
+| 28. Mar. 2019  |Katrin H.  | Markdown
+| 04. Apr. 2019  |Christina L| Stream or Sonar
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
-| 25. Apr. 2019  |           |
+| 25. Apr. 2019  |Kathrin R. | What is a CDN and why is is useful for web development?
 | 02. May 2019   |           |
 | 09. May 2019   |           | **Replacement Lesson?**
 | 16. May 2019   |           |
