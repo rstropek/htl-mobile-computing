@@ -44,3 +44,15 @@ To run the unit tests and check your solution, execute the following steps:
 
 <img src="images/jasmine-tests.png" alt="Jasmine Tests" width="75%" />
 
+
+## Extra Challenge
+
+Do you want an extra challenge that is quite hard? Here you are: If the user specifies units that you do not know (e.g. *3.1415 rad to deg*), you can call [WolframAlpha](http://www.wolframalpha.com/)'s web API.
+
+* [Read more about programming with WolframAlpha](http://developer.wolframalpha.com/portal/myapps/)...
+* Create a developer account with the *free* plan
+* Create a demo app
+* Try a query interactively with a Web API client like [Insomnia](https://insomnia.rest/) or [Postman](https://www.getpostman.com/): `http://api.wolframalpha.com/v2/query?input=5%20inch%20to%20m&appid=...`
+* Use a package (e.g. [*node-fetch*](https://www.npmjs.com/package/node-fetch)) to do the Web API query in your application
+
+Note that this challenge is only for students who want to invest a significant amount of time in this exercise. It is *not mandatory*!
