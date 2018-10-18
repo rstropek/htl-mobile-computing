@@ -4,7 +4,7 @@
   "description": "Exercise for Mobile Computing course at HTL Perg",
   "main": "battleship.js",
   "scripts": {
-    "start": "browser-sync start --server --files='*.html,*.js,*.css'"
+    "start": "browser-sync start --server --watch --files='*.html,*.js,*.css'"
   },
   "author": "Rainer Stropek",
   "license": "MIT",
