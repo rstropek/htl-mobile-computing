@@ -6,9 +6,9 @@ Implement a command-line Node.js application named `convert.js` that can convert
 
 1. Everybody has to do his/her best to come up with a solution.
 
-1. Earn one point for your grade by delivering a solution that passes all unit tests.
+1. Have the chance to earn one point for your grade by delivering a solution that passes *all* unit tests.
 
-1. Earn my **deepest respect** ;-) if you manage to implement the entire program in less than 10 lines of code. It is possible, I will teach you how.
+1. Have the chance to earn one point - and my respect ;-) - if you manage to implement the entire program in less than 10 lines of code. It is possible.
 
 
 ## Specification
