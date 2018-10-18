@@ -208,3 +208,4 @@ run();
   * [*Promise exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/9010-create-promise/readme.md)
   * [*babel* demo](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/0030-babel/readme.md)
   * [w3schools.com JavaScript Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript)
+  * [*Battleship exercise*](https://github.com/rstropek/htl-mobile-computing/blob/master/ecmascript-fundamentals/9020-battleship/readme.md)
