@@ -6,7 +6,7 @@ In this exercise you have to implement [Conway's Game of Life](https://en.wikipe
 
 ## Requirements
 
-* Create a very simple HTML page `index.html` that contains a [HTML5 `canvas` element](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#HTML)
+* Create a very simple HTML page `index.html` that contains a [HTML5 `canvas` element](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#HTML).
 * Create a TypeScript file `app.ts`. It has to be compiled to `app.js` by TypeScript.
 * Include the resulting `app.js` in the previously created HTML page.
 * Your *Game of Life* grid must have a size of 200 by 200 cells.

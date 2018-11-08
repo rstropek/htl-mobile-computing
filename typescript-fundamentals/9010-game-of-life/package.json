@@ -5,13 +5,13 @@
   "main": "app.js",
   "scripts": {
     "build": "tsc app.ts",
-    "start": "concurrently \"tsc --watch app.ts\" \"browser-sync start --server --files 'index.html' 'app.js'\""
+    "start": "concurrently \"tsc --watch app.ts\" \"browser-sync start --server --watch --files 'index.html' 'app.js'\""
   },
   "author": "Rainer Stropek",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "concurrently": "^3.5.0",
-    "typescript": "^2.4.2"
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.0.1",
+    "typescript": "^3.1.3"
   }
 }

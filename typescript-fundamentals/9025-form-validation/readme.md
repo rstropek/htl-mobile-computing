@@ -9,6 +9,8 @@ In this exercise, you have to implement the validation logic for a HTML form. Yo
 
 Your job is to add the necessary logic.
 
+1. Make sure to take a close look at the scripts in *package.json*. They use some interesting tools that are helpful when doing web development.
+
 1. Everybody has to do his/her best to come up with a solution.
 
 1. Earn one point for your grade if you create an *GitHub Issue* in your *GitHub Classroom* containing a link to the form with validation that I can test over the Internet.
