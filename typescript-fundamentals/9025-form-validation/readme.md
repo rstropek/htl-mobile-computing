@@ -40,3 +40,8 @@ Your job is to add the necessary logic.
 1. It is not absolutely necessary to use [jQuery](https://jquery.com/). You can also just use the browser's [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
 1. `tsconfig.json` can be created with `tsc --init`
+
+
+## Extra Challenges
+
+This exercise is boring for you because you have already done quite a bit of web development? Why not trying to implement this example using [Vue.js](https://vuejs.org/)? You could also try to bundle your solution using [webpack](https://webpack.js.org/). Note that this extra challenge is completely optional and will not be part of any exam.
