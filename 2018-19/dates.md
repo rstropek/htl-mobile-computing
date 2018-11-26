@@ -105,7 +105,7 @@
 | 27. Sept. 2018 |           |
 | 04. Oct. 2018  |           | **Replacement Lesson**
 | 11. Oct. 2018  |           | **Replacement Lesson**
-| 18. Oct. 2018  | michaelhitzker| What is Firebase and why is it important for mobile developers?
+| 18. Oct. 2018  | michaelhitzker| What is Firebase and why is it important for mobile developers? (ill)
 | 25. Oct. 2018  |renestadler| Why should I read the Bobiverse Trilogy by Dennis E. Taylor
 | 01. Nov. 2018  |           | **All Saints Day (*Allerheiligen*)**
 | 08. Nov. 2018  |peterleitner| What is Serverless Computing and how is it different from traditional Web Hosting?
@@ -133,7 +133,7 @@
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
 | 25. Apr. 2019  | Staniel99 | open data
-| 02. May 2019   |           |
+| 02. May 2019   |michaelhitzker|What is Firebase and why is it important for mobile developers?
 | 09. May 2019   |           | **Replacement Lesson?**
 | 16. May 2019   |           |
 | 23. May 2019   |           |
