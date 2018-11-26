@@ -1,5 +1,5 @@
 {
-  "name": "0030-restify-basics",
+  "name": "0030-express-basics",
   "version": "1.0.0",
   "description": "Sample for mobile computing course at HTL Perg",
   "main": "app.ts",
@@ -7,10 +7,10 @@
   "author": "Rainer Stropek",
   "license": "MIT",
   "dependencies": {
-    "restify": "^5.2.0"
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "@types/restify": "^5.0.1",
-    "typescript": "^2.4.2"
+    "@types/express": "^4.16.0",
+    "typescript": "^3.1.6"
   }
 }

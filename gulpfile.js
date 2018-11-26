@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const del = require('del');
 const path = require('path');
 const ssi = require('gulp-ssi');
-var merge = require('merge-stream');
+const merge = require('merge-stream');
+const lec = require('gulp-line-ending-corrector');
 
 gulp.task('clean', () => {
   return del(['dist/**']);
@@ -28,7 +29,7 @@ gulp.task('copy-presentation', () => {
   const css = gulp.src('*.css').pipe(gulp.dest('dist/css'));
   const headers = gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
   const images = gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
-  const md = gulp.src(['*.md', '!README.md']).pipe(ssi()).pipe(gulp.dest('dist'));
+  const md = gulp.src(['*.md', '!README.md']).pipe(ssi()).pipe(lec()).pipe(gulp.dest('dist'));
   return merge(html, css, headers, images, md);
 });
 
