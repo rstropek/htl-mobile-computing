@@ -29,8 +29,8 @@ Introduction to [REST](https://en.wikipedia.org/wiki/Representational_state_tran
   * [*REST Client*](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in *Visual Studio Code*
 * Web Debugger
   * [*Fiddler*](http://www.telerik.com/fiddler)
-* Post Dumping Services
-  * [*requestb.in*](https://requestb.in/)
+* HTTP Request and Response Service
+  * [*httpbin.org*](https://httpbin.org)
 
 
 <!-- .slide: class="left" -->
@@ -107,87 +107,148 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## Building RESTful Web APIs with Node.js
 
 * In practice, frameworks are used for that
-* Example: [*Express.js*](http://expressjs.com/)
+* Here: [*Express.js*](http://expressjs.com/)
   * Larger framework, not just for RESTful Web APIs
   * Very commonly used
   * Lots of plugins
-* Example: [*restify*](http://restify.com/)
-  * Smaller framework specialized on RESTful Web APIs
-  * Easy to use
-  * Also quite common
-  * We will use this framework in this course
+* Installation
+  * `npm install express`
+  * For TypeScript: `npm install @types/express --save-dev`
 
 
 <!-- .slide: class="left" -->
-## RESTful Web API with [*restify*](http://restify.com/)
+## RESTful Web API with [*Express.js*](http://expressjs.com/)
 
 ```
-<!--#include file="rest-fundamentals/0030-restify-basics/app.ts" -->
+<!--#include file="rest-fundamentals/0030-express-basics/app.ts" -->
 ```
 
 ```
-<!--#include file="rest-fundamentals/0030-restify-basics/request.http" -->
+<!--#include file="rest-fundamentals/0030-express-basics/request.http" -->
 ```
 
 
 <!-- .slide: class="left" -->
-## RESTful Web API with [*restify*](http://restify.com/)
+## RESTful Web API with [*Express.js*](http://expressjs.com/)
 
-* `server` object
-  * Register routes and handlers for incoming requests
-  * Created using the `createServer()` method
-  * [Documentation](http://restify.com/docs/server-api/)
+* `express()` function
+  * Creates an Express application
+  * [Documentation](https://expressjs.com/en/4x/api.html#express)
+* Application
+  * Represents the Express application
+  * Created with `express()`
+  * [Documentation](https://expressjs.com/en/4x/api.html#app)
 * `request` object
   * Represents the HTTP request
   * Use it to get headers, parameters, body, etc.
-  * [Documentation](http://restify.com/docs/request-api/)
+  * [Documentation](https://expressjs.com/en/4x/api.html#req)
 * `response` object
   * Represents the HTTP response
   * Use it to build response (e.g. status, headers, body, etc.)
-  * [Documentation](http://restify.com/docs/response-api/)
+  * [Documentation](https://expressjs.com/en/4x/api.html#res)
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples
+## [*Express.js*](http://expressjs.com/) Examples
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/app.ts" -->
-```
-
-
-<!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
-
-```
-<!--#include file="rest-fundamentals/0040-restify-verbs/data.ts" -->
-```
-
-```
-<!--#include file="rest-fundamentals/0040-restify-verbs/get-all.ts" -->
+<!--#include file="rest-fundamentals/0040-express-verbs/app.ts" -->
 ```
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/get-single.ts" -->
+<!--#include file="rest-fundamentals/0040-express-verbs/data.ts" -->
 ```
 
-
-<!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
-
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/post.ts" -->
+<!--#include file="rest-fundamentals/0040-express-verbs/get-all.ts" -->
 ```
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
-<!--#include file="rest-fundamentals/0040-restify-verbs/delete-single.ts" -->
+<!--#include file="rest-fundamentals/0040-express-verbs/get-single.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-express-verbs/post.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
+
+```
+<!--#include file="rest-fundamentals/0040-express-verbs/delete-single.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Lokijs*](http://lokijs.org/)
+
+* Lightweight in-memory key-value store
+* Fast and easy to use
+* Works in...
+  * ...browser
+  * ...apps
+  * ...Node.js on the server or in the command line
+* Persistence adapter can write data to disk/[indexeddb](https://developer.mozilla.org/de/docs/IndexedDB)
+
+
+<!-- .slide: class="left" -->
+## [*Lokijs*](http://lokijs.org/)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/db.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/app.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/get-all.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/get-single.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/post.ts" -->
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+<!--#include file="rest-fundamentals/0050-express-loki/delete-single.ts" -->
 ```
 
 
@@ -196,7 +257,7 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 
 * Want to know more? Read/watch...
   * [Microsoft's REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md)
-  * [*restify* documentation](http://restify.com/docs/home/)
+  * [*Express.js* documentation](https://expressjs.com/)
 * Exercises
   * [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
   * [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
