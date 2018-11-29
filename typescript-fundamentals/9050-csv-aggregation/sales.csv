@@ -1,0 +1,1001 @@
+id,customerid,product,date,revenue
+1,143,Sponge Cake Mix - Vanilla,2018-08-10,6.7
+2,96,Zucchini - Yellow,2018-02-16,5.6
+3,105,Shrimp - Black Tiger 13/15,2018-01-17,5.7
+4,147,Apron,2018-01-15,8.0
+5,201,Flour - Pastry,2018-09-30,6.8
+6,131,Beets,2018-07-25,8.2
+7,28,Juice - Ocean Spray Kiwi,2018-10-02,7.7
+8,58,Wine - Red Mosaic Zweigelt,2018-09-06,6.5
+9,199,Beer - Molson Excel,2018-10-09,6.2
+10,245,Pork - Shoulder,2018-01-27,8.1
+11,47,Syrup - Monin - Blue Curacao,2018-02-01,5.9
+12,206,Beer - Upper Canada Lager,2018-08-08,7.1
+13,182,Dc Hikiage Hira Huba,2018-05-31,7.3
+14,178,Spice - Greek 1 Step,2018-04-16,4.5
+15,131,Sweet Pea Sprouts,2018-09-09,7.1
+16,215,Juice - Lagoon Mango,2018-01-19,6.5
+17,65,Buffalo - Short Rib Fresh,2018-01-02,6.2
+18,134,Pepper - Orange,2018-02-17,7.7
+19,155,Tart Shells - Barquettes Savory,2018-09-22,7.1
+20,26,Muffin Batt - Ban Dream Zero,2018-09-27,7.3
+21,13,Rice - Jasmine Sented,2018-05-17,5.4
+22,39,Appetizer - Mini Egg Roll Shrimp,2018-10-22,7.1
+23,69,Pasta - Linguini Dry,2018-10-07,5.1
+24,190,Pear - Packum,2018-01-23,7.0
+25,133,Beans - Turtle Black Dry,2018-06-08,5.6
+26,232,Cheese - Cheddar Old White,2018-10-19,5.0
+27,223,Gloves - Goldtouch Disposable,2018-04-01,8.2
+28,220,Scallops - In Shell,2018-09-21,5.0
+29,69,Cookies - Englishbay Oatmeal,2018-10-02,9.1
+30,201,Pepper - Black Crushed,2018-04-27,5.9
+31,153,Oil - Olive Extra Virgin,2018-07-26,7.4
+32,240,Soup - Campbells Creamy,2018-04-23,5.7
+33,44,Pop Shoppe Cream Soda,2018-05-21,6.7
+34,189,Fish - Base Bouillion,2018-01-10,8.3
+35,65,Fish - Artic Char Cold Smoked,2018-04-15,5.5
+36,206,Beef - Striploin,2018-08-06,5.7
+37,53,Tomato Paste,2018-03-12,8.1
+38,8,Corn - Mini,2018-04-21,7.2
+39,129,Ice Cream - Fudge Bars,2018-05-05,7.5
+40,226,Lettuce - Romaine,2018-04-20,7.7
+41,210,Lid - 0090 Clear,2018-04-27,5.9
+42,181,Chinese Lemon Pork,2018-04-28,8.5
+43,215,Dish Towel,2018-03-15,8.0
+44,109,Worcestershire Sauce,2018-01-17,6.5
+45,148,Yeast Dry - Fermipan,2018-01-31,8.0
+46,209,Broom - Push,2018-06-17,7.6
+47,181,Wine - Zinfandel California 2002,2018-01-18,6.7
+48,15,Kohlrabi,2018-07-04,5.7
+49,204,Prunes - Pitted,2018-05-19,8.5
+50,197,Spinach - Frozen,2018-02-11,5.8
+51,40,Chips Potato Salt Vinegar 43g,2018-02-19,9.0
+52,175,Sugar - Brown,2018-04-30,6.0
+53,49,Oranges,2018-08-22,9.0
+54,167,Muffin Hinge 117n,2018-07-06,7.8
+55,92,Foam Dinner Plate,2018-05-17,6.4
+56,216,Soup - Base Broth Beef,2018-06-23,7.9
+57,227,Island Oasis - Pina Colada,2018-08-15,6.9
+58,114,Kellogs Cereal In A Cup,2018-03-02,6.6
+59,147,Wine - Magnotta - Cab Sauv,2018-01-20,8.4
+60,97,Ecolab Silver Fusion,2018-03-02,7.9
+61,134,Pork - Loin Bone - In,2018-05-09,8.1
+62,247,Campari,2018-05-28,6.7
+63,159,Mayonnaise - Individual Pkg,2018-01-12,8.8
+64,26,Pepper - Black Ground,2018-09-21,6.9
+65,47,Yeast - Fresh Fleischman,2018-02-28,8.5
+66,133,Jolt Cola - Red Eye,2018-04-20,9.1
+67,12,Squid U5 - Thailand,2018-02-04,6.1
+68,205,Ezy Change Mophandle,2018-05-04,9.0
+69,239,Pork - Suckling Pig,2018-05-07,8.3
+70,23,Ecolab - Balanced Fusion,2018-06-09,6.8
+71,138,Pork - Side Ribs,2018-05-19,5.7
+72,74,Potatoes - Purple Organic,2018-06-02,7.9
+73,247,Huck White Towels,2018-09-16,5.9
+74,9,Fond - Neutral,2018-09-12,4.5
+75,195,Tequila Rose Cream Liquor,2018-02-09,6.1
+76,93,Ham - Cooked,2018-06-13,8.5
+77,153,Appetizer - Lobster Phyllo Roll,2018-04-21,7.8
+78,226,Lamb Rack Frenched Australian,2018-06-07,7.5
+79,205,Pepper - Chilli Seeds Mild,2018-01-30,7.7
+80,111,Pasta - Shells Medium Dry,2018-03-21,6.7
+81,117,Pork - Shoulder,2018-05-26,7.2
+82,18,Soup - Campbells Mac N Cheese,2018-07-01,6.1
+83,91,Potatoes - Peeled,2018-04-15,5.1
+84,24,Pork Casing,2018-08-16,8.0
+85,13,Towel Dispenser,2018-02-22,7.5
+86,120,Energy Drink Red Bull,2018-01-30,7.9
+87,90,Shrimp - Black Tiger 16/20,2018-05-10,7.6
+88,29,Swordfish Loin Portions,2018-01-30,5.2
+89,202,Wine - Pinot Noir Latour,2018-02-07,6.4
+90,178,Tea - Orange Pekoe,2018-02-04,6.6
+91,25,Beef - Striploin Aa,2018-07-15,6.3
+92,116,Calypso - Pineapple Passion,2018-07-06,9.5
+93,198,Wine - Saint Emilion Calvet,2018-09-23,6.5
+94,214,Sugar - Cubes,2018-08-17,6.8
+95,102,Onions - Vidalia,2018-06-17,7.9
+96,124,Sword Pick Asst,2018-02-04,7.0
+97,37,Nougat - Paste / Cream,2018-08-10,8.1
+98,218,Placemat - Scallop White,2018-03-12,7.0
+99,183,Containter - 3oz Microwave Rect.,2018-04-20,8.3
+100,68,Oil - Olive Bertolli,2018-10-04,6.1
+101,52,Pepper - Green Thai,2018-07-20,6.7
+102,42,Yukon Jack,2018-06-27,7.7
+103,186,Water - Evian 355 Ml,2018-08-07,5.8
+104,214,Mushroom - Porcini Dry,2018-05-06,6.7
+105,231,Rootbeer,2018-06-21,6.6
+106,224,Cheese - Colby,2018-07-20,6.9
+107,184,Water - Mineral Natural,2018-02-10,6.4
+108,236,Pork - Shoulder,2018-07-12,7.1
+109,76,Island Oasis - Strawberry,2018-01-01,8.1
+110,84,Ice Cream - Life Savers,2018-09-07,7.5
+111,182,Appetizer - Seafood Assortment,2018-03-21,6.7
+112,54,Doilies - 8 Paper,2018-09-24,7.4
+113,184,Tea - Herbal I Love Lemon,2018-05-23,6.3
+114,184,Wine - Red Marechal Foch,2018-10-02,6.9
+115,100,Wine - Spumante Bambino White,2018-02-24,7.9
+116,100,Soup - Campbells Minestrone,2018-08-07,5.9
+117,83,Cups 10oz Trans,2018-09-28,8.4
+118,228,Flavouring Vanilla Artificial,2018-07-21,3.6
+119,93,Flax Seed,2018-07-14,8.1
+120,167,Chicken - Leg / Back Attach,2018-04-08,5.8
+121,151,Mustard - Individual Pkg,2018-07-25,6.2
+122,31,Sauce - Hoisin,2018-06-20,6.5
+123,140,Cheese - Cheddar Medium,2018-01-23,5.2
+124,60,Tart Shells - Barquettes Savory,2018-03-24,6.9
+125,249,Rum - Dark Bacardi Black,2018-04-23,8.1
+126,53,Bar Bran Honey Nut,2018-09-05,5.8
+127,151,Shichimi Togarashi Peppeers,2018-01-08,6.9
+128,189,Lettuce - Curly Endive,2018-04-24,7.2
+129,136,Beer - Labatt Blue,2018-05-28,7.8
+130,129,Tuna - Bluefin,2018-06-14,7.7
+131,166,Baking Soda,2018-05-28,5.3
+132,144,Wine - Manischewitz Concord,2018-08-10,5.8
+133,239,Cheese - Havarti Salsa,2018-08-26,6.3
+134,51,Flour Dark Rye,2018-04-02,7.3
+135,56,Tia Maria,2018-06-11,7.1
+136,56,Oneshot Automatic Soap System,2018-10-04,8.0
+137,244,Syrup - Monin - Blue Curacao,2018-09-29,6.5
+138,23,Bread - Rye,2018-03-29,7.8
+139,1,Sole - Iqf,2018-01-13,8.0
+140,112,Chocolate - Pistoles White,2018-09-04,8.0
+141,104,Clementine,2018-04-08,5.9
+142,249,Muffin - Carrot Individual Wrap,2018-03-11,7.0
+143,143,Rosemary - Dry,2018-02-07,8.5
+144,63,Bread - Flat Bread,2018-07-31,6.3
+145,202,Ham - Black Forest,2018-08-28,7.3
+146,12,Plasticforkblack,2018-04-09,7.2
+147,112,Cleaner - Pine Sol,2018-10-30,7.4
+148,226,Butter Ripple - Phillips,2018-07-17,7.1
+149,115,Soap - Mr.clean Floor Soap,2018-10-03,7.4
+150,199,Sausage - Blood Pudding,2018-01-25,6.5
+151,151,Wine - George Duboeuf Rose,2018-05-14,4.9
+152,23,Cape Capensis - Fillet,2018-07-30,6.5
+153,234,Sauce - Soya Light,2018-08-30,6.0
+154,158,Broom - Angled,2018-10-11,7.9
+155,230,Lettuce - Romaine Heart,2018-05-23,8.1
+156,5,Ocean Spray - Ruby Red,2018-04-29,6.8
+157,149,Maple Syrup,2018-07-06,6.0
+158,126,Vodka - Lemon Absolut,2018-01-29,6.3
+159,129,Pastry - Baked Scones - Mini,2018-09-05,7.1
+160,94,Bar Nature Valley,2018-08-04,7.8
+161,193,Spinach - Frozen,2018-04-11,4.7
+162,15,Pie Box - Cello Window 2.5,2018-04-19,6.3
+163,55,Shrimp - Baby Warm Water,2018-04-04,9.0
+164,2,Grapes - Green,2018-03-08,6.7
+165,78,Ginger - Pickled,2018-04-30,7.4
+166,116,Soup - Campbells Lentil,2018-07-19,7.6
+167,151,Pie Shell - 5,2018-01-17,7.6
+168,249,Shrimp - 100 / 200 Cold Water,2018-06-21,7.4
+169,157,Sprouts - Brussel,2018-07-23,8.4
+170,25,Bread - Assorted Rolls,2018-03-05,6.8
+171,33,Chocolate - Milk,2018-10-06,7.5
+172,179,Puree - Kiwi,2018-09-21,7.0
+173,61,Pork - Sausage Casing,2018-01-17,7.3
+174,95,Oil - Sesame,2018-01-21,6.1
+175,87,Cheese - Cheddarsliced,2018-08-18,6.9
+176,195,Pork - Backs - Boneless,2018-07-08,6.5
+177,245,Club Soda - Schweppes 355 Ml,2018-10-19,6.6
+178,4,Dasheen,2018-03-28,6.5
+179,93,Pasta - Spaghetti Dry,2018-08-17,7.8
+180,229,Steampan - Half Size Shallow,2018-07-08,5.5
+181,183,Jam - Raspberry jar,2018-01-31,6.7
+182,26,Mushroom - Oyster Fresh,2018-04-13,6.4
+183,193,Flour - Chickpea,2018-03-25,6.6
+184,97,Juice - Lagoon Mango,2018-01-25,5.7
+185,141,Wine - Tribal Sauvignon,2018-10-02,6.7
+186,133,Squid - Tubes / Tenticles 10/20,2018-07-02,5.9
+187,228,Flax Seed,2018-01-24,5.7
+188,69,Tea - Vanilla Chai,2018-01-22,5.3
+189,76,Wine - Rioja Campo Viejo,2018-06-15,5.3
+190,36,Cake Sheet Combo Party Pack,2018-08-24,7.6
+191,192,Sausage - Andouille,2018-01-03,5.8
+192,1,Wine - Jaboulet Cotes Du Rhone,2018-08-11,8.8
+193,154,Swiss Chard,2018-04-02,7.0
+194,202,Ecolab - Ster Bac,2018-07-10,7.2
+195,162,Oil - Truffle Black,2018-02-13,7.5
+196,152,Wine - Piper Heidsieck Brut,2018-07-29,8.0
+197,206,Wine - White Antinore Orvieto,2018-10-18,8.2
+198,103,Plasticknivesblack,2018-06-24,7.4
+199,194,Soy Protein,2018-10-01,7.1
+200,172,Garlic,2018-01-02,6.2
+201,12,Lettuce - Treviso,2018-01-10,5.1
+202,166,Wine - Penfolds Koonuga Hill,2018-01-15,8.1
+203,225,Spice - Paprika,2018-05-29,8.2
+204,211,Tomatoes - Roma,2018-06-05,6.3
+205,45,Crab Brie In Phyllo,2018-06-20,8.3
+206,163,Puree - Blackcurrant,2018-02-10,5.5
+207,199,Veal - Nuckle,2018-09-22,7.3
+208,211,Phyllo Dough,2018-10-20,7.5
+209,230,Coffee - Colombian Portioned,2018-05-15,7.3
+210,74,Wine - White Concha Y Toro,2018-08-22,6.3
+211,198,Remy Red Berry Infusion,2018-08-03,7.4
+212,245,Tobasco Sauce,2018-03-29,8.6
+213,103,Hipnotiq Liquor,2018-07-10,8.7
+214,19,Bread - Multigrain Oval,2018-03-29,7.8
+215,156,Mcguinness - Blue Curacao,2018-09-15,7.3
+216,192,Carbonated Water - Cherry,2018-04-08,9.4
+217,203,Langers - Cranberry Cocktail,2018-03-15,7.0
+218,96,Gingerale - Diet - Schweppes,2018-02-03,6.8
+219,89,Wine - Casablanca Valley,2018-09-22,6.8
+220,15,Blueberries - Frozen,2018-07-04,5.9
+221,96,Marjoram - Dried Rubbed,2018-06-11,6.6
+222,28,Nantucket - Kiwi Berry Cktl.,2018-09-11,8.2
+223,73,Milk 2% 500 Ml,2018-05-23,7.4
+224,130,Bread - Mini Hamburger Bun,2018-06-24,6.3
+225,179,Passion Fruit,2018-01-19,7.4
+226,221,Apple - Royal Gala,2018-03-15,6.9
+227,32,Wine - Sauvignon Blanc Oyster,2018-08-02,6.2
+228,220,Cinnamon - Stick,2018-02-14,6.4
+229,161,Pasta - Rotini Dry,2018-07-01,7.7
+230,134,Sugar - Brown Individual,2018-05-05,6.5
+231,201,Pastry - Cherry Danish - Mini,2018-04-24,5.7
+232,154,Muffin Hinge Container 6,2018-01-13,4.9
+233,67,Kippers - Smoked,2018-05-26,8.2
+234,182,Mcgillicuddy Vanilla Schnap,2018-04-20,5.5
+235,7,Lamb Rack - Ontario,2018-03-23,4.8
+236,186,Nantucket Apple Juice,2018-01-17,6.9
+237,115,Sprouts - Pea,2018-10-28,5.9
+238,215,Cheese - Brie Roitelet,2018-07-22,6.7
+239,87,Soup - Campbells Creamy,2018-03-21,7.2
+240,2,Cheese - Brie Roitelet,2018-06-16,8.4
+241,218,Pails With Lids,2018-09-21,5.9
+242,190,Container - Foam Dixie 12 Oz,2018-04-29,7.1
+243,66,Coffee - Beans Whole,2018-01-10,8.6
+244,134,Spice - Paprika,2018-02-25,9.2
+245,20,Pie Shell - 5,2018-07-05,7.1
+246,155,Pasta - Elbows Macaroni Dry,2018-04-12,6.4
+247,76,Lamb - Loin Trimmed Boneless,2018-08-19,6.6
+248,121,Garbage Bag - Clear,2018-06-17,5.6
+249,201,Bamboo Shoots - Sliced,2018-09-13,6.3
+250,15,Soup - Knorr Chicken Noodle,2018-02-08,7.2
+251,122,Tilapia - Fillets,2018-01-03,8.7
+252,118,Chips Potato Swt Chilli Sour,2018-05-08,7.2
+253,9,Truffle Paste,2018-08-10,7.5
+254,39,Wine - Niagara Peninsula Vqa,2018-07-08,6.9
+255,244,Milk - 2% 250 Ml,2018-03-20,5.7
+256,57,Garlic - Primerba Paste,2018-08-01,8.0
+257,75,Scallops 60/80 Iqf,2018-06-17,5.9
+258,110,Bread - Onion Focaccia,2018-03-01,6.4
+259,65,Mop Head - Cotton 24 Oz,2018-06-30,6.2
+260,2,Octopus,2018-09-13,6.2
+261,19,Mop Head - Cotton 24 Oz,2018-04-30,8.4
+262,226,Lettuce - Boston Bib,2018-07-12,8.1
+263,200,Basil - Seedlings Cookstown,2018-08-28,6.6
+264,123,Breadfruit,2018-04-03,6.8
+265,122,Turnip - Mini,2018-02-11,7.6
+266,119,Sour Puss - Tangerine,2018-07-18,6.5
+267,186,Juice - Happy Planet,2018-06-27,7.1
+268,171,Cheese - Colby,2018-07-21,6.0
+269,181,Cookie - Dough Variety,2018-05-19,6.4
+270,110,Yucca,2018-08-30,7.6
+271,16,Bread Base - Goodhearth,2018-05-16,6.3
+272,149,Wine - Rhine Riesling Wolf Blass,2018-05-10,5.8
+273,179,Tuna - Canned Flaked Light,2018-08-06,6.5
+274,121,Sauce - Rosee,2018-10-21,4.7
+275,19,Wine - Red Harrow Estates Cab,2018-04-08,5.0
+276,230,Cardamon Seed / Pod,2018-08-03,7.4
+277,245,Wine - Lou Black Shiraz,2018-10-24,7.4
+278,186,Veal - Leg,2018-08-28,8.6
+279,202,Gelatine Powder,2018-08-05,6.9
+280,73,Lemonade - Kiwi 591 Ml,2018-09-19,7.2
+281,145,Blueberries - Frozen,2018-08-12,6.3
+282,56,Island Oasis - Ice Cream Mix,2018-04-18,7.5
+283,222,Table Cloth 62x120 Colour,2018-06-10,7.0
+284,51,Yogurt - French Vanilla,2018-03-16,6.2
+285,123,Cup - 6oz Foam,2018-07-25,6.9
+286,82,Scallops - Live In Shell,2018-04-30,7.2
+287,53,Bread - French Stick,2018-08-06,6.9
+288,110,Ecolab Digiclean Mild Fm,2018-05-28,6.0
+289,90,Soda Water - Club Soda 355 Ml,2018-09-26,9.1
+290,28,Lobster - Cooked,2018-06-23,8.0
+291,35,Beans - Black Bean Canned,2018-06-09,7.8
+292,65,Cod - Fillets,2018-05-11,6.1
+293,45,Cheese - Brie Roitelet,2018-09-18,8.0
+294,181,Soup - Base Broth Beef,2018-06-15,7.4
+295,183,Wine - Pinot Noir Latour,2018-02-05,6.9
+296,39,V8 - Berry Blend,2018-05-28,5.9
+297,1,Chinese Foods - Thick Noodles,2018-03-05,8.5
+298,134,Wine - Ej Gallo Sonoma,2018-09-24,6.9
+299,217,Doilies - 5 Paper,2018-04-21,5.9
+300,187,Shrimp - Black Tiger 13/15,2018-10-07,7.4
+301,203,Sea Urchin,2018-10-11,5.4
+302,209,Wine - Cotes Du Rhone Parallele,2018-06-25,8.1
+303,197,Table Cloth 120 Round White,2018-10-03,5.6
+304,230,Saskatoon Berries - Frozen,2018-09-27,6.9
+305,138,Appetizer - Mango Chevre,2018-09-18,6.5
+306,35,Jam - Marmalade Orange,2018-05-26,6.4
+307,11,Mcgillicuddy Vanilla Schnap,2018-01-05,7.4
+308,99,Cheese - Boursin Garlic / Herbs,2018-08-23,7.5
+309,123,Seedlings - Mix Organic,2018-03-09,6.5
+310,242,Oats Large Flake,2018-06-05,8.0
+311,71,Veal Inside - Provimi,2018-07-03,7.5
+312,144,Muffin Mix - Blueberry,2018-05-28,7.0
+313,3,Rum - Dark Bacardi Black,2018-04-21,6.1
+314,228,Crawfish,2018-09-06,7.9
+315,145,Beef - Eye Of Round,2018-07-08,6.0
+316,167,Soup - Cream Of Broccoli,2018-01-13,6.6
+317,70,Muffin - Bran Ind Wrpd,2018-07-18,7.7
+318,18,Tea - Honey Green Tea,2018-08-22,6.6
+319,247,Gelatine Leaves - Envelopes,2018-05-11,8.3
+320,105,Eggwhite Frozen,2018-07-15,7.2
+321,232,Gingerale - Diet - Schweppes,2018-08-19,6.5
+322,215,Grand Marnier,2018-08-24,6.3
+323,175,Wine - Cava Aria Estate Brut,2018-02-25,7.9
+324,90,Chocolate - Dark,2018-07-17,7.2
+325,202,Chicken - Whole Roasting,2018-03-22,9.0
+326,173,Capon - Breast Double Wing On,2018-05-24,9.2
+327,72,Dill Weed - Dry,2018-01-26,8.1
+328,98,Broom And Brush Rack Black,2018-02-18,8.7
+329,99,Sandwich Wrap,2018-09-09,7.3
+330,182,Soy Protein,2018-01-09,6.0
+331,114,Plastic Arrow Stir Stick,2018-03-02,6.7
+332,217,Bread - Dark Rye Loaf,2018-03-11,7.6
+333,98,Sesame Seed,2018-07-14,6.7
+334,59,Wine - Vovray Sec Domaine Huet,2018-03-23,7.4
+335,15,Sachet,2018-10-20,6.8
+336,213,Soup - Knorr Country Bean,2018-02-12,8.2
+337,231,Longos - Chicken Cordon Bleu,2018-07-14,5.8
+338,55,Dc - Sakura Fu,2018-05-12,7.1
+339,49,Beer - Alexander Kieths Pale Ale,2018-01-13,6.7
+340,22,Bread Fig And Almond,2018-05-05,8.0
+341,208,Vodka - Moskovskaya,2018-08-12,8.3
+342,22,Pepper - Black Whole,2018-06-01,6.4
+343,6,Flour - Strong,2018-06-09,5.6
+344,222,Beets - Mini Golden,2018-06-23,6.2
+345,150,Towels - Paper / Kraft,2018-04-20,7.7
+346,114,Soup - Campbells Pasta Fagioli,2018-10-24,5.9
+347,27,Hipnotiq Liquor,2018-07-19,7.4
+348,137,Mints - Striped Red,2018-02-18,8.1
+349,217,Chinese Foods - Plain Fried Rice,2018-01-13,7.2
+350,211,Tomato - Plum With Basil,2018-03-08,7.1
+351,66,Paper Cocktail Umberlla 80 - 180,2018-07-16,8.0
+352,28,Veal - Striploin,2018-07-19,8.1
+353,76,Pail - 15l White With Handle,2018-08-24,6.0
+354,57,Rolled Oats,2018-02-20,4.5
+355,1,Nut - Walnut Pieces,2018-09-01,6.1
+356,217,Potatoes - Yukon Gold 80 Ct,2018-04-30,6.5
+357,222,Chicken - Whole,2018-02-16,6.4
+358,77,Tea - Earl Grey,2018-05-11,8.4
+359,17,Puree - Blackcurrant,2018-06-17,5.9
+360,182,Pie Filling - Apple,2018-01-04,6.3
+361,194,Soup - Campbells Bean Medley,2018-07-24,7.6
+362,135,Island Oasis - Magarita Mix,2018-01-02,8.1
+363,36,Creme De Menthe Green,2018-09-05,7.6
+364,220,External Supplier,2018-06-15,5.7
+365,34,Nantucket Cranberry Juice,2018-08-17,7.5
+366,73,Energy Drink - Redbull 355ml,2018-05-18,6.0
+367,88,Pepper - Sorrano,2018-06-28,4.3
+368,212,Cheese - Provolone,2018-08-30,7.6
+369,124,Sauce - Ranch Dressing,2018-03-02,6.6
+370,212,Potatoes - Pei 10 Oz,2018-03-20,6.2
+371,74,Soup - Campbells Beef Strogonoff,2018-08-08,6.5
+372,132,Goulash Seasoning,2018-02-01,6.9
+373,154,Lady Fingers,2018-05-20,7.2
+374,46,Paste - Black Olive,2018-07-12,8.3
+375,134,Remy Red Berry Infusion,2018-04-01,7.1
+376,127,Wine - Crozes Hermitage E.,2018-09-06,6.6
+377,102,Longos - Chicken Wings,2018-08-07,7.0
+378,133,Muffin Orange Individual,2018-04-04,7.3
+379,209,Pails With Lids,2018-05-18,6.6
+380,8,Coriander - Seed,2018-08-04,6.8
+381,248,Oil - Coconut,2018-08-11,8.2
+382,235,Steam Pan - Half Size Deep,2018-06-05,8.9
+383,247,Snails - Large Canned,2018-08-19,7.5
+384,20,Appetizer - Mini Egg Roll Shrimp,2018-06-25,6.3
+385,20,Cheese - Oka,2018-08-19,7.4
+386,159,Kiwano,2018-02-04,8.8
+387,13,Bread - Dark Rye,2018-06-25,6.7
+388,202,Pepsi 355 Ml,2018-10-27,7.9
+389,218,Bread - Roll Canadian Dinner,2018-09-30,7.2
+390,188,Juice - Orange 341 Ml,2018-08-17,8.4
+391,176,Cardamon Seed / Pod,2018-01-31,8.4
+392,94,Oil - Margarine,2018-04-08,7.3
+393,237,Brocolinni - Gaylan Chinese,2018-03-28,8.2
+394,213,Tea - Earl Grey,2018-04-11,9.6
+395,152,Pepsi - Diet 355 Ml,2018-04-28,8.7
+396,246,Hot Chocolate - Individual,2018-05-23,7.3
+397,22,Beef Flat Iron Steak,2018-05-13,7.0
+398,82,Milkettes - 2%,2018-09-01,7.8
+399,83,Cake - French Pear Tart,2018-08-27,7.6
+400,150,Tomatoes Tear Drop Yellow,2018-10-22,5.9
+401,21,Sauce - Roasted Red Pepper,2018-05-25,6.1
+402,194,Steamers White,2018-09-09,5.5
+403,78,Five Alive Citrus,2018-05-09,9.2
+404,15,Garlic,2018-01-24,5.1
+405,117,Wine - Vovray Sec Domaine Huet,2018-04-10,6.1
+406,34,Sage Ground Wiberg,2018-04-22,7.7
+407,171,Parsley - Fresh,2018-10-22,6.4
+408,231,Beef - Outside Round,2018-05-22,6.9
+409,137,Versatainer Nc - 888,2018-07-10,7.3
+410,155,Honey - Lavender,2018-04-08,6.7
+411,130,Shopper Bag - S - 4,2018-02-24,6.0
+412,98,Beef - Ox Tongue,2018-03-15,6.4
+413,107,Rum - Cream Amarula,2018-01-02,7.1
+414,133,White Fish - Filets,2018-07-08,7.1
+415,185,Coconut - Creamed Pure,2018-10-19,7.3
+416,194,Island Oasis - Ice Cream Mix,2018-06-27,7.6
+417,226,Asparagus - Mexican,2018-03-23,5.7
+418,218,Corn Meal,2018-02-06,7.0
+419,210,Juice - Orange 341 Ml,2018-03-26,6.8
+420,226,Zucchini - Yellow,2018-10-02,7.4
+421,125,Dikon,2018-01-11,5.7
+422,48,Cookies Oatmeal Raisin,2018-07-01,6.1
+423,247,Knife Plastic - White,2018-02-13,8.1
+424,30,Cheese - Brie,2018-07-06,5.6
+425,159,Lettuce - Arugula,2018-07-31,6.4
+426,29,Wine - White Cab Sauv.on,2018-01-10,6.5
+427,123,Spice - Montreal Steak Spice,2018-03-17,7.6
+428,100,Miso Paste White,2018-07-27,7.7
+429,10,Banana,2018-03-26,6.2
+430,39,Wine - Alsace Riesling Reserve,2018-09-07,7.2
+431,37,Butter - Unsalted,2018-03-29,7.5
+432,74,Pepper - Green,2018-05-08,6.4
+433,6,Flour Pastry Super Fine,2018-06-13,7.5
+434,70,Wheat - Soft Kernal Of Wheat,2018-09-19,8.4
+435,141,Ecolab - Power Fusion,2018-02-26,7.0
+436,130,Beer - Sleemans Honey Brown,2018-07-09,7.0
+437,194,Ice Cream Bar - Drumstick,2018-01-22,6.9
+438,9,Carrots - Jumbo,2018-05-13,6.8
+439,96,Bread - Dark Rye Loaf,2018-05-16,6.5
+440,30,Pepper - Paprika Hungarian,2018-09-02,7.9
+441,10,Lychee - Canned,2018-06-02,6.2
+442,218,Wine - Mondavi Coastal Private,2018-03-19,6.1
+443,210,Irish Cream - Butterscotch,2018-05-21,6.9
+444,127,Flour Dark Rye,2018-08-27,5.9
+445,45,Dasheen,2018-05-02,8.4
+446,23,Basil - Fresh,2018-08-21,7.0
+447,228,Paper Cocktail Umberlla 80 - 180,2018-08-17,5.1
+448,10,Wine - Zonnebloem Pinotage,2018-08-01,7.7
+449,250,Juice - Orangina,2018-03-13,6.0
+450,218,Creme De Menthe Green,2018-07-13,7.7
+451,195,Beans - Green,2018-02-16,7.1
+452,93,Chicken - Leg Boneless,2018-06-12,8.1
+453,49,Lamb - Sausage Casings,2018-02-08,6.5
+454,78,Pie Pecan,2018-10-15,7.0
+455,219,Pork - Shoulder,2018-04-24,6.4
+456,66,Bread - Granary Small Pull,2018-05-17,6.6
+457,162,Lobster - Cooked,2018-05-17,6.9
+458,116,Pepper - Jalapeno,2018-06-29,6.7
+459,75,Truffle Shells - White Chocolate,2018-03-26,9.0
+460,175,Cheese - Mozzarella,2018-04-28,5.9
+461,59,Pork - Sausage Casing,2018-03-06,8.5
+462,196,Soup - Campbells Chicken,2018-03-01,5.9
+463,125,Bread - Sour Sticks With Onion,2018-01-20,8.9
+464,31,Pop Shoppe Cream Soda,2018-07-02,7.7
+465,158,Capon - Breast Double Wing On,2018-04-27,6.8
+466,126,Soup - Base Broth Beef,2018-06-03,6.7
+467,28,Pork - Chop Frenched,2018-05-24,7.6
+468,56,Bowl 12 Oz - Showcase 92012,2018-07-12,9.2
+469,53,Beef - Short Ribs,2018-02-18,5.9
+470,143,Southern Comfort,2018-10-16,7.8
+471,171,Bread - Olive Dinner Roll,2018-10-23,7.6
+472,49,Muffin - Blueberry Individual,2018-04-05,7.5
+473,45,Watercress,2018-03-19,6.8
+474,15,Wine - Zonnebloem Pinotage,2018-02-08,6.9
+475,18,Eggwhite Frozen,2018-02-11,6.2
+476,106,Swiss Chard - Red,2018-07-16,8.3
+477,187,Table Cloth 53x69 White,2018-09-07,5.2
+478,169,Grapefruit - White,2018-06-06,7.3
+479,55,Tequila Rose Cream Liquor,2018-10-14,8.9
+480,210,Cheese - Montery Jack,2018-10-02,7.4
+481,183,Canadian Emmenthal,2018-07-08,8.0
+482,81,Capers - Ox Eye Daisy,2018-02-10,7.1
+483,87,Bagel - Everything Presliced,2018-07-10,7.9
+484,221,Wine - Riesling Dr. Pauly,2018-06-13,7.6
+485,182,Container - Clear 32 Oz,2018-01-09,7.4
+486,137,Island Oasis - Mango Daiquiri,2018-03-02,7.5
+487,246,Walkers Special Old Whiskey,2018-08-08,6.9
+488,21,Puree - Mocha,2018-08-13,6.0
+489,89,Browning Caramel Glace,2018-09-13,5.3
+490,29,Cornflakes,2018-03-18,8.0
+491,33,Jam - Marmalade Orange,2018-10-20,6.5
+492,106,Lettuce - Romaine,2018-07-22,6.3
+493,164,Wine - Cabernet Sauvignon,2018-03-05,8.4
+494,186,Asparagus - White Canned,2018-05-07,6.5
+495,143,The Pop Shoppe - Cream Soda,2018-08-05,6.9
+496,232,Butter Balls Salted,2018-06-14,5.8
+497,44,Coconut - Shredded Sweet,2018-01-05,6.5
+498,30,Soup - Campbells Beef Barley,2018-06-21,6.0
+499,123,Cheese - Gouda Smoked,2018-02-12,8.0
+500,24,Red Currants,2018-05-12,7.6
+501,136,Oysters - Smoked,2018-01-26,8.0
+502,103,Sauce - Cranberry,2018-03-02,8.0
+503,148,Sauce Tomato Pouch,2018-02-25,7.2
+504,119,Oats Large Flake,2018-07-13,7.4
+505,88,Tendrils - Baby Pea Organic,2018-10-15,7.1
+506,61,Cookies - Assorted,2018-09-22,7.6
+507,84,Muffin Mix - Raisin Bran,2018-10-30,7.0
+508,137,Ecolab - Hobart Washarm End Cap,2018-05-16,7.2
+509,20,Gelatine Powder,2018-01-30,6.7
+510,208,Calaloo,2018-08-22,6.0
+511,95,Beef - Outside Round,2018-10-23,5.2
+512,38,Fish - Atlantic Salmon Cold,2018-03-20,6.5
+513,21,Greens Mustard,2018-08-10,6.4
+514,84,Sprouts Dikon,2018-02-22,8.1
+515,250,Egg Patty Fried,2018-06-03,7.7
+516,139,Creme De Banane - Marie,2018-06-07,7.8
+517,81,Bag - Bread White Plain,2018-06-25,7.1
+518,238,Cassis,2018-05-24,6.4
+519,122,Lettuce - Belgian Endive,2018-09-28,9.6
+520,77,Pepsi - 600ml,2018-01-26,6.8
+521,174,Tea - Lemon Scented,2018-06-02,6.7
+522,93,Carbonated Water - Peach,2018-06-07,5.1
+523,114,Kiwi Gold Zespri,2018-04-11,7.7
+524,97,Duck - Breast,2018-05-17,8.4
+525,61,Cookies - Oreo 4 Pack,2018-01-06,6.8
+526,61,Beer - True North Strong Ale,2018-08-08,6.7
+527,172,Lemonade - Pineapple Passion,2018-07-17,6.7
+528,9,Peach - Halves,2018-03-20,7.7
+529,208,Clam - Cherrystone,2018-01-03,5.4
+530,130,Wine - Rioja Campo Viejo,2018-03-02,7.5
+531,124,Octopus - Baby Cleaned,2018-06-14,7.9
+532,115,Coffee - Egg Nog Capuccino,2018-06-11,7.1
+533,180,Wine - Touraine Azay - Le - Rideau,2018-10-25,6.3
+534,56,Bacardi Mojito,2018-10-02,6.3
+535,83,Cookie - Oreo 100x2,2018-10-12,7.8
+536,85,Lamb - Loin Trimmed Boneless,2018-03-03,7.5
+537,151,Spice - Greek 1 Step,2018-10-06,5.9
+538,193,Russian Prince,2018-05-26,8.1
+539,12,Venison - Racks Frenched,2018-01-22,8.1
+540,29,Calvados - Boulard,2018-01-26,4.5
+541,118,Bread - White Unsliced,2018-06-27,5.6
+542,209,Bay Leaf Ground,2018-03-27,7.6
+543,103,Pork - Back Long Cut Boneless,2018-02-03,6.4
+544,160,Pork - Back Long Cut Boneless,2018-09-20,7.4
+545,150,External Supplier,2018-03-04,7.1
+546,188,Food Colouring - Green,2018-08-02,7.1
+547,201,Cherries - Bing Canned,2018-05-25,5.8
+548,70,Bread - Olive,2018-10-28,6.0
+549,33,Appetizer - Tarragon Chicken,2018-08-09,6.1
+550,159,Skirt - 24 Foot,2018-04-28,9.3
+551,138,Cilantro / Coriander - Fresh,2018-09-20,7.0
+552,57,Arrowroot,2018-06-16,7.8
+553,113,Beer - Corona,2018-05-25,8.6
+554,94,Irish Cream - Butterscotch,2018-09-08,7.2
+555,150,Table Cloth 62x114 Colour,2018-05-25,8.6
+556,39,Puree - Kiwi,2018-02-25,8.4
+557,70,Evaporated Milk - Skim,2018-03-08,8.4
+558,163,Cream - 18%,2018-01-23,7.4
+559,62,Bread - Roll Whole Wheat,2018-04-29,8.7
+560,70,Apple - Northern Spy,2018-09-18,6.4
+561,90,Mountain Dew,2018-06-28,6.6
+562,186,Container Clear 8 Oz,2018-05-24,7.9
+563,112,Waffle Stix,2018-08-30,6.6
+564,234,Cinnamon Rolls,2018-04-01,7.0
+565,235,Oil - Food Lacquer Spray,2018-01-06,8.8
+566,192,Red Snapper - Fillet Skin On,2018-10-28,5.5
+567,242,Pears - Bartlett,2018-06-29,7.2
+568,106,Olives - Stuffed,2018-10-29,5.8
+569,233,Juice - Cranberry 341 Ml,2018-05-07,6.3
+570,168,Tea - Darjeeling Azzura,2018-08-09,6.9
+571,136,Tomatoes - Cherry,2018-05-16,8.0
+572,51,Bagel - Everything,2018-08-04,5.0
+573,37,Fond - Chocolate,2018-09-21,7.7
+574,230,Wine - Bouchard La Vignee Pinot,2018-01-10,5.8
+575,105,Lid - 0090 Clear,2018-01-25,7.5
+576,215,Melon - Watermelon Seedless,2018-09-03,6.7
+577,50,Cookies - Fortune,2018-01-07,7.1
+578,30,Garlic,2018-03-19,7.9
+579,125,Lid Coffee Cup 8oz Blk,2018-09-05,5.5
+580,137,Food Colouring - Blue,2018-10-12,7.1
+581,163,Milkettes - 2%,2018-10-17,7.6
+582,62,Salmon - Atlantic Skin On,2018-02-17,6.4
+583,5,Yogurt - Assorted Pack,2018-04-10,7.7
+584,5,Appetizer - Lobster Phyllo Roll,2018-03-28,8.0
+585,186,Basil - Thai,2018-10-15,7.0
+586,225,Pasta - Penne Rigate Dry,2018-04-17,7.0
+587,27,Cotton Wet Mop 16 Oz,2018-06-18,6.1
+588,57,Arctic Char - Fillets,2018-09-05,6.0
+589,116,Cookies - Englishbay Chochip,2018-06-19,7.5
+590,219,Wine - Red Gallo Merlot,2018-07-31,7.2
+591,81,Huck Towels White,2018-09-25,6.7
+592,26,Sole - Fillet,2018-07-08,5.6
+593,72,Coriander - Seed,2018-09-25,6.6
+594,193,Cheese - Valancey,2018-03-05,6.7
+595,131,Beer - Sleemans Cream Ale,2018-08-26,5.2
+596,99,Chicken - Whole Roasting,2018-08-14,6.7
+597,199,Langers - Mango Nectar,2018-09-14,6.7
+598,56,Tomatoes - Cherry,2018-02-25,8.4
+599,125,Table Cloth - 53x69 Colour,2018-08-20,7.9
+600,92,Spice - Greek 1 Step,2018-10-13,6.3
+601,163,Hersey Shakes,2018-03-07,6.4
+602,139,Spinach - Spinach Leaf,2018-09-13,6.9
+603,44,Bread - Bistro Sour,2018-06-17,10.0
+604,185,Cheese - Montery Jack,2018-03-16,7.0
+605,194,Cherries - Frozen,2018-03-20,8.6
+606,208,Rye Special Old,2018-09-07,9.5
+607,66,Veal - Nuckle,2018-07-12,6.5
+608,186,Cabbage - Green,2018-05-28,6.3
+609,184,Beef - Salted,2018-01-20,7.0
+610,233,Nantucket - Pomegranate Pear,2018-04-10,6.8
+611,232,Sobe - Berry Energy,2018-06-11,7.3
+612,11,Pork - Chop Frenched,2018-05-20,6.5
+613,175,Island Oasis - Cappucino Mix,2018-10-02,7.3
+614,1,Salmon - Whole 4 - 6 Pounds,2018-04-16,7.3
+615,213,Instant Coffee,2018-09-01,6.9
+616,106,Puff Pastry - Sheets,2018-02-23,5.5
+617,139,Ice Cream - Life Savers,2018-08-31,6.7
+618,211,Tarragon - Primerba Paste,2018-04-22,6.5
+619,126,Chicken - Ground,2018-03-01,6.6
+620,147,Loaf Pan - 2 Lb Foil,2018-05-18,7.1
+621,186,Liners - Banana Paper,2018-10-16,7.3
+622,113,Fondant - Icing,2018-08-27,6.6
+623,65,Yukon Jack,2018-01-30,7.9
+624,248,Scampi Tail,2018-01-31,7.6
+625,86,Chocolate - Pistoles White,2018-03-10,7.5
+626,14,Yogurt - Assorted Pack,2018-01-19,7.0
+627,207,Pear - Asian,2018-05-13,9.2
+628,131,Bread - Pumpernickle Rounds,2018-06-03,5.5
+629,45,Oil - Peanut,2018-05-29,6.6
+630,87,Filo Dough,2018-01-17,8.5
+631,34,Beef - Outside Round,2018-04-06,5.0
+632,207,Chocolate Bar - Coffee Crisp,2018-09-05,6.1
+633,158,Tea - Vanilla Chai,2018-02-27,7.9
+634,203,Doilies - 8 Paper,2018-07-24,8.0
+635,128,Wine - Red Pinot Noir Chateau,2018-02-17,6.9
+636,30,Pasta - Penne Rigate Dry,2018-08-28,6.9
+637,234,Cookie Dough - Oatmeal Rasin,2018-09-20,7.9
+638,18,Tandoori Curry Paste,2018-10-20,6.9
+639,109,Bandage - Finger Cots,2018-02-13,6.4
+640,19,Pasta - Cappellini Dry,2018-04-28,8.4
+641,135,Mortadella,2018-09-05,5.9
+642,134,Rhubarb,2018-06-02,6.8
+643,15,Sterno - Chafing Dish Fuel,2018-09-14,6.2
+644,221,Sprouts - Bean,2018-01-11,6.6
+645,72,Pastry - Cheese Baked Scones,2018-02-23,8.7
+646,217,Passion Fruit,2018-03-17,8.0
+647,109,Cake - Pancake,2018-08-11,8.3
+648,221,Turkey - Whole Fresh,2018-07-17,8.5
+649,243,Blue Curacao - Marie Brizard,2018-01-25,6.8
+650,54,Tea - Jasmin Green,2018-01-02,6.7
+651,219,Tuna - Salad Premix,2018-08-03,7.9
+652,152,Chutney Sauce,2018-08-05,7.0
+653,158,Cauliflower,2018-03-28,6.8
+654,21,Versatainer Nc - 8288,2018-07-15,8.2
+655,60,Arizona - Plum Green Tea,2018-01-12,6.3
+656,211,Foil Cont Round,2018-03-30,6.8
+657,173,Wine - Piper Heidsieck Brut,2018-01-18,4.5
+658,43,Pears - Anjou,2018-02-10,6.4
+659,9,Crab Meat Claw Pasteurise,2018-09-09,7.7
+660,167,Wine - Charddonnay Errazuriz,2018-09-25,8.2
+661,114,Pail - 4l White With Handle,2018-08-11,6.0
+662,203,Pasta - Tortellini Fresh,2018-02-14,6.7
+663,242,Oyster - In Shell,2018-10-17,7.0
+664,143,Beef - Tender Tips,2018-09-30,8.4
+665,190,Puree - Pear,2018-07-27,7.0
+666,113,Veal - Round Eye Of,2018-05-28,7.7
+667,237,Lamb - Rack,2018-05-21,6.6
+668,249,Longos - Penne With Pesto,2018-02-13,7.4
+669,34,Pastry - Baked Cinnamon Stick,2018-05-07,7.4
+670,160,Taro Root,2018-07-06,7.1
+671,124,Flour Pastry Super Fine,2018-04-19,7.6
+672,250,Sauce Tomato Pouch,2018-02-17,7.6
+673,114,Wine - Vouvray Cuvee Domaine,2018-06-08,5.8
+674,106,Ham - Smoked Bone - In,2018-07-07,7.7
+675,219,Cup Translucent 9 Oz,2018-10-05,6.3
+676,245,Beef - Ox Tail Frozen,2018-04-30,5.1
+677,36,Red Snapper - Fillet Skin On,2018-01-15,7.3
+678,29,Soup - Campbells,2018-04-16,7.4
+679,186,Bread - French Baquette,2018-04-11,6.9
+680,53,Rolled Oats,2018-09-25,8.7
+681,243,Wine - Barossa Valley Estate,2018-03-25,7.2
+682,6,Heavy Duty Dust Pan,2018-06-03,8.1
+683,21,Energy Drink - Franks Pineapple,2018-03-12,7.2
+684,177,Beef - Shank,2018-08-05,6.1
+685,9,Wine - White Ej,2018-09-22,6.6
+686,248,Onions - Green,2018-01-31,7.7
+687,191,Bread - Wheat Baguette,2018-09-20,7.4
+688,79,Wine - White Mosel Gold,2018-01-12,8.3
+689,186,Sole - Iqf,2018-09-20,5.9
+690,148,Bread Roll Foccacia,2018-01-14,5.9
+691,53,Ice Cream - Strawberry,2018-05-31,8.0
+692,46,Sea Bass - Whole,2018-10-06,7.1
+693,64,Greens Mustard,2018-07-10,6.7
+694,27,Tuna - Bluefin,2018-04-23,6.9
+695,104,Water - San Pellegrino,2018-01-14,6.9
+696,86,Wine - Vouvray Cuvee Domaine,2018-04-22,6.4
+697,210,Tofu - Soft,2018-08-14,8.3
+698,21,Cheese - Gouda,2018-01-01,7.0
+699,209,Heavy Duty Dust Pan,2018-04-09,7.3
+700,56,Wine - Shiraz South Eastern,2018-07-08,8.4
+701,103,Nut - Pistachio Shelled,2018-03-31,7.3
+702,108,Sobe - Berry Energy,2018-08-14,7.9
+703,85,Rabbit - Saddles,2018-06-28,8.6
+704,60,Langers - Cranberry Cocktail,2018-08-05,5.3
+705,83,Container - Hngd Cll Blk 7x7x3,2018-05-24,7.0
+706,203,Pear - Halves,2018-08-31,6.6
+707,12,Mushroom - Trumpet Dry,2018-03-07,6.6
+708,115,Cheese - Mascarpone,2018-05-26,6.6
+709,16,Dehydrated Kelp Kombo,2018-02-15,8.9
+710,4,Tortillas - Flour 12,2018-03-11,6.7
+711,189,Raisin - Golden,2018-03-20,7.2
+712,80,Wine - Chateauneuf Du Pape,2018-07-11,6.2
+713,3,Beef - Kindney Whole,2018-01-10,6.7
+714,1,Wine - Mondavi Coastal Private,2018-05-24,6.0
+715,177,Oil - Safflower,2018-05-04,7.9
+716,168,Sparkling Wine - Rose Freixenet,2018-06-26,7.5
+717,207,Bread - Ciabatta Buns,2018-02-14,6.9
+718,239,Parsley - Fresh,2018-09-11,8.2
+719,93,Emulsifier,2018-07-06,8.1
+720,184,Cleaner - Bleach,2018-10-04,8.3
+721,148,Food Colouring - Orange,2018-10-05,5.2
+722,109,Syrup - Kahlua Chocolate,2018-04-17,4.9
+723,43,Island Oasis - Raspberry,2018-01-25,6.5
+724,183,Banana,2018-08-13,6.4
+725,55,Flour - Cake,2018-05-11,6.0
+726,106,Dragon Fruit,2018-08-26,8.2
+727,96,Pasta - Tortellini Fresh,2018-10-14,7.1
+728,224,Juice - Pineapple 48 Oz,2018-05-02,5.9
+729,68,Tea Peppermint,2018-08-25,8.7
+730,151,Spinach - Packaged,2018-08-29,8.2
+731,50,Mushroom - Trumpet Dry,2018-07-22,7.1
+732,232,Cookie Double Choco,2018-09-07,6.5
+733,164,Mustard - Seed,2018-02-28,8.2
+734,222,Tequila Rose Cream Liquor,2018-07-13,7.9
+735,3,Ecolab - Mikroklene 4/4 L,2018-09-26,7.4
+736,205,Cherries - Maraschino jar,2018-03-30,6.6
+737,76,Hand Towel,2018-03-10,6.7
+738,47,Nantucket Cranberry Juice,2018-05-22,6.6
+739,38,Olives - Morracan Dired,2018-07-27,6.4
+740,207,Pork - Smoked Kassler,2018-06-14,6.2
+741,1,Chicken - Leg Fresh,2018-07-13,6.6
+742,186,Wine - Touraine Azay - Le - Rideau,2018-10-01,6.8
+743,109,Soup - Campbells Lentil,2018-04-05,6.8
+744,21,Garlic Powder,2018-03-03,7.4
+745,142,Juice - Orangina,2018-10-24,6.1
+746,232,Lid Coffeecup 12oz D9542b,2018-10-09,6.4
+747,79,Cake - Mini Cheesecake,2018-08-07,5.9
+748,187,Dish Towel,2018-05-09,7.2
+749,135,Puree - Passion Fruit,2018-05-09,7.9
+750,211,Lamb Leg - Bone - In Nz,2018-10-24,6.9
+751,141,Basil - Thai,2018-07-09,7.1
+752,155,Nut - Almond Blanched Whole,2018-05-07,8.0
+753,172,Muffin Mix - Banana Nut,2018-07-25,7.0
+754,21,Bread - Corn Muffaleta Onion,2018-07-28,8.5
+755,36,Lettuce - Spring Mix,2018-07-30,8.0
+756,226,Ice Cream Bar - Rolo Cone,2018-06-04,6.8
+757,18,Bread - Sour Batard,2018-10-28,7.4
+758,4,Nacho Chips,2018-09-22,7.1
+759,197,Rum - Coconut Malibu,2018-08-04,5.8
+760,39,Wasabi Paste,2018-09-14,6.7
+761,107,Beef - Rib Roast Capless,2018-10-19,6.6
+762,152,Tomatoes - Roma,2018-09-02,6.1
+763,69,Eggwhite Frozen,2018-05-05,7.3
+764,24,Wine - Rosso Del Veronese Igt,2018-04-09,5.7
+765,135,Veal - Inside,2018-09-04,8.1
+766,200,Chinese Foods - Chicken,2018-01-26,6.9
+767,144,Guinea Fowl,2018-04-11,7.7
+768,229,Glass - Wine Plastic Clear 5 Oz,2018-04-21,8.1
+769,180,Mussels - Cultivated,2018-09-12,6.9
+770,235,Salmon - Fillets,2018-07-28,7.9
+771,214,Ocean Spray - Ruby Red,2018-05-16,6.7
+772,190,Bread - Multigrain Oval,2018-01-20,6.5
+773,37,Flour - Rye,2018-01-07,6.3
+774,250,Beef - Diced,2018-05-08,6.5
+775,197,Table Cloth 81x81 Colour,2018-03-26,8.5
+776,85,Wine - Fontanafredda Barolo,2018-04-04,6.4
+777,225,Spaghetti Squash,2018-09-21,7.3
+778,126,Mix - Cappucino Cocktail,2018-05-09,6.2
+779,212,Wine - Gato Negro Cabernet,2018-02-06,8.4
+780,88,Frangelico,2018-04-12,9.1
+781,82,Pepper - Orange,2018-07-14,5.4
+782,99,Kaffir Lime Leaves,2018-04-02,8.5
+783,183,Chef Hat 25cm,2018-06-11,9.1
+784,195,Wine - Savigny - Les - Beaune,2018-05-22,8.2
+785,227,Liqueur Banana Ramazzotti,2018-03-05,7.4
+786,55,Latex Rubber Gloves Size 9,2018-08-31,8.6
+787,183,Turkey - Breast Bone - In,2018-03-24,5.9
+788,94,Tart Shells - Sweet 2,2018-07-05,6.6
+789,154,Boogies,2018-07-17,7.0
+790,125,Basil - Primerba Paste,2018-04-10,6.9
+791,164,Shark - Loin,2018-02-11,8.1
+792,5,Soup - Campbells Beef Noodle,2018-04-03,8.3
+793,155,Sponge Cake Mix - Chocolate,2018-04-09,7.8
+794,26,Table Cloth 62x120 White,2018-02-23,4.8
+795,201,Plaintain,2018-10-09,6.5
+796,120,Bar Mix - Lemon,2018-05-12,7.5
+797,48,The Pop Shoppe - Grape,2018-07-04,6.8
+798,43,Cookie Trail Mix,2018-06-04,6.8
+799,127,Broom And Broom Rack White,2018-09-04,6.7
+800,14,Puff Pastry - Slab,2018-10-13,4.1
+801,85,Cookie - Oatmeal,2018-03-25,8.0
+802,175,Island Oasis - Strawberry,2018-09-22,7.5
+803,220,Wine - Ruffino Chianti,2018-03-06,7.2
+804,151,Pork - Tenderloin Fresh,2018-07-15,7.5
+805,211,Stock - Veal Brown,2018-03-18,6.7
+806,134,Onions - Dried Chopped,2018-08-12,7.7
+807,38,Beer - Fruli,2018-06-17,6.6
+808,169,Tofu - Firm,2018-09-23,6.2
+809,177,Pasta - Fettuccine Egg Fresh,2018-01-16,7.6
+810,164,Corn Kernels - Frozen,2018-01-09,7.4
+811,9,Pork - Tenderloin Frozen,2018-04-18,7.2
+812,190,Potatoes - Yukon Gold 5 Oz,2018-04-19,7.7
+813,225,Chivas Regal - 12 Year Old,2018-08-11,8.1
+814,91,Fish - Halibut Cold Smoked,2018-05-27,8.5
+815,46,Table Cloth 53x53 White,2018-02-14,8.1
+816,84,Wine - White Ej,2018-10-10,9.0
+817,23,Appetizer - Chicken Satay,2018-04-06,6.6
+818,227,Pork - Side Ribs,2018-01-27,7.4
+819,117,Chick Peas - Dried,2018-02-16,8.8
+820,213,Haggis,2018-06-22,7.6
+821,167,Pineapple - Regular,2018-03-05,7.5
+822,226,Flour - Whole Wheat,2018-03-13,6.8
+823,10,Lettuce - Lambs Mash,2018-03-14,6.6
+824,97,Truffle Cups - Brown,2018-05-22,7.6
+825,215,Bacardi Limon,2018-09-29,7.5
+826,32,Bread - Rolls Rye,2018-06-20,7.0
+827,43,Southern Comfort,2018-01-10,6.3
+828,180,Foam Tray S2,2018-04-01,7.5
+829,227,Sparkling Wine - Rose Freixenet,2018-06-03,6.8
+830,69,Vermouth - White Cinzano,2018-10-05,8.6
+831,158,Hersey Shakes,2018-03-06,7.6
+832,165,Pail - 4l White With Handle,2018-06-01,7.6
+833,114,Basil - Seedlings Cookstown,2018-05-04,7.4
+834,218,Brandy Cherry - Mcguinness,2018-06-01,6.7
+835,34,Venison - Racks Frenched,2018-03-10,9.0
+836,33,Vodka - Lemon Absolut,2018-05-02,6.9
+837,232,Pate - Liver,2018-03-10,7.9
+838,65,Beef - Baby Liver,2018-10-05,5.4
+839,199,Longos - Chicken Cordon Bleu,2018-10-22,6.8
+840,234,Soup - Campbells Chix Gumbo,2018-06-04,8.2
+841,249,Soup - Campbells Tomato Ravioli,2018-09-19,9.0
+842,202,Pasta - Orzo Dry,2018-03-26,8.4
+843,52,Chef Hat 25cm,2018-05-03,8.0
+844,167,Flavouring - Raspberry,2018-07-24,6.5
+845,81,Mop Head - Cotton 24 Oz,2018-07-07,7.0
+846,34,Tea Leaves - Oolong,2018-05-24,6.3
+847,78,Cassis,2018-07-03,7.4
+848,65,Foil Wrap,2018-06-25,6.1
+849,78,Compound - Rum,2018-09-04,7.3
+850,208,Juice - Cranberry 284ml,2018-05-17,8.7
+851,211,Mustard Prepared,2018-10-09,7.4
+852,59,Coffee - 10oz Cup 92961,2018-10-18,7.6
+853,240,Wine - Red Gamay Noir,2018-07-27,8.0
+854,160,Cup - 8oz Coffee Perforated,2018-08-28,6.1
+855,144,Bread - French Baquette,2018-03-08,6.5
+856,161,Salt - Celery,2018-06-13,5.0
+857,135,Soup - Campbells Beef Stew,2018-02-27,7.2
+858,53,Radish,2018-08-15,6.6
+859,65,Muffin Mix - Banana Nut,2018-07-03,5.2
+860,88,Parsley - Dried,2018-03-08,6.6
+861,127,Sugar - Cubes,2018-02-16,8.1
+862,11,Scallops - Live In Shell,2018-08-21,5.6
+863,91,Pur Value,2018-10-15,6.6
+864,131,Appetiser - Bought,2018-08-08,6.2
+865,51,Lobster - Baby Boiled,2018-07-17,8.4
+866,206,Sobe - Orange Carrot,2018-07-28,7.5
+867,79,Puree - Mocha,2018-03-17,7.6
+868,158,Silicone Paper 16.5x24,2018-01-04,7.1
+869,47,Tea - English Breakfast,2018-09-22,6.1
+870,165,Chilli Paste Ginger Garlic,2018-05-11,6.8
+871,77,Gelatine Leaves - Bulk,2018-07-05,8.8
+872,76,Wine La Vielle Ferme Cote Du,2018-06-14,7.3
+873,25,Mushroom - Morels Dry,2018-02-23,7.2
+874,83,Beef - Salted,2018-04-04,4.9
+875,19,Wine - Chianti Classico Riserva,2018-02-02,8.3
+876,190,Sage - Rubbed,2018-08-14,9.1
+877,100,Soup - Base Broth Beef,2018-02-16,7.6
+878,79,Clams - Bay,2018-02-16,6.7
+879,152,Lobak,2018-08-14,6.5
+880,138,Beef - Tenderloin,2018-01-08,6.9
+881,196,Turkey - Breast Bone - In,2018-02-27,8.9
+882,185,Pasta - Canelloni,2018-03-03,6.7
+883,213,Beef - Rouladin Sliced,2018-01-16,6.9
+884,178,Butter Sweet,2018-03-01,8.8
+885,57,Yeast - Fresh Fleischman,2018-03-09,6.9
+886,158,Tea - Earl Grey,2018-09-10,8.6
+887,147,Squeeze Bottle,2018-10-29,7.1
+888,204,Beans - Kidney White,2018-03-07,7.3
+889,92,Wine - Saint - Bris 2002 Sauv,2018-10-26,6.5
+890,43,Wakami Seaweed,2018-04-15,7.6
+891,92,Sandwich Wrap,2018-03-14,8.4
+892,27,Puree - Raspberry,2018-02-02,5.7
+893,233,Soup - Knorr Classic Can. Chili,2018-04-17,7.3
+894,234,Island Oasis - Lemonade,2018-04-02,7.8
+895,221,Sauce - Demi Glace,2018-01-12,6.4
+896,97,Tomatoes,2018-08-02,6.5
+897,214,Chick Peas - Canned,2018-05-18,5.7
+898,113,Lid Tray - 12in Dome,2018-04-16,7.3
+899,48,Sea Bass - Whole,2018-04-14,8.3
+900,162,Salad Dressing,2018-06-07,9.4
+901,8,Rice - 7 Grain Blend,2018-03-31,4.9
+902,189,Sambuca Cream,2018-07-25,7.1
+903,25,Nacho Chips,2018-03-21,8.7
+904,8,Cheese - Parmigiano Reggiano,2018-02-13,6.3
+905,88,Wine - Red Pelee Island Merlot,2018-01-04,6.8
+906,249,Monkfish - Fresh,2018-01-02,6.2
+907,88,Crab - Imitation Flakes,2018-10-13,7.2
+908,103,Yogurt - Strawberry 175 Gr,2018-07-05,5.4
+909,50,Juice - Lemon,2018-09-29,6.0
+910,146,Lotus Root,2018-07-24,8.1
+911,47,Tobasco Sauce,2018-01-06,7.1
+912,217,Stock - Veal White,2018-03-27,6.0
+913,70,Pickerel - Fillets,2018-06-03,6.9
+914,93,Jam - Marmalade Orange,2018-04-16,5.3
+915,231,Dc Hikiage Hira Huba,2018-09-21,6.2
+916,202,Mustard - Dry Powder,2018-10-11,6.6
+917,74,Compound - Raspberry,2018-01-31,7.9
+918,209,Snapple - Mango Maddness,2018-05-14,6.7
+919,101,Pork Salted Bellies,2018-10-22,9.0
+920,17,Chestnuts - Whole canned,2018-09-22,6.1
+921,55,Soup - Tomato Mush. Florentine,2018-03-17,4.6
+922,166,Shrimp - Black Tiger 6 - 8,2018-02-11,6.9
+923,170,Bread - Bistro White,2018-07-01,7.5
+924,55,Butter - Unsalted,2018-08-16,8.2
+925,231,Pepper - Red Finger Hot,2018-07-02,6.8
+926,216,Oil - Food Lacquer Spray,2018-06-03,8.2
+927,4,Cake - Pancake,2018-02-06,7.8
+928,35,Oil - Sesame,2018-06-25,7.1
+929,211,Tomatoes - Hot House,2018-08-08,8.2
+930,170,Pasta - Fettuccine Dry,2018-04-07,6.7
+931,41,Coffee - Cafe Moreno,2018-09-27,5.7
+932,177,Quail - Whole Bone - In,2018-10-14,7.9
+933,142,Table Cloth - 53x69 Colour,2018-05-04,9.4
+934,222,Rum - Mount Gay Eclipes,2018-01-16,7.9
+935,189,Pepper - Sorrano,2018-09-28,7.4
+936,133,Pepper - Sorrano,2018-03-06,6.1
+937,79,Praline Paste,2018-09-04,6.4
+938,174,Sauce - Soy Low Sodium - 3.87l,2018-06-21,8.2
+939,40,V8 - Vegetable Cocktail,2018-04-25,7.2
+940,113,Beef - Rib Roast Capless,2018-03-16,7.7
+941,196,Wine - Two Oceans Sauvignon,2018-10-07,6.4
+942,206,Mace Ground,2018-04-22,7.7
+943,188,Yams,2018-09-04,6.9
+944,111,Tomatoes - Hot House,2018-07-25,6.5
+945,67,Tea Peppermint,2018-08-23,7.5
+946,243,Crab - Back Fin Meat Canned,2018-09-01,6.2
+947,195,Bread - Raisin Walnut Pull,2018-05-08,5.9
+948,107,Jerusalem Artichoke,2018-08-26,8.0
+949,84,Sesame Seed Black,2018-10-01,5.6
+950,104,Lemon Tarts,2018-09-19,7.8
+951,207,Seedlings - Mix Organic,2018-03-25,6.2
+952,189,Beer - Mill St Organic,2018-10-08,7.1
+953,136,Milk - 2% 250 Ml,2018-04-08,7.1
+954,180,Pepper - Red Chili,2018-06-12,6.6
+955,153,Wine - Red Lurton Merlot De,2018-06-24,7.4
+956,24,Coriander - Seed,2018-06-03,6.9
+957,175,Soup Knorr Chili With Beans,2018-06-02,7.2
+958,32,Sobe - Liz Blizz,2018-05-01,7.3
+959,158,Peppercorns - Green,2018-04-15,7.2
+960,181,Wine - Rosso Toscano Igt,2018-03-29,8.0
+961,8,Muffin Mix - Carrot,2018-05-27,6.4
+962,204,Seedlings - Buckwheat Organic,2018-08-06,7.4
+963,186,Crab - Imitation Flakes,2018-09-24,7.3
+964,128,Scallops - Live In Shell,2018-09-24,8.9
+965,152,Beer - Maudite,2018-08-23,7.7
+966,186,Milk - 2%,2018-07-28,7.4
+967,221,Pomello,2018-05-16,7.4
+968,139,Beef - Bones Marrow,2018-04-22,5.9
+969,187,Sauce Bbq Smokey,2018-03-04,7.2
+970,60,Cake - Cake Sheet Macaroon,2018-05-22,8.0
+971,149,Paste - Black Olive,2018-07-28,8.1
+972,90,Soup - Verve - Chipotle Chicken,2018-10-30,7.3
+973,60,Longos - Penne With Pesto,2018-09-18,6.7
+974,128,Cup Translucent 9 Oz,2018-09-19,5.3
+975,146,Five Alive Citrus,2018-02-04,6.3
+976,106,Seedlings - Clamshell,2018-05-04,7.5
+977,123,Vinegar - Tarragon,2018-09-27,5.2
+978,230,Sobe - Tropical Energy,2018-03-01,6.5
+979,16,Soup - Campbells Pasta Fagioli,2018-09-07,7.1
+980,126,Muffin - Mix - Bran And Maple 15l,2018-08-20,7.6
+981,85,Cloves - Ground,2018-04-30,5.5
+982,100,Calypso - Pineapple Passion,2018-07-10,7.8
+983,3,Shopper Bag - S - 4,2018-08-07,6.7
+984,128,Veal - Inside,2018-06-12,6.8
+985,132,Bamboo Shoots - Sliced,2018-02-20,6.8
+986,126,Olives - Black Pitted,2018-10-20,6.3
+987,138,Soup Campbells - Italian Wedding,2018-05-17,7.0
+988,241,Cake - French Pear Tart,2018-03-22,6.8
+989,96,Chips Potato Swt Chilli Sour,2018-05-29,6.7
+990,46,Yoplait Drink,2018-05-18,6.4
+991,70,Pea - Snow,2018-08-10,8.8
+992,236,Wine - Prem Select Charddonany,2018-04-15,8.1
+993,107,Eggs - Extra Large,2018-01-05,5.9
+994,225,Munchies Honey Sweet Trail Mix,2018-09-10,8.5
+995,106,Bagelers - Cinn / Brown,2018-08-26,6.1
+996,108,Sauce - Alfredo,2018-04-25,7.4
+997,190,Grenadillo,2018-06-27,7.2
+998,139,Spice - Onion Powder Granulated,2018-02-10,7.4
+999,220,Cups 10oz Trans,2018-08-24,6.9
+1000,33,Extract - Lemon,2018-04-05,7.4
