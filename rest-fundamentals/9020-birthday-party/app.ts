@@ -1,35 +1,24 @@
-import {CREATED} from 'http-status-codes';
-import * as Datastore from 'nedb';
-import {createServer, Next, plugins, Request, Response} from 'restify';
-import {BadRequestError, UnauthorizedError} from 'restify-errors';
+import {CREATED, BAD_REQUEST, UNAUTHORIZED} from 'http-status-codes';
+import * as loki from 'lokijs';
+import * as express from 'express';
+import * as basic from 'express-basic-auth';
 
-var server = createServer();
-server.use(plugins.bodyParser());
-server.use(plugins.authorizationParser());
+var app = express();
+app.use(express.json());
 
-const db = new Datastore({filename: __dirname + '/db.dat', autoload: true});
+const adminFilter = basic({ users: { admin: 'P@ssw0rd!' }});
 
-function adminFilter(req: Request, res: Response, next: Next) {
-  if (!req.authorization || req.authorization.scheme !== 'Basic' ||
-      !req.authorization.basic) {
-    next(new UnauthorizedError('Missing basic authentication header'));
-  } else {
-    if (req.authorization.basic.username === 'admin' &&
-        req.authorization.basic.password === 'P@ssw0rd!') {
-      next();
-    } else {
-      next(new UnauthorizedError('Invalid username or password'));
-    }
-  }
+const db = new loki(__dirname + '/db.dat', {autosave: true, autoload: true});
+let guests = db.getCollection('guests');
+if (!guests) {
+  guests = db.addCollection('guests');
 }
 
-server.get('/guests', adminFilter, (req, res, next) => {
-  db.find({}, (err, guests) => {
-    res.send(guests);
-  });
+app.get('/guests', adminFilter, (req, res) => {
+  res.send(guests.find());
 });
 
-server.get('/party', (req, res, next) => {
+app.get('/party', (req, res, next) => {
   res.send({
     title: 'Happy new year!',
     location: 'At my home',
@@ -37,23 +26,18 @@ server.get('/party', (req, res, next) => {
   });
 });
 
-server.post('/register', (req, res, next) => {
+app.post('/register', (req, res, next) => {
   if (!req.body.firstName || !req.body.lastName) {
-    next(new BadRequestError('Missing mandatory member(s)'));
+    res.status(BAD_REQUEST).send('Missing mandatory member(s)');
   } else {
-    db.count({}, (err, count) => {
-      if (count < 10) {
-        db.insert(
-            {firstName: req.body.firstName, lastName: req.body.lastName},
-            (err, newDoc) => {
-              res.send(CREATED, newDoc);
-            });
-      } else {
-        next(new UnauthorizedError(
-            'Sorry, max. number of guests already reached'));
-      }
-    });
+    const count = guests.count();
+    if (count < 10) {
+      const newDoc = guests.insert({firstName: req.body.firstName, lastName: req.body.lastName});
+      res.status(CREATED).send(newDoc);
+    } else {
+      res.status(UNAUTHORIZED).send('Sorry, max. number of guests already reached');
+    }
   }
 });
 
-server.listen(8080, () => console.log('API is listening'));
+app.listen(8080, () => console.log('API is listening'));

@@ -20,9 +20,9 @@ In this exercise, you have to build a RESTful Web API that can act as the backen
 
 ## Hints
 
-* In *Basic Authentication*, the *Authorization* HTTP header has to contain `Basic <userdata>`. `<userdata>` stands for `username:password` encoded in *Base64*.
-  * Note that *restify* has a plugin called `authorizationParser` that can be of great help. Look it up in the *restify* documentation and try to use it.
-* [*nedb*](https://github.com/louischatriot/nedb) is a simple but powerful embedded database for *Node.js*. TypeScript metadata is available, too ([*@types/nedb*](https://www.npmjs.com/package/@types/nedb)). You can use it to store registration on disk.
+* In *Basic Authentication*, the *Authorization* HTTP header has to contain `Basic <userdata>`. `<userdata>` stands for `username:password` encoded in [*Base64*](https://www.base64encode.org/).
+  * Note that *express* has a plugin called [*express-basic-auth*](https://www.npmjs.com/package/express-basic-auth) that can be of great help. Try to use it.
+* [*Lokijs*](http://lokijs.org/#/) is a simple but powerful key-value store that works in *Node.js*. TypeScript metadata is available, too ([*@types/lokijs*](https://www.npmjs.com/package/@types/lokijs)). You can use it to store registration on disk.
 
 
 ## Advanced Exercises
