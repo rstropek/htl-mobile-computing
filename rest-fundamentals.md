@@ -29,8 +29,8 @@ Introduction to [REST](https://en.wikipedia.org/wiki/Representational_state_tran
   * [*REST Client*](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in *Visual Studio Code*
 * Web Debugger
   * [*Fiddler*](http://www.telerik.com/fiddler)
-* Post Dumping Services
-  * [*requestb.in*](https://requestb.in/)
+* HTTP Request and Response Service
+  * [*httpbin.org*](https://httpbin.org)
 
 
 <!-- .slide: class="left" -->
@@ -67,17 +67,14 @@ Exercise: Try this sample with different REST clients
 ## Sample Requests (cont.)
 
 ```
-# Create a request bin at https://requestb.in/, then replace
-# 1lexbhf1 with your bin id.
-
-POST https://requestb.in/1lexbhf1 HTTP/1.1
+POST https://httpbin.org/post HTTP/1.1
 Content-Type: application/json
 
 { "Foo": "Bar", "Answer": 42 }
 
 ###
 
-DELETE https://requestb.in/1lexbhf1 HTTP/1.1
+DELETE https://httpbin.org/delete HTTP/1.1
 ```
 Exercise: Try this sample with different REST clients
 
@@ -168,32 +165,29 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## Building RESTful Web APIs with Node.js
 
 * In practice, frameworks are used for that
-* Example: [*Express.js*](http://expressjs.com/)
+* Here: [*Express.js*](http://expressjs.com/)
   * Larger framework, not just for RESTful Web APIs
   * Very commonly used
   * Lots of plugins
-* Example: [*restify*](http://restify.com/)
-  * Smaller framework specialized on RESTful Web APIs
-  * Easy to use
-  * Also quite common
-  * We will use this framework in this course
+* Installation
+  * `npm install express`
+  * For TypeScript: `npm install @types/express --save-dev`
 
 
 <!-- .slide: class="left" -->
-## RESTful Web API with [*restify*](http://restify.com/)
+## RESTful Web API with [*Express.js*](http://expressjs.com/)
 
 ```
-import {createServer} from 'restify';
+import * as express from 'express';
 
-var server = createServer();
-server.get('/api/echo/:word', (request, response, next) => {
+var server = express();
+server.get('/api/echo/:word', (request, response) => {
     response.send({youSent: request.params.word});
-    next();
 });
 
 const port = 8080;
 server.listen(port, function() {
-  console.log('API is listening');
+  console.log(`API is listening on port ${port}`);
 });
 ```
 
@@ -204,50 +198,51 @@ Accept: application/json
 
 
 <!-- .slide: class="left" -->
-## RESTful Web API with [*restify*](http://restify.com/)
+## RESTful Web API with [*Express.js*](http://expressjs.com/)
 
-* `server` object
-  * Register routes and handlers for incoming requests
-  * Created using the `createServer()` method
-  * [Documentation](http://restify.com/docs/server-api/)
+* `express()` function
+  * Creates an Express application
+  * [Documentation](https://expressjs.com/en/4x/api.html#express)
+* Application
+  * Represents the Express application
+  * Created with `express()`
+  * [Documentation](https://expressjs.com/en/4x/api.html#app)
 * `request` object
   * Represents the HTTP request
   * Use it to get headers, parameters, body, etc.
-  * [Documentation](http://restify.com/docs/request-api/)
+  * [Documentation](https://expressjs.com/en/4x/api.html#req)
 * `response` object
   * Represents the HTTP response
   * Use it to build response (e.g. status, headers, body, etc.)
-  * [Documentation](http://restify.com/docs/response-api/)
+  * [Documentation](https://expressjs.com/en/4x/api.html#res)
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples
+## [*Express.js*](http://expressjs.com/) Examples
 
 ```
-import {createServer, plugins} from 'restify';
+import * as express from 'express';
 
 import {deleteSingle} from './delete-single';
 import {getAll} from './get-all';
 import {getSingle} from './get-single';
 import {post} from './post';
 
-var server = createServer();
-
-// Add bodyParser plugin for parsing JSON in request body
-server.use(plugins.bodyParser());
+const app = express();
+app.use(express.json());
 
 // Add routes
-server.get('/api/customers', getAll);
-server.post('/api/customers', post);
-server.get('/api/customers/:id', getSingle);
-server.del('/api/customers/:id', deleteSingle);
+app.get('/api/customers', getAll);
+app.post('/api/customers', post);
+app.get('/api/customers/:id', getSingle);
+app.delete('/api/customers/:id', deleteSingle);
 
-server.listen(8080, () => console.log('API is listening'));
+app.listen(8080, () => console.log('API is listening on port 8080'));
 ```
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
 export interface ICustomer {
@@ -265,62 +260,59 @@ export const customers: ICustomer[] = [
 ```
 
 ```
-import {Request, Response, Next} from 'restify';
+import {Request, Response} from 'express';
 import {customers} from './data';
 
-export function getAll(req: Request, res: Response, next: Next): void {
+export function getAll(req: Request, res: Response): void {
     res.send(customers);
-    next();
 }
 ```
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
-import {Next, Request, Response} from 'restify';
-import {BadRequestError, NotFoundError} from 'restify-errors';
+import {Request, Response} from 'express';
+import {NOT_FOUND, BAD_REQUEST} from 'http-status-codes';
 import {customers} from './data';
 
-export function getSingle(req: Request, res: Response, next: Next): void {
+export function getSingle(req: Request, res: Response): void {
   const id = parseInt(req.params.id);
   if (id) {
     const customer = customers.find(c => c.id === id);
     if (customer) {
       res.send(customer);
-      next();
     } else {
-      next(new NotFoundError());
+      res.status(NOT_FOUND).send();
     }
   } else {
-    next(new BadRequestError('Parameter id must be a number'));
+    res.status(BAD_REQUEST).send('Parameter id must be a number');
   }
 }
 ```
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
-import {CREATED} from 'http-status-codes';
-import {Next, Request, Response} from 'restify';
-import {BadRequestError} from 'restify-errors';
+import {CREATED, BAD_REQUEST} from 'http-status-codes';
+import {Request, Response} from 'express';
 import {customers, ICustomer} from './data';
 
-export function post(req: Request, res: Response, next: Next): void {
+export function post(req: Request, res: Response): void {
   if (!req.body.id || !req.body.firstName || !req.body.lastName) {
-    next(new BadRequestError('Missing mandatory member(s)'));
+    res.status(BAD_REQUEST).send('Missing mandatory member(s)');
   } else {
     const newCustomerId = parseInt(req.body.id);
     if (!newCustomerId) {
-      next(new BadRequestError('ID has to be a numeric value'));
+      res.status(BAD_REQUEST).send('ID has to be a numeric value');
     } else {
       const newCustomer: ICustomer = { id: newCustomerId,
         firstName: req.body.firstName, lastName: req.body.lastName };
       customers.push(newCustomer);
-      res.send(CREATED, newCustomer, {Location: `${req.path()}/${req.body.id}`});
+      res.status(CREATED).header({Location: `${req.path}/${req.body.id}`}).send(newCustomer);
     }
   }
 }
@@ -328,27 +320,143 @@ export function post(req: Request, res: Response, next: Next): void {
 
 
 <!-- .slide: class="left" -->
-## [*restify*](http://restify.com/) Examples (cont.)
+## [*Express.js*](http://expressjs.com/) Examples (cont.)
 
 ```
-import {NO_CONTENT} from 'http-status-codes';
-import {Next, Request, Response} from 'restify';
-import {BadRequestError, NotFoundError} from 'restify-errors';
+import {NO_CONTENT, NOT_FOUND, BAD_REQUEST} from 'http-status-codes';
+import {Request, Response} from 'express';
 import {customers} from './data';
 
-export function deleteSingle(req: Request, res: Response, next: Next): void {
+export function deleteSingle(req: Request, res: Response): void {
   const id = parseInt(req.params.id);
   if (id) {
     const customerIndex = customers.findIndex(c => c.id === id);
     if (customerIndex !== (-1)) {
       customers.splice(customerIndex, 1);
-      res.send(NO_CONTENT);
-      next();
+      res.status(NO_CONTENT).send();
     } else {
-      next(new NotFoundError());
+      res.status(NOT_FOUND).send();
     }
   } else {
-    next(new BadRequestError('Parameter id must be a number'));
+    res.status(BAD_REQUEST).send('Parameter id must be a number');
+  }
+}
+```
+
+
+<!-- .slide: class="left" -->
+## [*Lokijs*](http://lokijs.org/)
+
+* Simple in-memory key-value store for Node.js
+* Can commit to disk in regular intervals
+
+```
+import * as loki from 'lokijs';
+
+export class Datastore {
+    constructor(public db: loki, public customers: loki.Collection) { }
+}
+
+export function init(): Datastore {
+    const db = new loki('./data.db', { autosave: true });
+
+    let customers = db.getCollection('customers');
+    if (!customers) {
+        customers = db.addCollection('customers');
+    }
+
+    return new Datastore(db, customers);
+}
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/)
+
+```
+import {Request, Response} from 'express';
+import {Datastore} from './db';
+
+export function getAll(req: Request, res: Response): void {
+    res.send((<Datastore>req.app.locals).customers.find());
+}
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+import {Request, Response} from 'express';
+import {NOT_FOUND, BAD_REQUEST} from 'http-status-codes';
+import {Datastore} from './db';
+
+export function getSingle(req: Request, res: Response): void {
+  const id = parseInt(req.params.id);
+  if (id) {
+    const store = <Datastore>req.app.locals;
+    const customer = store.customers.get(id);
+    if (customer) {
+      res.send(customer);
+    } else {
+      res.status(NOT_FOUND).send();
+    }
+  } else {
+    res.status(BAD_REQUEST).send('Parameter id must be a number');
+  }
+}
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+import {CREATED, BAD_REQUEST} from 'http-status-codes';
+import {Request, Response} from 'express';
+import {Datastore} from './db';
+import {ICustomer} from './model';
+
+export function post(req: Request, res: Response): void {
+  if (!req.body.id || !req.body.firstName || !req.body.lastName) {
+    res.status(BAD_REQUEST).send('Missing mandatory member(s)');
+  } else {
+    const newCustomerId = parseInt(req.body.id);
+    if (!newCustomerId) {
+      res.status(BAD_REQUEST).send('ID has to be a numeric value');
+    } else {
+      const store = <Datastore>req.app.locals;
+      const newCustomer: ICustomer = { id: newCustomerId,
+        firstName: req.body.firstName, lastName: req.body.lastName };
+      store.customers.insert(newCustomer);
+      res.status(CREATED).header({Location: `${req.path}/${req.body.id}`}).send(newCustomer);
+    }
+  }
+}
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/) (cont.)
+
+```
+import {NO_CONTENT, NOT_FOUND, BAD_REQUEST} from 'http-status-codes';
+import {Request, Response} from 'express';
+import {Datastore} from './db';
+
+export function deleteSingle(req: Request, res: Response): void {
+  const id = parseInt(req.params.id);
+  if (id) {
+    const store = <Datastore>req.app.locals;
+    const customerToDelete = store.customers.get(id);
+    if (customerToDelete) {
+      store.customers.remove(customerToDelete);
+      res.status(NO_CONTENT).send();
+    } else {
+      res.status(NOT_FOUND).send();
+    }
+  } else {
+    res.status(BAD_REQUEST).send('Parameter id must be a number');
   }
 }
 ```
@@ -359,7 +467,7 @@ export function deleteSingle(req: Request, res: Response, next: Next): void {
 
 * Want to know more? Read/watch...
   * [Microsoft's REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md)
-  * [*restify* documentation](http://restify.com/docs/home/)
+  * [*Express.js* documentation](https://expressjs.com/)
 * Exercises
   * [*CouchDB* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9010-couch/readme.md)
   * [*RSVP* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/rest-fundamentals/9020-birthday-party/readme.md)
