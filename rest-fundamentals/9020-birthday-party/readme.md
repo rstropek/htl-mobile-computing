@@ -27,8 +27,9 @@ In this exercise, you have to build a RESTful Web API that can act as the backen
 
 ## Advanced Exercises
 
-* Extend the sample so that registration to multiple parties are supported.
-* Build a web UI (HTML, JavaScript, [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch) API) for registering guests.
+* Level 1: Extend the sample so that registration to multiple parties are supported.
+* Level 2 (*Medium*): Build a web UI (HTML, JavaScript, [*fetch*](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch) API) for registering guests.
+* Level 3 (*Hard*): Create a [Docker Image](https://docs.docker.com/get-started/) containing your API and run it in a *Docker Container*. Check in your *Dockerfile*.
 
 
 ## Solution
