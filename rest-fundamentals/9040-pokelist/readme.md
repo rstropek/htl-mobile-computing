@@ -20,7 +20,6 @@ Your website has to display a list of *Pokemons* from the [*pokeapi*](https://po
 
 1. Pokemon list
    * Display the name of each Pokemon.
-   * Load and display only 20 Pokemons at a time. Offer paging buttons (next page, previous page) for navigation.
    * A *Details* button next to each Pokemon in the list should bring the user to the details page for the corresponding Pokemon.
 
 1. On the Pokemon *Details* page, display the following fields about the figure:
@@ -35,6 +34,6 @@ Your website has to display a list of *Pokemons* from the [*pokeapi*](https://po
 
 ## Hints
 
-1. Look into the [course slides](https://rstropek.github.io/htl-mobile-computing/#/7/6) to see how you can call a RESTful Web API in the browser.
+1. Look into the [course slides](https://rstropek.github.io/htl-mobile-computing/#/8/6) to see how you can call a RESTful Web API in the browser.
 
 1. It is not absolutely necessary to use [jQuery](https://jquery.com/). You can also just use the browser's [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
