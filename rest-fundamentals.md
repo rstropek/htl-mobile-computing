@@ -498,6 +498,107 @@ export function deleteSingle(req: Request, res: Response): void {
 
 
 <!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Server-Side Rendering
+
+* Express.js also supports *server-side rendering*
+* HTML is generated on the server-side
+  * Many different [template engines](https://github.com/expressjs/express/wiki#template-engines) are supported
+  * Here we use [handlebars](http://handlebarsjs.com/)
+* Server-Side Rendering can be combined with client-side logic
+
+
+<!-- .slide: class="left" -->
+## Server-side rendering
+
+<img src="images/node-server-side.svg" width="125%" />
+
+
+<!-- .slide: class="left" -->
+## Server-side rendering
+
+* Client is a browser
+  * Explicitly started by user
+  * Embedded browser (e.g. [CEFSharp](https://github.com/cefsharp/CefSharp), [WebView](https://developer.chrome.com/multidevice/webview/gettingstarted))
+* Most of the business logic runs on the server
+  * Minor parts of the logic runs on the client<br/>
+    (e.g. form validation in JavaScript)
+  * Server accesses databases and external services
+* Server generates HTML, CSS, JavaScript
+
+
+<!-- .slide: class="left" -->
+## Web APIs + Single Page Apps (SPA)
+
+<img src="images/node-spa.svg" width="125%" />
+
+
+<!-- .slide: class="left" -->
+## Web APIs + Single Page Apps (SPA)
+
+* Client can be a browser
+  * Anything that can speak HTTP, JSON, etc.<br/>
+    (e.g. mobile app, CLI, server, desktop app, IoT device)
+* Static HTML/CSS/JS for SPA
+* Logic
+  * HTTP Web API requests for running server-side business logic
+  * View logic (e.g. manipulating DOM) runs on client
+  * [JSON](https://rstropek.github.io/htl-mobile-computing/#/3/7) for transmitting data
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Server-Side Rendering
+
+```
+import * as path from 'path';
+import * as express from 'express';
+
+const app = express();
+
+app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, '/views'));
+
+app.get('/', function(req, res) {
+  res.render('index', {
+    title: 'Hey',
+    message: 'Hello there!',
+    todos: [ { id: 1, desc: 'Buy food' }, { id: 2, desc: 'Homework' },
+      { id: 3, desc: 'Play video games' } ]
+  });
+});
+
+app.listen(8080, () => console.log('API is listening on port 8080'));
+```
+
+
+<!-- .slide: class="left" -->
+## [*Express.js*](http://expressjs.com/) Server-Side Rendering (cont.)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    
+    {{#if todos1}}
+    <ul>
+        {{#each todos}}
+        <li>{{desc}}</li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p>No todos</p>
+    {{/if}}
+</body>
+</html>
+```
+
+
+<!-- .slide: class="left" -->
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...
