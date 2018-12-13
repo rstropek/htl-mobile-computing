@@ -37,3 +37,10 @@ Your website has to display a list of *Pokemons* from the [*pokeapi*](https://po
 1. Look into the [course slides](https://rstropek.github.io/htl-mobile-computing/#/8/6) to see how you can call a RESTful Web API in the browser.
 
 1. It is not absolutely necessary to use [jQuery](https://jquery.com/). You can also just use the browser's [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+
+
+## Advanced Exercises
+
+* Build the app not only using a [*Single-page App*](http://localhost:5000/#/8/27) but also as a website with [*Server-side Rendering*](http://localhost:5000/#/8/25)
+  * Look into the [course slides](http://localhost:5000/#/8/29) to see how you can use *Express.js* with server-side rendering
+  * A complete sample is available [on GitHub](https://github.com/rstropek/htl-mobile-computing/tree/master/rest-fundamentals/0060-express-server-side-html)
