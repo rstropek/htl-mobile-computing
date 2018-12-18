@@ -41,6 +41,6 @@ Your website has to display a list of *Pokemons* from the [*pokeapi*](https://po
 
 ## Advanced Exercises
 
-* Build the app not only using a [*Single-page App*](http://localhost:5000/#/8/27) but also as a website with [*Server-side Rendering*](http://localhost:5000/#/8/25)
-  * Look into the [course slides](http://localhost:5000/#/8/29) to see how you can use *Express.js* with server-side rendering
+* Build the app not only using a [*Single-page App*](https://rstropek.github.io/htl-mobile-computing/#/8/27) but also as a website with [*Server-side Rendering*](https://rstropek.github.io/htl-mobile-computing/#/8/25)
+  * Look into the [course slides](https://rstropek.github.io/htl-mobile-computing/#/8/29) to see how you can use *Express.js* with server-side rendering
   * A complete sample is available [on GitHub](https://github.com/rstropek/htl-mobile-computing/tree/master/rest-fundamentals/0060-express-server-side-html)
