@@ -12,11 +12,11 @@ In this exercise, you have to implement RESTful Web API for maintaining a contac
 
 ## Specification
 
-1. Use *TypeScript* and [*Restify*](http://restify.com/) to implement the Web API.
+1. Use *TypeScript* and [*Express*](https://expressjs.com/) to implement the Web API.
 
 1. Your Web API must implement the technical specification defined in [*swagger.yaml*](swagger.yaml).
 
-1. Storing the address book data in-memory is ok.
+1. Store the address book data in [*LokiJS*](http://lokijs.org/)
 
 
 ## Hints
@@ -29,5 +29,3 @@ In this exercise, you have to implement RESTful Web API for maintaining a contac
 ## Advanced Exercises
 
 1. Create a Web client for your  Web API built with *jQuery* and *Bootstrap*.
-
-1. Store address book data in a *CouchDB* or [*MySql*](https://www.npmjs.com/package/mysql) database.
