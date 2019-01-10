@@ -4,7 +4,8 @@
   "description": "Material for Mobile Computing at HTL Perg",
   "main": "index.html",
   "dependencies": {
-    "merge-stream": "^1.0.1"
+    "merge-stream": "^1.0.1",
+    "natives": "^1.1.6"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",

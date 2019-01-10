@@ -1,3 +1,5 @@
+// If you have problems with the following line, try:
+// import express = require('express');
 import * as express from 'express';
 
 var server = express();
