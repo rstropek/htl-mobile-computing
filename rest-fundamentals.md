@@ -178,6 +178,8 @@ With [*jQuery*](http://api.jquery.com/jQuery.get/):
 ## RESTful Web API with [*Express.js*](http://expressjs.com/)
 
 ```
+// If you have problems with the following line, try:
+// import express = require('express');
 import * as express from 'express';
 
 var server = express();
@@ -221,6 +223,8 @@ Accept: application/json
 ## [*Express.js*](http://expressjs.com/) Examples
 
 ```
+// If you have problems with the following line, try:
+// import express = require('express');
 import * as express from 'express';
 
 import {deleteSingle} from './delete-single';
@@ -383,6 +387,8 @@ export function init(): Datastore {
 ## [*Express.js*](http://expressjs.com/) Examples with [*Lokijs*](http://lokijs.org/)
 
 ```
+// If you have problems with the following line, try:
+// import express = require('express');
 import * as express from 'express';
 
 import {deleteSingle} from './delete-single';
@@ -583,7 +589,6 @@ app.listen(8080, () => console.log('API is listening on port 8080'));
 </head>
 <body>
     <h1>{{ message }}</h1>
-    
     {{#if todos1}}
     <ul>
         {{#each todos}}

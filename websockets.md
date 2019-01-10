@@ -109,7 +109,7 @@ setInterval(() => broadcast((i++).toString()), 1000);
 ```
 import * as express from 'express';
 import * as http from 'http';
-import * as sio from 'socket.io'
+import * as sio from 'socket.io';
 
 const app = express();
 app.use(express.static(__dirname + '/public'));
@@ -150,9 +150,9 @@ sio(server).on('connection', function(socket) {
 ## *Socket.io* Client
 
 ```
-declare const io: SocketIOStatic;
+declare const io: any; // This object will be provided by Socket.io
 
-const socket = io();
+const socket: SocketIO.Server = io();
 socket.on('greet', function(message) {
   console.log(`Received: ${message}`);
 });
