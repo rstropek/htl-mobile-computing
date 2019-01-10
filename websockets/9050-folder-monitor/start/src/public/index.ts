@@ -1,4 +1,4 @@
 // Add your socket.io code here
 
-// declare const io: SocketIOStatic;
+// declare const io: any;
 // ...

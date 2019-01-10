@@ -1,6 +1,6 @@
-declare const io: SocketIOStatic;
+declare const io: any; // This object will be provided by Socket.io
 
-const socket = io();
+const socket: SocketIO.Server = io();
 socket.on('greet', function(message) {
   console.log(`Received: ${message}`);
 });

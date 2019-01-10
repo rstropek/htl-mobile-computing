@@ -2,15 +2,15 @@
   "name": "0010-ws-intro",
   "version": "1.0.0",
   "description": "Sample for mobile computing course at HTL Perg",
-  "scripts": { },
+  "scripts": {},
   "author": "Rainer Stropek",
   "license": "MIT",
   "dependencies": {
-    "ws": "^3.3.2"
+    "ws": "^6.1.2"
   },
   "devDependencies": {
-    "typescript": "^2.6.2",
-    "@types/ws": "^3.2.1",
-    "ts-node": "^4.0.1"
+    "typescript": "^3.2.2",
+    "@types/ws": "^6.0.1",
+    "ts-node": "^7.0.1"
   }
 }

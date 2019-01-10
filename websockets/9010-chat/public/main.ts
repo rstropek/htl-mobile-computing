@@ -1,4 +1,4 @@
-declare const io: SocketIOStatic;
+declare const io: any;
 
 $(function() {
   const $window = $(window);
@@ -13,7 +13,7 @@ $(function() {
 
   let $currentInput = $usernameInput.focus();
 
-  const socket = io();
+  const socket: SocketIO.Server = io();
 
   $window.keydown(function(event) {
     if (event.which === 13) {

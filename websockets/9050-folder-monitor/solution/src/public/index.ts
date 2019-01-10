@@ -1,5 +1,5 @@
-declare const io: SocketIOStatic;
-const socket = io();
+declare const io: any;
+const socket: SocketIO.Server = io();
 
 socket.on('add', function(data) {
   $('#changes').append(`<li>File ${data} added</li>`);

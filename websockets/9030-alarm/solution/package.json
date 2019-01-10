@@ -6,7 +6,7 @@
   "author": "Rainer Stropek",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
-    "socket.io": "^2.0.4"
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
   }
 }

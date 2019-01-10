@@ -1,6 +1,6 @@
 import * as express from 'express';
 import * as http from 'http';
-import * as sio from 'socket.io'
+import * as sio from 'socket.io';
 
 const app = express();
 app.use(express.static(__dirname + '/public'));
