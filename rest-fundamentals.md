@@ -364,6 +364,8 @@ export function deleteSingle(req: Request, res: Response): void {
 ## [*Lokijs*](http://lokijs.org/)
 
 ```
+// If you have problems with the following line, try:
+// import loki = require('lokijs');
 import * as loki from 'lokijs';
 
 export class Datastore {
