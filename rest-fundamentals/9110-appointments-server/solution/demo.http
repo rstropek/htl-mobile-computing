@@ -1,0 +1,111 @@
+# Valid new appointment
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "2019-01-02T13:00:00",
+    "end": "2019-01-02T15:00:00",
+    "loc": "Office",
+    "desc": "Project Meeting"
+}
+
+###
+# Valid new appointment
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "2019-02-05T14:00:00",
+    "end": "2019-02-05T16:00:00",
+    "loc": "School",
+    "desc": "Choir"
+}
+
+###
+# Valid new appointment
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "2018-03-27T08:00:00",
+    "end": "2018-03-27T18:00:00",
+    "loc": "School",
+    "desc": "Basketball Training"
+}
+
+###
+# Invalid appointment (missing mandatory members)
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "end": "2019-01-05T16:00:00"
+}
+
+###
+# Invalid appointment (invalid dates)
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "dummy",
+    "end": "2019-02-31T16:00:00",
+    "loc": "School",
+    "desc": "Choir"
+}
+
+###
+# Invalid new appointment (overlapping)
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "2019-01-02T10:00:00",
+    "end": "2019-01-02T12:00:00",
+    "loc": "Office",
+    "desc": "Project Meeting"
+}
+
+###
+# Invalid new appointment (end before start)
+POST http://localhost:8080/api/calendar
+Content-Type: application/json
+
+{
+    "start": "2019-01-02T12:00:00",
+    "end": "2019-01-02T10:00:00",
+    "loc": "Office",
+    "desc": "Project Meeting"
+}
+
+###
+# Valid, unfiltered list of appointments
+GET http://localhost:8080/api/calendar
+
+###
+# List of appointments filtered by year
+GET http://localhost:8080/api/calendar?year=2019
+
+###
+# List of appointments filtered by year and month
+GET http://localhost:8080/api/calendar?year=2019&month=1
+
+###
+# Invalid filter
+GET http://localhost:8080/api/calendar?year=2019&month=13
+
+###
+# Invalid filter
+GET http://localhost:8080/api/calendar?year=dummy
+
+###
+# Valid delete request
+DELETE http://localhost:8080/api/calendar/1
+
+###
+# Valid delete request for ID that does not exist
+DELETE http://localhost:8080/api/calendar/99
+
+###
+# Invalid delete request
+DELETE http://localhost:8080/api/calendar/dummy

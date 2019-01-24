@@ -1,0 +1,21 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jquery": "copy .\\node_modules\\jquery\\dist\\jquery.js .\\dist",
+    "build": "tsc && copy .\\src\\index.html .\\dist && copy .\\src\\index.css .\\dist && npm run jquery",
+    "start": "browser-sync ./dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "serve": "^10.1.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
