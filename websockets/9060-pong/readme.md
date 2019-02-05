@@ -25,3 +25,5 @@ It is ok to work on this exercises in groups of up to two people. In case of tea
 * [Add guestures to web apps with *hammer.js*](https://hammerjs.github.io/)
 
 * Work through the [lab about ball movement](lab-10-ball), in particular [lab-10-ball/index.ts](lab-10-ball/index.ts)
+
+* Work through the [lab about paddle movement](lab-20-paddle), in particular [lab-20-paddle/src/client/index.ts](lab-20-paddle/src/client/index.ts)
