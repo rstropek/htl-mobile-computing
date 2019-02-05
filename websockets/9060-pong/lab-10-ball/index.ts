@@ -5,23 +5,22 @@
         This code has not been optimized for size or speed. It was written
         with ease of understanding in mind.
 **************************************************************************/
-
-/** Represents a 2d point */
-interface Point {
-  x: number;
-  y: number
-};
-
-/** Represents the size of a 2d object */
-interface Size {
-  width: number;
-  height: number;
-}
-
-/** Represents directions  */
-enum Direction { top, right, bottom, left };
-
 window.addEventListener("load", async () => {
+  /** Represents a 2d point */
+  interface Point {
+    x: number;
+    y: number
+  };
+  
+  /** Represents the size of a 2d object */
+  interface Size {
+    width: number;
+    height: number;
+  }
+  
+  /** Represents directions  */
+  enum Direction { top, right, bottom, left };
+
   // Get some information about the browser window and the ball. This information will
   // never change. So it makes sense to get it only once to make the rest of the program faster.
   const ball = document.getElementById('ball');
