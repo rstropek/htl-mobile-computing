@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="data:,">
+
+    <title>Pong Lab</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p>
+        Press arrow up or arrow down key and watch how they are sent to other browser windows using websockets.
+        Note that the sending browser window does not receive the message. This is by design.
+    </p>
+
+    <ul id='keys'></ul>
+</body>
+</html>
