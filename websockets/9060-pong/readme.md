@@ -23,3 +23,5 @@ It is ok to work on this exercises in groups of up to two people. In case of tea
 * [Detecting window size changes](https://developer.mozilla.org/en-US/docs/Web/Events/resize)
 
 * [Add guestures to web apps with *hammer.js*](https://hammerjs.github.io/)
+
+* Work through the [lab about ball movement](lab-10-ball), in particular [lab-10-ball/index.ts](lab-10-ball/index.ts)
