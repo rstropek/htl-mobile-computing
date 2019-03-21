@@ -66,13 +66,13 @@ Your job is to find a way through the maze from the left upper corner to the rig
 
 ## The Challenge
 
-Finding your way through a small maze like the one shown above would be too simple. So we created a larger one with 100 x 100 spots. You can [download it in zipped text format](maze.zip).
+Finding your way through a small maze like the one shown above would be too simple. So we created a larger one with 100 x 100 spots. You can [download it in zipped text format](https://github.com/rstropek/htl-mobile-computing/raw/master/2018-19/devone-quiz/maze.zip).
 
 ## The Rules
 
 Do you want to win one of the tickets? Here is how you can:
 
-1. [Download the maze](maze.zip)
+1. [Download the maze](https://github.com/rstropek/htl-mobile-computing/raw/master/2018-19/devone-quiz/maze.zip)
 1. Find a way through the maze from left upper corner to right lower corner and mark it using `*` characters as shown above
 1. Store the solution in a text file, zip it, and send it to your teacher *Rainer Stropek*
 1. The first two people who send a correct answer to Mr. Stropek get the tickets
