@@ -12,7 +12,7 @@ We decided to setup a **quiz to select the recipients** of the the free tickets.
 
 ## Find Your Way Through the Maze
 
-Your job is to find a way through a maze. Here is an example of such a maze with a size of 10 x 10 spots:
+Your job is to find a way through a maze. Here is an example of such a maze with a size of 20 x 20 spots:
 
 ```txt
 +---+---+---+---+---+---+---+---+---+---+
@@ -66,7 +66,7 @@ Your job is to find a way through the maze from the left upper corner to the rig
 
 ## The Challenge
 
-Finding your way through a small maze like the one shown above would be too simple. So we created a larger one with 100 x 100 spots. You can [download it in zipped text format](https://github.com/rstropek/htl-mobile-computing/raw/master/2018-19/devone-quiz/maze.zip).
+Finding your way through a small maze like the one shown above would be too simple. So we created a larger one with 200 x 200 spots. You can [download it in zipped text format](https://github.com/rstropek/htl-mobile-computing/raw/master/2018-19/devone-quiz/maze.zip).
 
 ## The Rules
 
