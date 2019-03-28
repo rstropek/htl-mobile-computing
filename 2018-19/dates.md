@@ -85,7 +85,7 @@
 | 11. Apr. 2019  |           | **Written Exam**
 | 18. Apr. 2019  |           | **Easter Break (*Osterferien*)**
 | 25. Apr. 2019  |Kathrin R. | What is a CDN and why is is useful for web development?
-| 02. May 2019   |           |
+| 02. May 2019   |Michael S. | What is Puppeteer and how to use it
 | 09. May 2019   |           | **Replacement Lesson?**
 | 16. May 2019   |           |
 | 23. May 2019   |           |
