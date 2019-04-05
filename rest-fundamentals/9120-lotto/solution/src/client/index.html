@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="data:,">
+
+    <title>HTL Perg Exam</title>
+
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Hello World!</h1>
+
+    <div>
+        <div class="formControl">
+            <label>Number 1:</label>
+            <input type="number" id="number1" value="1" />
+        </div>
+        <div class="formControl">
+            <label>Number 2:</label>
+            <input type="number" id="number2" value="2" />
+        </div>
+        <div class="formControl">
+            <label>Number 3:</label>
+            <input type="number" id="number3" value="3" />
+        </div>
+        <div class="formControl">
+            <label>Number 4:</label>
+            <input type="number" id="number4" value="4" />
+        </div>
+        <div class="formControl">
+            <label>Number 5:</label>
+            <input type="number" id="number5" value="5" />
+        </div>
+        <div class="formControl">
+            <label>Number 6:</label>
+            <input type="number" id="number6" value="6" />
+        </div>
+        <button style="margin-top: 20px;" onclick="checkResult()">Check result</button>
+    </div>
+
+    <div id="result" hidden>
+        <h1 id="won">Gewonnen!</h1>
+        <h1 id="lost">Leider nichts gewonnen :-(</h1>
+
+        <p id="number">Anzahl richtige Tipps: <span id="correctTips" /></p>
+        <p>Die Zusatzzahl haben Sie <span id="zusatzzahl-nicht">nicht</span> erraten.</p>
+    </div>
+</body>
+</html>

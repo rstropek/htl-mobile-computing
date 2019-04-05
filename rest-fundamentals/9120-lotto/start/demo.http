@@ -1,0 +1,38 @@
+GET http://localhost:8080/api/drawing
+Accept: application/json
+
+###
+POST http://localhost:8080/api/isTipValid
+Content-Type: application/json
+
+[1, 2, 3, 4, 5, 6]
+
+###
+POST http://localhost:8080/api/isTipValid
+Content-Type: application/json
+
+[1, 2, 3, 4, 5, 5]
+
+###
+POST http://localhost:8080/api/isTipValid
+Content-Type: application/json
+
+[1, 2, 3, 4, 5]
+
+###
+POST http://localhost:8080/api/calculateResult
+Content-Type: application/json
+
+[1, 2, 3, 4, 5, 6]
+
+###
+POST http://localhost:8080/api/calculateResult
+Content-Type: application/json
+
+[1, 2, 3, 4, 5]
+
+###
+POST http://localhost:8080/api/calculateResult
+Content-Type: application/json
+
+[1, 2, 3, 4, 5, 999]
