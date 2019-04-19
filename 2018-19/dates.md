@@ -87,7 +87,7 @@
 | 25. Apr. 2019  |Kathrin R. | What is a CDN and why is is useful for web development?
 | 02. May 2019   |Michael S. | What is Puppeteer and how to use it
 | 09. May 2019   |           | **Replacement Lesson?**
-| 16. May 2019   |           |
+| 16. May 2019   |Noah Maiss | Ghost in the Wires by Kevin Mitnick
 | 23. May 2019   |           |
 | 30. May 2019   |           | **Ascension (*Christi Himmelfahrt*)**
 | 06. June 2019  |           | **Written Exam**
