@@ -2,8 +2,6 @@
 
 ## Introduction
 
-Use this exercise to prepare for your upcoming Angular exams.
-
 In this exercise, you have to build an Angular frontend for a database with data about vehicle models. The user should be able to look for vehicle models based on manufacturing year and make (e.g. BMW, Tesla, Volkswagen), and view vehicle model details.
 
 ## Data Access
@@ -50,9 +48,7 @@ GET {{host}}/api/fuelTypes HTTP/1.1
 GET {{host}}/api/models/6930 HTTP/1.1
 ```
 
-## Minimum Requirements
-
-If this was an exam, you would have to be able to implement these minimum requirements to pass it:
+## Requirements
 
 1. Create a new Angular application using the Angular CLI
 
@@ -70,22 +66,26 @@ If this was an exam, you would have to be able to implement these minimum requir
     * Add a *refresh* button with which the user can refresh the result list.
     * Display a table with vehicle models filtered based on the user's filter settings (see requirement above). The table has to contain year, make, and model. The list should be limited to the first 10 result models.
 
-## Extra Points
-
-In order to get the full points on your exam, you have to add the following features to your solution:
-
 1. Make the filters optional. That means that the user *can* filter based on year and make but she doesn't need to.
     * She can filter only by year,
     * only by make,
     * by year and make,
     * or retrieve a completely unfiltered list.
 
-1. Add two Buttons *Next Page* and *Previous Page* to your *Models* page. The user must be able to page through the results.
+## Extra Points
 
-1. Add logic so that the paging buttons are properly enabled/disabled
+You can earn up to two extra points for this homework. For extra points, you have to solve the following two requirements and send me a link to your solution that I can try over the Internet.
+
+1. Add two Buttons *Next Page* and *Previous Page* to your *Models* page. The user must be able to page through the results. Add logic so that the paging buttons are properly enabled/disabled
     * *Previous Page* disabled on first page
     * *Next Page* disabled if there are not further result items
 
-1. Style the application with a CSS framework like *Bootstrap* or a component library like *Angular Material*
+1. Style the application with a CSS/component framework like *Angular Material*. Optionally, use *Flex Layout* to arrange the HTML elements (e.g. filter settings, refresh button, and result table on *Models* page)
 
-1. Use *Flex Layout* to arrange the HTML elements (e.g. filter settings, refresh button, and result table on *Models* page)
+## Challenge
+
+Do you want to have extra challenges?
+
+1. Change the filter area so that the user just has a filter text input. Let the user enter his search in text. *2012* would search for models from 2012. *Audi* would search for the make Audi. *2012 Audi* or *Audi 2012* would combine both filters.
+
+1. Remove the *refresh* button and start the search automatically whenever the user has not changed the filter for 300ms. Try to solve this challenge with RxJS and Observables and try to avoid manually calling *setTimeout* or similar JavaScript functions.
