@@ -363,6 +363,7 @@ export class CustomerDetailsComponent implements OnInit {
 * Angular module available ([*@angular/flex-layout*](https://github.com/angular/flex-layout))
   * [Video of *AngularConnect* talk](https://youtu.be/geqjUtKJX5s)
 * See [interactive demo](https://tburleson-layouts-demos.firebaseapp.com/#/docs) ([source code](https://github.com/angular/flex-layout/tree/master/src/apps/demo-app/src/app)) to learn functionality
+* See also [*conference agenda sample*](https://github.com/rstropek/htl-mobile-computing/tree/master/angular/9120-conference-agenda) in this course's GitHub repository
 
 
 <!-- .slide: class="left" -->
