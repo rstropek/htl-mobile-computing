@@ -1,0 +1,13 @@
+<div class="slot" *ngFor="let slot of slots" fxLayout.lt-md="column" fxLayout.gt-sm="row"
+  fxLayoutAlign.gt-sm="start center">
+  <div class="time nowrap">{{ slot.start }}-{{ slot.end }}</div>
+  <div fxLayout.xs="column" fxLayout.gt-xs="row">
+    <div *ngFor="let session of getSessionsOfSlot(slot.id)">
+      <div class="session">
+        <div class="session-title">{{ session.title }}</div>
+        <div class="session-speaker">{{ session.speaker }}</div>
+        <div class="session-room">Room {{ session.room }}</div>
+      </div>
+    </div>
+  </div>
+</div>

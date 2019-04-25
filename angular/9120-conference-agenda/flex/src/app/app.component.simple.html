@@ -1,0 +1,8 @@
+<div *ngFor="let slot of slots">
+    <h2>{{ slot.start }}-{{ slot.end }}</h2>
+    <ul>
+      <li *ngFor="let session of getSessionsOfSlot(slot.id)">
+        {{ session.title }} (by {{ session.speaker }} in room {{ session.room }}
+      </li>
+    </ul>
+  </div>

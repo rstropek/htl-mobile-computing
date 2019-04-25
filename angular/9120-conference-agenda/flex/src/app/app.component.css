@@ -1,0 +1,32 @@
+div.time {
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.nowrap {
+    white-space: nowrap;
+}
+
+div.slot {
+    background-color: #e0e0e0;
+    margin-bottom: 3px;
+}
+
+div.session {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 3px;
+}
+
+div.session-title {
+    font-size: smaller;
+}
+
+div.session-speaker {
+    font-size: x-small;
+    margin-top: 5px;
+}
+
+div.session-room {
+    font-size: x-small;
+}
