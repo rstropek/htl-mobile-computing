@@ -1,0 +1,18 @@
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+select {
+  margin-left: 3px;
+}

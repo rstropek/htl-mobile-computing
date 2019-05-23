@@ -1,0 +1,41 @@
+<h1>Invoice Calculator</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Price (incl. VAT)</th>
+      <th>Price (excl. VAT)</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="invoice-lines">
+      <td>REPLACE this with data binding for product description</td>
+      <td>REPLACE this with data binding for price inclusive VAT</td>
+      <td>REPLACE this with data binding for price exclusive VAT</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><b>Total</b></td>
+        <td id="totalPriceInclusiveVat">REPLACE this with data binding for total price inclusive VAT</td>
+        <td id="totalPriceExclusiveVat">REPLACE this with data binding for total price exclusive VAT</td>
+      </tr>
+      <tr>
+      <td>
+        <input id="product-input" type="text" />
+        <select id="vat-category-input" >
+          <option>Food</option>
+          <option>Drinks</option>
+        </select>
+      </td>
+      <td>
+        <input id="priceInclusiveVat-input" type="number" />
+      </td>
+      <td>&nbsp;</td>
+      <td>
+        <button id="add-button" (click)="addInvoice()">Add</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
