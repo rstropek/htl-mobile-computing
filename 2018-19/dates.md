@@ -138,7 +138,7 @@
 | 16. May 2019   |           |
 | 23. May 2019   |           |
 | 30. May 2019   |           | **Ascension (*Christi Himmelfahrt*)**
-| 06. June 2019  |           | **Written Exam**
+| 06. June 2019  |Flouvu     |React Native|**Written Exam**
 | 13. June 2019  |           | **Oral Exams**
 | 20. June 2019  |           | **Oral Exams**
 | 27. June 2019  |           |
